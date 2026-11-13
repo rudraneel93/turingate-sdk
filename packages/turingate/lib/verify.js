@@ -6,7 +6,7 @@ import { DEFAULT_SERVER } from './client.js';
  * Online verification: checks signature, expiry, site, scope, amount, tier and live reputation.
  * @returns {Promise<{valid: boolean, reasons: string[], claims?: object}>}
  */
-export async function verifyPass(token, { siteKey, scope, amount, currency, minTier, requireBound, server = DEFAULT_SERVER } = {}) {
+export async function verifyPass(token, { siteKey, scope, amount, currency, minTier, requireBound, wallet, server = DEFAULT_SERVER } = {}) {
   if (!siteKey) throw new Error('siteKey is required (from the Turingate Console)');
   const body = { token };
   if (scope) body.scope = scope;
@@ -14,6 +14,7 @@ export async function verifyPass(token, { siteKey, scope, amount, currency, minT
   if (currency) body.currency = currency;
   if (minTier != null) body.minTier = minTier;
   if (requireBound) body.requireBound = true;
+  if (wallet) body.wallet = wallet;
   const res = await fetch(new URL('/v1/verify', server), {
     method: 'POST', headers: { 'content-type': 'application/json', 'x-site-key': siteKey }, body: JSON.stringify(body),
   });

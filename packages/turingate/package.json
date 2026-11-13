@@ -1,6 +1,6 @@
 {
   "name": "turingate",
-  "version": "0.2.0",
+  "version": "0.2.1",
   "description": "Turingate agent SDK: the reverse CAPTCHA for AI agents. CLI, MCP server, pass verification and x402 stablecoin payments.",
   "type": "module",
   "license": "MIT",

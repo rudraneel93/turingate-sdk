@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="340" viewBox="0 0 1200 340" role="img" aria-label="Scoreboard chart: Claude Opus 5.5 97% in 4.8 seconds, Claude Haiku 5.5 97% in 5.4 seconds, Claude Sonnet 5.5 93% in 3.4 seconds, humans 5% and fail. Pass mark 85%.">
+  <defs>
+    <linearGradient id="g" x1="0" x2="1"><stop offset="0" stop-color="#7c5cff"/><stop offset=".55" stop-color="#2ee6f0"/><stop offset="1" stop-color="#b6ff6b"/></linearGradient>
+    <clipPath id="c"><rect width="1200" height="340" rx="24"/></clipPath>
+    <style>.s{font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Helvetica,Arial,sans-serif}.m{font-family:ui-monospace,SFMono-Regular,Menlo,Consolas,monospace}</style>
+  </defs>
+  <g clip-path="url(#c)">
+    <rect width="1200" height="340" fill="#05050c"/>
+    <text x="40" y="46" class="s" font-size="20" font-weight="800" fill="#f4f4f8">Reverse CAPTCHA scoreboard</text>
+    <text x="40" y="70" class="m" font-size="13" fill="#686a82">20 tasks · 60 s · live API · accuracy (bars) and average solve time</text>
+    <!-- pass mark at 85% of 760px = 646 -->
+    <line x1="886" x2="886" y1="92" y2="300" stroke="#ffb547" stroke-dasharray="4 6" stroke-opacity=".7"/>
+    <text x="886" y="318" class="m" font-size="12" fill="#ffb547" text-anchor="middle">pass mark 85%</text>
+    <g class="s" font-size="15">
+      <g transform="translate(40 110)"><text y="18" fill="#f4f4f8" font-weight="700">claude-opus-5-5</text>
+        <rect x="200" y="2" width="760" height="22" rx="11" fill="#fff" fill-opacity=".06"/>
+        <rect x="200" y="2" width="0" height="22" rx="11" fill="url(#g)"><animate attributeName="width" values="0;737;737" keyTimes="0;.25;1" dur="8s" repeatCount="indefinite"/></rect>
+        <text x="975" y="18" class="m" fill="#b6ff6b">97% · 4.8 s</text></g>
+      <g transform="translate(40 158)"><text y="18" fill="#f4f4f8" font-weight="700">claude-haiku-5-5</text>
+        <rect x="200" y="2" width="760" height="22" rx="11" fill="#fff" fill-opacity=".06"/>
+        <rect x="200" y="2" width="0" height="22" rx="11" fill="url(#g)"><animate attributeName="width" values="0;0;737;737" keyTimes="0;.05;.3;1" dur="8s" repeatCount="indefinite"/></rect>
+        <text x="975" y="18" class="m" fill="#b6ff6b">97% · 5.4 s</text></g>
+      <g transform="translate(40 206)"><text y="18" fill="#f4f4f8" font-weight="700">claude-sonnet-5-5</text>
+        <rect x="200" y="2" width="760" height="22" rx="11" fill="#fff" fill-opacity=".06"/>
+        <rect x="200" y="2" width="0" height="22" rx="11" fill="url(#g)"><animate attributeName="width" values="0;0;707;707" keyTimes="0;.1;.35;1" dur="8s" repeatCount="indefinite"/></rect>
+        <text x="975" y="18" class="m" fill="#b6ff6b">93% · 3.4 s</text></g>
+      <g transform="translate(40 254)"><text y="18" fill="#f4f4f8" font-weight="700">humans</text>
+        <rect x="200" y="2" width="760" height="22" rx="11" fill="#fff" fill-opacity=".06"/>
+        <rect x="200" y="2" width="0" height="22" rx="11" fill="#ff5c8a"><animate attributeName="width" values="0;0;38;38" keyTimes="0;.15;.6;1" dur="8s" repeatCount="indefinite"/></rect>
+        <text x="975" y="18" class="m" fill="#ff5c8a">5% · fails</text></g>
+    </g>
+  </g>
+</svg>

@@ -1,0 +1,59 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="360" viewBox="0 0 1200 360" role="img" aria-label="x402 payment flow: no pass gets 401, a pass without payment gets 402, a pass with a USDC payment from the owner's wallet gets 200 and the money settles to the site's wallet.">
+  <defs>
+    <linearGradient id="g" x1="0" x2="1"><stop offset="0" stop-color="#7c5cff"/><stop offset=".55" stop-color="#2ee6f0"/><stop offset="1" stop-color="#b6ff6b"/></linearGradient>
+    <radialGradient id="glow" cx=".5" cy="0" r=".8"><stop offset="0" stop-color="#2ee6f0" stop-opacity=".16"/><stop offset="1" stop-color="#2ee6f0" stop-opacity="0"/></radialGradient>
+    <clipPath id="c"><rect width="1200" height="360" rx="24"/></clipPath>
+    <style>.s{font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Helvetica,Arial,sans-serif}.m{font-family:ui-monospace,SFMono-Regular,Menlo,Consolas,monospace}</style>
+  </defs>
+  <g clip-path="url(#c)">
+    <rect width="1200" height="360" fill="#05050c"/><rect width="1200" height="360" fill="url(#glow)"/>
+    <text x="40" y="44" class="m" font-size="13" fill="#686a82">turingate/x402 · agentPaywall · price 0.01 USDC · Base</text>
+    <!-- agent -->
+    <g transform="translate(120 190)">
+      <circle r="52" fill="#0d0d1a" stroke="#fff" stroke-opacity=".18"/>
+      <g fill="none" stroke="#2ee6f0" stroke-width="2.4" stroke-linecap="round"><rect x="-20" y="-12" width="40" height="30" rx="7"/><path d="M0 -12v-9"/><circle cx="0" cy="-24" r="2.4"/><path d="M-7 3h.1M7 3h.1"/></g>
+      <text y="84" class="s" font-size="16" font-weight="700" fill="#f4f4f8" text-anchor="middle">AI agent</text>
+      <text y="104" class="m" font-size="12" fill="#a3a5bc" text-anchor="middle">owner: Ada · wallet 0xD6e8…</text>
+    </g>
+    <!-- api -->
+    <g transform="translate(1080 190)">
+      <circle r="52" fill="#0d0d1a" stroke="#fff" stroke-opacity=".18"/>
+      <g fill="none" stroke="#b6ff6b" stroke-width="2.4" stroke-linecap="round"><rect x="-22" y="-20" width="44" height="17" rx="4"/><rect x="-22" y="3" width="44" height="17" rx="4"/><path d="M-13 -11.5h.1M-13 11.5h.1"/></g>
+      <text y="84" class="s" font-size="16" font-weight="700" fill="#f4f4f8" text-anchor="middle">Your API</text>
+      <text y="104" class="m" font-size="12" fill="#a3a5bc" text-anchor="middle">payTo: your wallet</text>
+    </g>
+    <path d="M190 190H1010" stroke="#fff" stroke-opacity=".1" stroke-width="2" stroke-dasharray="6 8"/>
+    <!-- three rounds -->
+    <g class="m" font-size="14" text-anchor="middle">
+      <g opacity="0"><animate attributeName="opacity" values="0;1;1;0;0" keyTimes="0;.03;.3;.33;1" dur="12s" repeatCount="indefinite"/>
+        <rect x="380" y="92" width="440" height="40" rx="12" fill="#11111f" stroke="#ffb547" stroke-opacity=".6"/>
+        <text x="600" y="117" fill="#ffb547">GET /report  →  401 · WWW-Authenticate: AgentPass</text>
+        <text x="600" y="262" class="s" font-size="15" fill="#cfd1e2">No pass: "get a Turingate pass for this site, then retry"</text>
+      </g>
+      <g opacity="0"><animate attributeName="opacity" values="0;0;1;1;0;0" keyTimes="0;.33;.36;.63;.66;1" dur="12s" repeatCount="indefinite"/>
+        <rect x="350" y="92" width="500" height="40" rx="12" fill="#11111f" stroke="#2ee6f0" stroke-opacity=".6"/>
+        <text x="600" y="117" fill="#2ee6f0">AgentPass ✓ · limit $1 ≥ 0.01  →  402 · PAYMENT-REQUIRED</text>
+        <text x="600" y="262" class="s" font-size="15" fill="#cfd1e2">Verified owner, enough allowance: x402 asks for 0.01 USDC</text>
+      </g>
+      <g opacity="0"><animate attributeName="opacity" values="0;0;1;1;0" keyTimes="0;.66;.69;.97;1" dur="12s" repeatCount="indefinite"/>
+        <rect x="330" y="92" width="540" height="40" rx="12" fill="#11111f" stroke="#6ff3b9" stroke-opacity=".6"/>
+        <text x="600" y="117" fill="#6ff3b9">AgentPass + PAYMENT-SIGNATURE  →  200 · settled on-chain</text>
+        <text x="600" y="262" class="s" font-size="15" fill="#cfd1e2">Paid from the owner's wallet, straight to yours. Turingate never holds funds.</text>
+      </g>
+    </g>
+    <!-- request dot -->
+    <circle r="7" fill="#2ee6f0"><animate attributeName="fill" values="#ffb547;#ffb547;#2ee6f0;#2ee6f0;#6ff3b9;#6ff3b9" keyTimes="0;.33;.34;.66;.67;1" dur="12s" repeatCount="indefinite"/>
+      <animateMotion dur="4s" repeatCount="indefinite" path="M190 190H1010H190" keyPoints="0;1;0" keyTimes="0;.5;1" calcMode="linear"/></circle>
+    <!-- USDC coin travels in round 3 -->
+    <g opacity="0"><animate attributeName="opacity" values="0;0;1;1;0" keyTimes="0;.7;.72;.94;.96" dur="12s" repeatCount="indefinite"/>
+      <animateMotion dur="12s" repeatCount="indefinite" path="M190 160H1010" keyPoints="0;0;1;1" keyTimes="0;.7;.92;1" calcMode="linear"/>
+      <circle r="17" fill="#2775ca"/><text y="5" class="s" font-size="13" font-weight="800" fill="#fff" text-anchor="middle">$</text>
+    </g>
+    <!-- step pills -->
+    <g class="m" font-size="12" text-anchor="middle">
+      <g transform="translate(470 318)"><rect x="-70" y="-15" width="140" height="28" rx="14" fill="#fff" fill-opacity=".04" stroke="#ffb547" stroke-opacity=".5"/><text y="4" fill="#ffb547">1 · identify</text></g>
+      <g transform="translate(600 318)"><rect x="-55" y="-15" width="110" height="28" rx="14" fill="#fff" fill-opacity=".04" stroke="#2ee6f0" stroke-opacity=".5"/><text y="4" fill="#2ee6f0">2 · price</text></g>
+      <g transform="translate(730 318)"><rect x="-55" y="-15" width="110" height="28" rx="14" fill="#fff" fill-opacity=".04" stroke="#6ff3b9" stroke-opacity=".5"/><text y="4" fill="#6ff3b9">3 · paid</text></g>
+    </g>
+  </g>
+</svg>
