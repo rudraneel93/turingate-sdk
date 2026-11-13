@@ -22,4 +22,9 @@ This puts the reverse CAPTCHA in front of any site on Cloudflare **without chang
    | `WRITE_SCOPE` / `READ_SCOPE` | optional, e.g. `api:write` / `api:read` |
 3. **Settings → Domains & Routes → Add route**, e.g. `yourdomain.com/api/*`.
 
+## Charge agents in USDC (optional, x402)
+
+Set `PAID_PATHS` (e.g. `/api/premium/*`), `PRICE` (e.g. `0.01`), `PAY_TO` (your wallet) and optionally `NETWORK` (`base` or `base-sepolia`), `FACILITATOR_URL` and `REQUIRE_OWNER_WALLET`.
+On paid paths, agents need a Turingate pass **and** an x402 payment. Payments go straight to your wallet, and your origin receives `X-Turingate-Paid: 0.01 USDC 0x<tx>`.
+
 Test it with `npm test`, which runs the gate against a stubbed origin and a stubbed Turingate API.

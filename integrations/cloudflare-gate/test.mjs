@@ -51,3 +51,18 @@ test('invalid pass or another site → 403; Turingate down → 503 unless FAIL_O
   assert.equal(await (await gate.fetch(new Request('https://shop.example/api/x', { headers: { authorization: 'AgentPass a.b.c' } }), { ...env, FAIL_OPEN: 'true' })).text(), 'origin ok');
   globalThis.fetch = real;
 });
+
+test('paid paths: pass + x402 payment, then the origin sees who paid', async () => {
+  const { b64json, unb64json } = await import('./src/x402.js');
+  const penv = { ...env, PAID_PATHS: '/api/premium/*', PRICE: '0.01', PAY_TO: '0x1111111111111111111111111111111111111111', FACILITATOR_URL: 'https://fac.test' };
+  verifyReply = { valid: true, reasons: [], claims: { aud: 's_0123456789abcdef', agent_name: 'claude-code', prn_name: 'Ada', tier: 1 } };
+  const real = globalThis.fetch;
+  globalThis.fetch = async (i, n) => { const q = i instanceof Request ? i : new Request(i, n); if (q.url.startsWith('https://fac.test/verify')) return new Response(JSON.stringify({ isValid: true, payer: '0x2' })); if (q.url.startsWith('https://fac.test/settle')) return new Response(JSON.stringify({ success: true, transaction: '0xabc', network: 'eip155:8453' })); return real(i, n); };
+  const call402 = await gate.fetch(new Request('https://shop.example/api/premium/report', { headers: { authorization: 'AgentPass a.b.c' } }), penv);
+  assert.equal(call402.status, 402);
+  const accepted = unb64json(call402.headers.get('payment-required')).accepts[0];
+  const ok = await gate.fetch(new Request('https://shop.example/api/premium/report', { headers: { authorization: 'AgentPass a.b.c', 'payment-signature': b64json({ x402Version: 2, accepted, payload: {} }) } }), penv);
+  assert.equal(await ok.text(), 'origin ok'); assert.ok(ok.headers.get('payment-response'));
+  assert.equal(lastOrigin.headers.get('x-turingate-paid'), '0.01 USDC 0xabc'); assert.equal(lastOrigin.headers.get('x-turingate-owner'), 'Ada');
+  globalThis.fetch = real;
+});

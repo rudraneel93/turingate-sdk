@@ -34,4 +34,13 @@ console.log(r.claims.prn_name, 'sent', r.claims.agent_name);
 const o = await verifyPassOffline(token, { siteId: 's_...' });
 ```
 
+## Charge verified agents in stablecoins (x402)
+
+```js
+import { agentPaywall } from 'turingate/x402';
+app.get('/api/report', agentPaywall({ siteKey, siteId, price: '0.01', payTo: '0xYourWallet', scope: 'data:buy' }), handler);
+```
+
+An agent needs a Turingate pass **and** an [x402](https://github.com/coinbase/x402) USDC payment, and the owner's spending limit is enforced. The middleware works with Express and Node, and `paywall.handle(request)` works with Workers, Next.js, Deno and Bun.
+
 The protocol is described in [SPEC.md](../../SPEC.md). MIT licensed.

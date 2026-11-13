@@ -9,5 +9,12 @@ AGENTS_ONLY_PATHS = ""
 READ_SCOPE = ""
 WRITE_SCOPE = ""
 FAIL_OPEN = "false"
+# Optional x402 stablecoin payments
+PAID_PATHS = ""
+PRICE = ""
+PAY_TO = ""
+NETWORK = "base"
+FACILITATOR_URL = ""
+REQUIRE_OWNER_WALLET = "false"
 # TURINGATE_SITE_KEY is a secret: add it in the dashboard (Settings → Variables and secrets)
 # or run: npx wrangler secret put TURINGATE_SITE_KEY

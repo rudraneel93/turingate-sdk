@@ -26,10 +26,12 @@ const HELP = `turingate: the reverse CAPTCHA / Know-Your-Agent CLI
   turingate identity confirm CODE                     confirm the emailed code
   turingate identity card                             verify a card (tier 2); prints a checkout link
   turingate identity status                           show your verification tier
+  turingate identity wallet 0xADDRESS                 link a crypto wallet (prints a message to sign)
+  turingate identity wallet-confirm 0xSIGNATURE       finish linking the wallet
   turingate identity recover ADDRESS                  lost your key? run 'turingate principal init' for a new one, then this
   turingate identity recover-confirm CODE             move your verified identity + reputation to the new key
   turingate agent init --name NAME                    create a key for your AI agent
-  turingate delegate [--scopes a,b:*] [--spend 50] [--currency USD] [--ttl 24h]
+  turingate delegate [--scopes a,b:*] [--spend 50] [--currency USD|USDC|EUR…] [--ttl 24h]
                                                authorize the agent to act for you
   turingate whoami                                    show identities and current delegation
   turingate challenge [--site s_...] [--images 0-3]   fetch a bound challenge for a site (saved for 'turingate solve')
@@ -63,6 +65,11 @@ async function main() {
       if (sub === 'confirm') return out(await identity.confirmEmail(server, p, rest[0]));
       if (sub === 'card') return out(await identity.startCard(server, p));
       if (sub === 'status') return out(await identity.status(server, p));
+      if (sub === 'wallet') {
+        const r = await identity.startWallet(server, p, rest[0]);
+        return out(`Sign this exact message with the wallet ${r.address} (personal_sign: MetaMask, Coinbase Wallet, Rabby,\nor: cast wallet sign --interactive "<message>"), then run:\n  turingate identity wallet-confirm 0x<signature>\n\n----- message -----\n${r.message}\n-------------------`);
+      }
+      if (sub === 'wallet-confirm') return out(await identity.confirmWallet(server, p, rest[0]));
       if (sub === 'recover') return out(await identity.recoverStart(server, p, rest[0]));
       if (sub === 'recover-confirm') return out(await identity.recoverConfirm(server, p, rest[0]));
       break;
@@ -78,7 +85,7 @@ async function main() {
       if (!p || !a) throw new Error('run `turingate principal init` and `turingate agent init` first');
       const scopes = flag('scopes', '').split(',').map((s) => s.trim()).filter(Boolean);
       const spend = flag('spend') != null ? Number(flag('spend')) : null;
-      const token = createDelegation(p, a, { scopes, spend, currency: flag('currency', 'USD'), ttlSec: parseTtl(flag('ttl', '24h')) });
+      const token = createDelegation(p, a, { scopes, spend, currency: flag('currency', 'USD').toUpperCase(), ttlSec: parseTtl(flag('ttl', '24h')) });
       writeSecret(homeFile('delegation.jwt'), token);
       const c = decodeJws(token).payload;
       return out({ agent: c.sub, scopes: c.scopes, spend_limit: c.spend_limit, expires: new Date(c.exp * 1000).toISOString() });

@@ -249,6 +249,41 @@ Requests land in the Console inbox, in your email, or in **Zapier, Make, Google 
 </details>
 
 <details>
+<summary><b>💸 I want agents to pay me</b>: stablecoins via x402, only from verified agents (10 minutes)</summary>
+<br>
+
+Charge per request in **USDC**. Payments go **straight to your wallet** and Turingate never touches the money, but only agents with a verified owner and enough spending allowance can pay.
+
+```js
+import express from 'express';
+import { agentPaywall } from 'turingate/x402';
+
+const paywall = agentPaywall({
+  siteKey: process.env.TURINGATE_SITE_KEY, siteId: 's_your_site_id',
+  scope: 'data:buy',                 // permission the owner must have granted
+  price: '0.01', payTo: '0xYourWallet', network: 'base',   // 0.01 USDC per request
+  facilitator: 'https://x402.org/facilitator',             // testnet; use a production facilitator for mainnet
+  requireOwnerWallet: true,          // optional: payment must come from the owner's linked wallet
+});
+
+app.get('/api/report', paywall, (req, res) => {
+  res.json({ report: '…', paidBy: req.turingate.agent.owner, tx: req.turingate.payment.transaction });
+});
+```
+
+What happens:
+
+| Request | Response |
+|---|---|
+| no pass | `401` + `WWW-Authenticate: AgentPass site="…"` + price in `PAYMENT-REQUIRED` |
+| pass, no payment | `402` + `PAYMENT-REQUIRED` (x402 v2), after checking the owner's spending limit in USDC |
+| pass + `PAYMENT-SIGNATURE` | verified and settled, then `200` with `PAYMENT-RESPONSE` |
+
+Owners can link a wallet with `npx turingate identity wallet 0x…`. It's a free signature, not a transaction, and it's banned along with the owner. Spending limits in USD also cover USDC, USDT and PYUSD. No code at all? Use the [Cloudflare gate](integrations/cloudflare-gate) with `PAID_PATHS`, `PRICE` and `PAY_TO`.
+
+</details>
+
+<details>
 <summary><b>🏁 I want to benchmark a model</b>: put it on the scoreboard (5 minutes)</summary>
 <br>
 

@@ -9,9 +9,19 @@
 //   AGENTS_ONLY_PATHS   optional: paths where a pass is required (401 without one), e.g. "/agent-api/*"
 //   READ_SCOPE / WRITE_SCOPE   scopes required for GET / other methods (default: none / none)
 //   FAIL_OPEN           "true" to let agent requests through if Turingate can't be reached (default: false)
+//
+// Optional stablecoin payments (x402): agents must hold a pass AND pay per request on these paths.
+//   PAID_PATHS          e.g. "/api/premium/*"
+//   PRICE               price per request in USDC, e.g. "0.01"
+//   PAY_TO              your 0x… wallet address (payments go straight to you)
+//   NETWORK             "base" (default) or "base-sepolia" for testing
+//   FACILITATOR_URL     x402 facilitator (default https://x402.org/facilitator, testnet only; use a production facilitator for mainnet)
+//   REQUIRE_OWNER_WALLET "true" to only accept payments from the wallet the agent's owner linked to Turingate
+
+import { agentPaywall } from './x402.js';
 
 const DEFAULT_SERVER = 'https://reverse-captcha.onrender.com';
-const SPOOFABLE = ['x-turingate-verified', 'x-turingate-agent', 'x-turingate-owner', 'x-turingate-tier', 'x-turingate-scopes', 'x-turingate-agent-id'];
+const SPOOFABLE = ['x-turingate-verified', 'x-turingate-agent', 'x-turingate-owner', 'x-turingate-tier', 'x-turingate-scopes', 'x-turingate-agent-id', 'x-turingate-paid'];
 
 export function matchPath(pathname, list) {
   return String(list || '').split(',').map((s) => s.trim()).filter(Boolean).some((p) => (
@@ -38,6 +48,26 @@ export default {
     const headers = new Headers(request.headers);
     for (const h of SPOOFABLE) headers.delete(h); // only the gate may set these
     const forward = () => fetch(new Request(request, { headers }));
+
+    if (matchPath(url.pathname, env.PAID_PATHS)) {
+      if (!env.TURINGATE_SITE_ID || !env.TURINGATE_SITE_KEY || !env.PRICE || !env.PAY_TO) return json(500, { error: 'Paid paths need TURINGATE_SITE_ID, TURINGATE_SITE_KEY, PRICE and PAY_TO' });
+      const gate = agentPaywall({
+        siteKey: env.TURINGATE_SITE_KEY, siteId: env.TURINGATE_SITE_ID, server: env.TURINGATE_SERVER || DEFAULT_SERVER,
+        scope: env.PAID_SCOPE || undefined, price: env.PRICE, payTo: env.PAY_TO, network: env.NETWORK || 'base',
+        facilitator: env.FACILITATOR_URL || undefined, requireOwnerWallet: env.REQUIRE_OWNER_WALLET === 'true',
+      });
+      const r = await gate.handle(request);
+      if (r.response) return r.response;
+      headers.set('x-turingate-verified', '1');
+      headers.set('x-turingate-agent', String(r.agent.name || 'agent'));
+      if (r.agent.owner) headers.set('x-turingate-owner', String(r.agent.owner));
+      if (r.agent.tier != null) headers.set('x-turingate-tier', String(r.agent.tier));
+      headers.set('x-turingate-paid', `${r.payment.amount} ${r.payment.asset} ${r.payment.transaction || ''}`.trim());
+      const res = await forward();
+      const out = new Response(res.body, res);
+      for (const [k, v] of Object.entries(r.headers)) out.headers.set(k, v);
+      return out;
+    }
 
     const agentsOnly = matchPath(url.pathname, env.AGENTS_ONLY_PATHS);
     if (!agentsOnly && !matchPath(url.pathname, env.PROTECT_PATHS)) return forward();

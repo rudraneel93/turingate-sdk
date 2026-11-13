@@ -53,6 +53,8 @@ export const identity = {
   startEmail: (server, p, email) => api(server, '/v1/identity/email/start', authBody(p, 'email-start', { email })),
   confirmEmail: (server, p, code) => api(server, '/v1/identity/email/confirm', authBody(p, 'email-confirm', { code })),
   startCard: (server, p) => api(server, '/v1/identity/card/start', authBody(p, 'card-start')),
+  startWallet: (server, p, address) => api(server, '/v1/identity/wallet/start', authBody(p, 'wallet-start', { address })),
+  confirmWallet: (server, p, signature) => api(server, '/v1/identity/wallet/confirm', authBody(p, 'wallet-confirm', { signature })),
   recoverStart: (server, p, email) => api(server, '/v1/identity/recover/start', authBody(p, 'recover-start', { email })),
   recoverConfirm: (server, p, code) => api(server, '/v1/identity/recover/confirm', authBody(p, 'recover-confirm', { code })),
 };
