@@ -1,0 +1,68 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="440" viewBox="0 0 1200 440" role="img" aria-label="Turingate: the CAPTCHA only AI can pass. An AI agent finishes 20 tasks in 5.4 seconds and passes; a human runs out of time.">
+  <defs>
+    <linearGradient id="g" x1="0" x2="1"><stop offset="0" stop-color="#7c5cff"/><stop offset=".55" stop-color="#2ee6f0"/><stop offset="1" stop-color="#b6ff6b"/></linearGradient>
+    <radialGradient id="glow1" cx=".12" cy="0" r=".7"><stop offset="0" stop-color="#7c5cff" stop-opacity=".45"/><stop offset="1" stop-color="#7c5cff" stop-opacity="0"/></radialGradient>
+    <radialGradient id="glow2" cx="1" cy="1" r=".6"><stop offset="0" stop-color="#2ee6f0" stop-opacity=".25"/><stop offset="1" stop-color="#2ee6f0" stop-opacity="0"/></radialGradient>
+    <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse"><path d="M40 0H0V40" fill="none" stroke="#fff" stroke-opacity=".04"/></pattern>
+    <clipPath id="card"><rect width="1200" height="440" rx="28"/></clipPath>
+    <style>
+      .sans{font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Helvetica,Arial,sans-serif}
+      .mono{font-family:ui-monospace,SFMono-Regular,Menlo,Consolas,monospace}
+    </style>
+  </defs>
+  <g clip-path="url(#card)">
+    <rect width="1200" height="440" fill="#05050c"/>
+    <rect width="1200" height="440" fill="url(#glow1)"/><rect width="1200" height="440" fill="url(#glow2)"/>
+    <rect width="1200" height="440" fill="url(#grid)"/>
+
+    <!-- brand -->
+    <g transform="translate(64 52)">
+      <path d="M4 40V20a13 13 0 0 1 26 0v20" stroke="#2ee6f0" stroke-width="3.5" stroke-linecap="round" fill="none"/>
+      <path d="M9 26l5.5 5.5L37 8" stroke="#7c5cff" stroke-width="1.6" stroke-linecap="round" fill="none"/>
+      <circle cx="37" cy="8" r="3.6" fill="#b6ff6b"><animate attributeName="opacity" values="1;.3;1" dur="1.6s" repeatCount="indefinite"/></circle>
+      <text x="52" y="32" class="sans" font-size="28" fill="#f4f4f8" letter-spacing="-1"><tspan font-weight="300">turin</tspan><tspan font-weight="800">gate</tspan></text>
+    </g>
+    <text x="64" y="170" class="sans" font-size="54" font-weight="800" fill="#f4f4f8" letter-spacing="-2">The CAPTCHA only</text>
+    <text x="64" y="232" class="sans" font-size="54" font-weight="800" fill="url(#g)" letter-spacing="-2">AI can pass.</text>
+    <text x="64" y="280" class="sans" font-size="19" fill="#a3a5bc">Agents prove they're AI, and who sent them.</text>
+    <text x="64" y="306" class="sans" font-size="19" fill="#a3a5bc">Websites let the right ones in.</text>
+    <g class="mono" font-size="14" fill="#cfd1e2">
+      <rect x="64" y="342" width="168" height="34" rx="17" fill="#fff" fill-opacity=".05" stroke="#fff" stroke-opacity=".14"/><text x="148" y="364" text-anchor="middle">20 tasks · 60 s</text>
+      <rect x="244" y="342" width="150" height="34" rx="17" fill="#fff" fill-opacity=".05" stroke="#fff" stroke-opacity=".14"/><text x="319" y="364" text-anchor="middle">signed passes</text>
+      <rect x="406" y="342" width="126" height="34" rx="17" fill="#fff" fill-opacity=".05" stroke="#fff" stroke-opacity=".14"/><text x="469" y="364" text-anchor="middle">MCP ready</text>
+    </g>
+
+    <!-- race card -->
+    <g transform="translate(640 78)">
+      <rect width="496" height="284" rx="22" fill="#0b0b16" fill-opacity=".9" stroke="#fff" stroke-opacity=".12"/>
+      <text x="24" y="38" class="mono" font-size="13" fill="#686a82">turingate · reverse CAPTCHA · live race</text>
+      <circle cx="466" cy="33" r="4" fill="#b6ff6b"><animate attributeName="opacity" values="1;.25;1" dur="1.4s" repeatCount="indefinite"/></circle>
+      <line x1="0" x2="496" y1="56" y2="56" stroke="#fff" stroke-opacity=".08"/>
+
+      <!-- AI lane -->
+      <text x="24" y="96" class="sans" font-size="17" font-weight="700" fill="#f4f4f8">🤖 AI agent</text>
+      <text x="472" y="96" class="mono" font-size="15" fill="#b6ff6b" text-anchor="end" opacity="0">20 / 20 · 5.4 s
+        <animate attributeName="opacity" values="0;0;1;1;0" keyTimes="0;.30;.33;.95;1" dur="9s" repeatCount="indefinite"/></text>
+      <rect x="24" y="110" width="448" height="10" rx="5" fill="#fff" fill-opacity=".07"/>
+      <rect x="24" y="110" width="0" height="10" rx="5" fill="url(#g)">
+        <animate attributeName="width" values="0;448;448;0" keyTimes="0;.30;.95;1" dur="9s" repeatCount="indefinite"/></rect>
+      <g opacity="0"><animate attributeName="opacity" values="0;0;1;1;0" keyTimes="0;.31;.34;.95;1" dur="9s" repeatCount="indefinite"/>
+        <rect x="24" y="134" width="196" height="30" rx="9" fill="#6ff3b9" fill-opacity=".12" stroke="#6ff3b9" stroke-opacity=".5"/>
+        <text x="122" y="155" class="sans" font-size="14" font-weight="700" fill="#6ff3b9" text-anchor="middle">✓ PASS ISSUED</text>
+      </g>
+
+      <!-- Human lane -->
+      <text x="24" y="206" class="sans" font-size="17" font-weight="700" fill="#f4f4f8">🧑 Human</text>
+      <text x="472" y="206" class="mono" font-size="15" fill="#ff5c8a" text-anchor="end" opacity="0">2 / 20 · 60 s
+        <animate attributeName="opacity" values="0;0;1;1;0" keyTimes="0;.85;.87;.95;1" dur="9s" repeatCount="indefinite"/></text>
+      <rect x="24" y="220" width="448" height="10" rx="5" fill="#fff" fill-opacity=".07"/>
+      <rect x="24" y="220" width="0" height="10" rx="5" fill="#ff5c8a">
+        <animate attributeName="width" values="0;14;22;34;45;45;0" keyTimes="0;.2;.4;.6;.85;.95;1" dur="9s" repeatCount="indefinite"/></rect>
+      <g opacity="0"><animate attributeName="opacity" values="0;0;1;1;0" keyTimes="0;.85;.87;.95;1" dur="9s" repeatCount="indefinite"/>
+        <rect x="24" y="244" width="196" height="30" rx="9" fill="#ff5c8a" fill-opacity=".12" stroke="#ff5c8a" stroke-opacity=".5"/>
+        <text x="122" y="265" class="sans" font-size="14" font-weight="700" fill="#ff5c8a" text-anchor="middle">✕ TIME'S UP</text>
+      </g>
+      <text x="472" y="262" class="mono" font-size="12" fill="#686a82" text-anchor="end">typing…<animate attributeName="opacity" values="1;1;0;0;1" keyTimes="0;.84;.85;.99;1" dur="9s" repeatCount="indefinite"/></text>
+    </g>
+  </g>
+</svg>

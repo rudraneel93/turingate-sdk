@@ -1,62 +1,340 @@
-# Turingate SDK
+<div align="center">
 
-**[Turingate](https://reverse-captcha.onrender.com) is a reverse CAPTCHA: a test only AI can pass.**
-AI agents clear 20 tasks in 60 seconds and receive a signed pass. The pass tells a website which verified person
-or company sent the agent, what it may do and how much it may spend. Humans, click farms and scripts fail.
+<a href="https://reverse-captcha.onrender.com"><img src="assets/hero.svg" alt="Turingate: the CAPTCHA only AI can pass" width="100%"></a>
 
-This repository holds everything that runs on **your** side: the agent tools, the website widget, the pass verifiers,
-the protocol spec and an open benchmark. The hosted service runs the challenges and the reputation network.
+<p>
+<a href="https://reverse-captcha.onrender.com/#demo"><img alt="Try the live test" src="https://img.shields.io/badge/▶_try_it-can_you_pass%3F-b6ff6b?style=for-the-badge&labelColor=05050c"></a>
+<a href="https://reverse-captcha.onrender.com/#leaderboard"><img alt="Scoreboard" src="https://img.shields.io/badge/🏁_scoreboard-AI_vs_humans-2ee6f0?style=for-the-badge&labelColor=05050c"></a>
+<a href="https://reverse-captcha.onrender.com/docs"><img alt="Docs" src="https://img.shields.io/badge/📖_docs-15_min_setup-7c5cff?style=for-the-badge&labelColor=05050c"></a>
+</p>
+<p>
+<img alt="MIT license" src="https://img.shields.io/badge/license-MIT-f4f4f8?labelColor=05050c">
+<img alt="Zero dependencies" src="https://img.shields.io/badge/dependencies-0-f4f4f8?labelColor=05050c">
+<img alt="Node 20+" src="https://img.shields.io/badge/node-%E2%89%A520-f4f4f8?labelColor=05050c">
+<img alt="MCP" src="https://img.shields.io/badge/MCP-ready-f4f4f8?labelColor=05050c">
+<img alt="Ed25519" src="https://img.shields.io/badge/passes-Ed25519_signed-f4f4f8?labelColor=05050c">
+</p>
 
-| | Path | What it does |
-|---|---|---|
-| 🤖 | [`packages/turingate`](packages/turingate) | `npx turingate` CLI, `turingate-mcp` MCP server for Claude Code, Codex and others, plus JS verify helpers |
-| 🧩 | [`packages/widget`](packages/widget) | Drop-in "I'm a robot" check for HTML forms |
-| ✅ | [`verify/`](verify) | Pass verification for [Node](packages/turingate/lib/verify.js), [Python](verify/python/turingate_verify.py) and [Go](verify/go/turingate.go), online or offline |
-| 📜 | [`SPEC.md`](SPEC.md) | The agent-pass protocol: delegations, challenges, passes and headers |
-| 🏁 | [`bench/`](bench) | Run any LLM against the live reverse CAPTCHA and get on the [scoreboard](https://reverse-captcha.onrender.com/#leaderboard) |
-| 🤗 | [`huggingface/`](huggingface) | The Reverse Turing Bench dataset and the "Can you beat the AI?" Space |
+**[What is it?](#-what-is-a-reverse-captcha)** ·
+**[How it works](#-how-it-works)** ·
+**[Get started](#-get-started-pick-your-path)** ·
+**[Scoreboard](#-the-scoreboard)** ·
+**[What's inside](#-whats-in-this-repo)** ·
+**[FAQ](#-faq)**
 
-## Give your agent a pass (2 minutes)
+</div>
 
+---
+
+## 🤔 What is a reverse CAPTCHA?
+
+A normal CAPTCHA asks **"are you human?"** and blocks every AI, including the assistants your customers send to shop, book and sign up.
+
+**Turingate flips the test.** It proves a visitor **is a capable AI agent**. It also tells your website **which verified person or company sent it** and **what that agent is allowed to do**.
+
+<table>
+<tr><th width="50%">❌ Classic CAPTCHA</th><th width="50%">✅ Turingate</th></tr>
+<tr><td>
+
+- Asks *"Are you human?"*
+- Blocks every AI agent, good or bad
+- Tells you nothing about who's behind a visitor
+- Makes people click on traffic lights
+
+</td><td>
+
+- Asks *"Are you an AI? Who sent you?"*
+- Capable agents pass in about **5 seconds**
+- Every pass names the **verified owner**, their **permissions** and **spending limit**
+- People never see it
+
+</td></tr>
+</table>
+
+> **The test:** 20 fresh tasks in 60 seconds, with at least 17 right. Some questions are hidden inside images
+> that look like abstract art to people. AI finishes in seconds. People run out of time.
+> **[Try it yourself →](https://reverse-captcha.onrender.com/#demo)**
+
+---
+
+## ⚙️ How it works
+
+<img src="assets/how.svg" alt="1. The human signs a permission slip. 2. The agent takes the reverse CAPTCHA. 3. Turingate issues a signed pass. 4. Your site verifies it and lets it in." width="100%">
+
+1. **The human** creates an identity once and signs a *permission slip* for their agent, for example: "may book flights, up to $50, for 7 days".
+2. **The agent** takes the reverse CAPTCHA and answers 20 tasks in seconds.
+3. **Turingate** gives it a short-lived, signed **pass** that works only on your site.
+4. **Your site** checks the pass with one API call and learns who sent the agent and whether it's allowed to act.
+
+<details>
+<summary><b>🔍 Show the full request flow (sequence diagram)</b></summary>
+<br>
+
+```mermaid
+sequenceDiagram
+    autonumber
+    participant H as 🧑 Human
+    participant A as 🤖 AI agent
+    participant T as Turingate
+    participant S as 🌐 Your site
+    H->>A: Permission slip (scopes + spend limit), signed
+    A->>S: POST /api/bookings
+    S-->>A: 401 · WWW-Authenticate: AgentPass site="s_…"
+    A->>T: Request challenge for s_…
+    T-->>A: 20 tasks · 60 s
+    A->>T: Answers, signed with the agent's key
+    T-->>A: Signed pass (valid 10 min, only for s_…)
+    A->>S: POST /api/bookings · Authorization: AgentPass …
+    S->>T: POST /v1/verify { scope, amount }
+    T-->>S: valid ✓ · works for Ada · tier 2 · rep 0.92
+    S-->>A: 200 Booking confirmed
+```
+
+</details>
+
+### 🌐 Misbehave once, blocked everywhere
+
+<img src="assets/ban.svg" alt="Three sites report the same abusive agent; Turingate blocks the agent and its owner on every site." width="100%">
+
+Sites report how agents behave. If an agent abuses one site, it is blocked on **all** of them, and so is the person behind it. Their verified email and card can't be used to sign up again.
+
+---
+
+## 🚀 Get started: pick your path
+
+<details open>
+<summary><b>🤖 I build or use AI agents</b>: give your agent a verified identity (2 minutes)</summary>
+<br>
+
+<img src="assets/terminal.svg" alt="Terminal: set up an identity, delegate to your agent, connect the MCP server, and the agent passes." width="100%">
+
+**Step 1: create your identity** (you, the human):
 ```bash
 npx turingate principal init --name "Ada Lovelace"
+npx turingate identity email ada@example.com   # optional: verified email = trust tier 1
+```
+
+**Step 2: create a key for your agent and say what it may do:**
+```bash
 npx turingate agent init --name claude-code
-npx turingate delegate --scopes "bookings:*" --spend 50 --ttl 7d
+npx turingate delegate --scopes "bookings:*,api:read" --spend 50 --ttl 7d
+```
+
+**Step 3: connect your agent** (Claude Code, Codex, Cursor or any MCP client):
+```bash
 claude mcp add turingate -- npx -y turingate-mcp
 ```
 
-## Let agents into your site (15 minutes)
+That's it. When a site asks for a pass, your agent calls `rc_get_challenge`, answers the tasks and presents the pass. It can never act beyond the limits you signed.
 
-1. Create a site in the [Console](https://reverse-captcha.onrender.com/console) to get a site id and a secret key.
-2. Answer requests that have no pass with `401` and `WWW-Authenticate: AgentPass site="s_..."`.
-3. Verify each pass before you act on it:
+| MCP tool | What it does |
+|---|---|
+| `rc_whoami` | Shows the agent's identity, owner, scopes and spend limit |
+| `rc_get_challenge` | Starts the reverse CAPTCHA for a site |
+| `rc_submit_answers` | Submits answers and returns a signed pass |
+| `rc_current_pass` | Returns the pass and the header to send |
+
+</details>
+
+<details>
+<summary><b>🌐 I run a website or API</b>: let verified agents in (15 minutes)</summary>
+<br>
+
+**Step 1: get your keys.** Sign in to the **[Console](https://reverse-captcha.onrender.com/console)** with Google and add your site. You get a public **site ID** (`s_…`) and a secret **site key**.
+
+**Step 2: ask agents for a pass.** When a request has no pass, respond with:
+```http
+HTTP/1.1 401 Unauthorized
+WWW-Authenticate: AgentPass site="s_your_site_id"
+```
+
+**Step 3: verify before you act.** Pick your language:
+
+<details>
+<summary>Node.js</summary>
 
 ```js
 import { verifyPass } from 'turingate';
-const r = await verifyPass(token, { siteKey: process.env.TURINGATE_SITE_KEY, scope: 'bookings:create', amount: 40 });
+
+const token = req.headers.authorization?.replace(/^AgentPass /, '');
+const r = await verifyPass(token, {
+  siteKey: process.env.TURINGATE_SITE_KEY,
+  scope: 'bookings:create',   // the action being attempted
+  amount: order.total,        // checked against the owner's spending limit
+});
+if (!r.valid) return res.status(403).json({ reasons: r.reasons });
+// r.claims.prn_name  → the person or company behind the agent
+// r.claims.tier      → how they verified: 0 key, 1 email, 2 card
 ```
+</details>
+
+<details>
+<summary>Python</summary>
 
 ```python
-from turingate_verify import verify_pass
+from turingate_verify import verify_pass   # verify/python/turingate_verify.py
+
 r = verify_pass(token, site_key=os.environ["TURINGATE_SITE_KEY"], scope="bookings:create", amount=40)
+if not r["valid"]:
+    abort(403)
+print(r["claims"]["prn_name"], "sent", r["claims"]["agent_name"])
 ```
+</details>
+
+<details>
+<summary>Go</summary>
 
 ```go
-r, err := turingate.Verify(token, turingate.Options{SiteKey: os.Getenv("TURINGATE_SITE_KEY"), Scope: "bookings:create", Amount: 40})
+import turingate "github.com/rudraneel93/turingate-sdk/verify/go"
+
+r, err := turingate.Verify(token, turingate.Options{
+    SiteKey: os.Getenv("TURINGATE_SITE_KEY"), Scope: "bookings:create", Amount: 40,
+})
+if err != nil || !r.Valid { http.Error(w, "forbidden", 403); return }
 ```
+</details>
 
-Full docs: https://reverse-captcha.onrender.com/docs
-
-## Put your model on the scoreboard
+<details>
+<summary>cURL</summary>
 
 ```bash
-cd bench && npm install
-ANTHROPIC_API_KEY=... node run.mjs --provider anthropic --model claude-haiku-5-5 --runs 3
-OPENAI_API_KEY=...    node run.mjs --provider openai --model <model> --base-url <openai-compatible-url> --runs 3
+curl -s https://reverse-captcha.onrender.com/v1/verify \
+  -H "x-site-key: $TURINGATE_SITE_KEY" -H 'content-type: application/json' \
+  -d '{"token":"<pass>","scope":"bookings:create","amount":40}'
+# → {"valid":true,"reasons":[],"claims":{"prn_name":"Ada","tier":2,...}}
+```
+</details>
+
+<details>
+<summary>Browser widget (for forms)</summary>
+
+```html
+<form action="/signup" method="post">
+  <div data-reverse-captcha data-site="s_your_site_id"></div>
+  <button>Continue</button>
+</form>
+<script src="https://reverse-captcha.onrender.com/widget.js" defer></script>
+```
+On a pass, the widget adds a hidden `rc-pass` field to your form. Verify it on your server as above.
+</details>
+
+**Step 4 (optional): report abuse,** so the whole network learns:
+```bash
+curl -s https://reverse-captcha.onrender.com/v1/reports -H "x-site-key: $TURINGATE_SITE_KEY" \
+  -H 'content-type: application/json' -d '{"token":"<pass>","outcome":"abuse"}'
 ```
 
-Open a pull request with `bench/results/<model>.json`.
+> 💡 **Online or offline?** `verifyPass` (online) also checks live reputation and bans, so use it for anything involving money.
+> `verifyPassOffline` checks the signature against our public keys with no network call to us.
 
-## License
+</details>
 
-MIT. The hosted Turingate service, its challenge generation and its reputation network are not part of this repository.
+<details>
+<summary><b>🏁 I want to benchmark a model</b>: put it on the scoreboard (5 minutes)</summary>
+<br>
+
+```bash
+git clone https://github.com/rudraneel93/turingate-sdk && cd turingate-sdk/bench && npm install
+
+# Claude
+ANTHROPIC_API_KEY=... node run.mjs --provider anthropic --model claude-haiku-5-5 --runs 3
+
+# Any OpenAI-compatible API (OpenAI, Gemini, Groq, Together, OpenRouter, Ollama…)
+OPENAI_API_KEY=... node run.mjs --provider openai --model <model> --base-url <url> --runs 3
+```
+
+Each run takes the **real** test on the live API. Results are saved to `bench/results/<model>.json`.
+**Open a pull request** with that file to join the scoreboard.
+
+There's also an offline dataset of 1,000 tasks and 50 hidden-ink images in [`huggingface/dataset`](huggingface/dataset).
+
+</details>
+
+---
+
+## 🏆 The scoreboard
+
+Every model took the real test against the live API: text tasks, no tools, 60-second limit.
+
+| | Contestant | Accuracy | Avg. time | Result |
+|:-:|---|:-:|:-:|:-:|
+| 🥇 | 🤖 `claude-opus-5-5` | **97%** | 4.8 s | ✅ passes |
+| 🥈 | 🤖 `claude-haiku-5-5` | **97%** | 5.4 s | ✅ passes |
+| 🥉 | 🤖 `claude-sonnet-5-5` | **93%** | 3.4 s | ✅ passes |
+| | 🧑 Humans | 5% | – | ❌ fails |
+
+<sub>Model runs from Nov 2026, 3 runs each. Human data comes from real attempts on the live site; the sample is still small. **[See the live scoreboard →](https://reverse-captcha.onrender.com/#leaderboard)**</sub>
+
+---
+
+## 📦 What's in this repo
+
+| | Path | What it is | Use it when… |
+|:-:|---|---|---|
+| 🤖 | [`packages/turingate`](packages/turingate) | `npx turingate` CLI, `turingate-mcp` server and JS verify helpers | you run an agent, or a Node site |
+| 🧩 | [`packages/widget`](packages/widget) | Drop-in "I'm a robot" check for HTML forms | browser agents fill in your forms |
+| ✅ | [`verify/`](verify) | Pass verifiers for [Python](verify/python/turingate_verify.py) and [Go](verify/go/turingate.go) | your backend isn't Node |
+| 📜 | [`SPEC.md`](SPEC.md) | The protocol: permission slips, challenges, passes, headers | you're building your own client |
+| 🏁 | [`bench/`](bench) | Benchmark harness for any LLM | you want your model on the scoreboard |
+| 🤗 | [`huggingface/`](huggingface) | Reverse Turing Bench dataset and the "Can you beat the AI?" Space | you're doing research |
+
+Everything here runs on **your** side and has zero dependencies. The hosted Turingate service runs the challenges and the shared reputation network.
+
+---
+
+## ❓ FAQ
+
+<details>
+<summary><b>What do I actually pay for?</b></summary>
+<br>
+Agent passes: each one is a verified AI agent admitted to your site. Checking passes is free and unlimited. Humans, failed attempts and blocked bots never count.
+The free plan includes 50 passes a month. See <a href="https://reverse-captcha.onrender.com/#pricing">pricing</a>.
+</details>
+
+<details>
+<summary><b>Can't a human just paste the test into ChatGPT?</b></summary>
+<br>
+Then they're operating an AI agent, which is fine. To get a pass your site accepts, they still need a verified identity and a signed permission slip, so they're accountable for what the agent does.
+</details>
+
+<details>
+<summary><b>Does this replace my CAPTCHA or bot protection?</b></summary>
+<br>
+No, it works alongside them. Keep your existing protection for anonymous traffic, and use Turingate to let verified agents through with a named owner and clear limits.
+</details>
+
+<details>
+<summary><b>Will it slow down my site?</b></summary>
+<br>
+It's one HTTPS call, made only for requests that carry an agent pass. Human visitors aren't affected. For latency-sensitive paths, verify offline against the public keys at <code>/.well-known/jwks.json</code>.
+</details>
+
+<details>
+<summary><b>What stops a stolen pass from being reused?</b></summary>
+<br>
+Passes expire within about 10 minutes, are bound to the agent's own Ed25519 key, and are valid only on the site they were issued for.
+</details>
+
+<details>
+<summary><b>What happens if an agent misbehaves?</b></summary>
+<br>
+Sites report outcomes. After repeated abuse reports, the agent <b>and its owner</b> are blocked on every Turingate site. Their verified email and card can't be used to sign up again.
+</details>
+
+<details>
+<summary><b>Is the whole thing open source?</b></summary>
+<br>
+Everything that runs on your side is open (MIT): agent tools, widget, verifiers, protocol spec and benchmark. The hosted service, which generates the challenges and runs the reputation network, is operated by Turingate.
+</details>
+
+---
+
+<div align="center">
+
+### The web's next billion users aren't human.
+
+**[Try the test](https://reverse-captcha.onrender.com/#demo)** · **[Start free](https://reverse-captcha.onrender.com/console)** · **[Read the docs](https://reverse-captcha.onrender.com/docs)** · **[Protocol spec](SPEC.md)**
+
+<sub>MIT licensed · Made for the agentic web</sub>
+
+</div>
