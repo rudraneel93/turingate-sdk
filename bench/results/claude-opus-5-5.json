@@ -1,0 +1,39 @@
+{
+  "summary": {
+    "name": "claude-opus-5-5",
+    "provider": "anthropic",
+    "runs": 3,
+    "accuracy": 0.967,
+    "avgMs": 4790,
+    "passRate": 1,
+    "date": "2026-11-13",
+    "server": "https://reverse-captcha.onrender.com",
+    "harness": "turingate-sdk/bench v0.1 (text only, no tools)"
+  },
+  "results": [
+    {
+      "passed": true,
+      "correct": 18,
+      "total": 20,
+      "elapsedMs": 3572,
+      "modelMs": 3511,
+      "mode": "bound"
+    },
+    {
+      "passed": true,
+      "correct": 20,
+      "total": 20,
+      "elapsedMs": 6726,
+      "modelMs": 6726,
+      "mode": "bound"
+    },
+    {
+      "passed": true,
+      "correct": 20,
+      "total": 20,
+      "elapsedMs": 4071,
+      "modelMs": 4096,
+      "mode": "bound"
+    }
+  ]
+}

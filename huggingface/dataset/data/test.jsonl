@@ -1,0 +1,1050 @@
+{"challenge":"c001","task":"t1","prompt":"In the phrase \"velvet pocket quietly moon harbor rusty seven\", what is the second word?","answers":["pocket"],"image":null}
+{"challenge":"c001","task":"t2","prompt":"Which word is the odd one out: grape, armchair, mango, banana?","answers":["armchair"],"image":null}
+{"challenge":"c001","task":"t3","prompt":"What is eight hundred and forty-nine minus one hundred and sixty-seven? Answer in digits.","answers":["682"],"image":null}
+{"challenge":"c001","task":"t4","prompt":"Which is larger, 4/8 or 0.63? Reply with the larger value exactly as written.","answers":["0.63"],"image":null}
+{"challenge":"c001","task":"t5","prompt":"Give the usual opposite of the word \"open\". One word.","answers":["closed","close","shut"],"image":null}
+{"challenge":"c001","task":"t6","prompt":"Nadia buys 11 bags of candles, 15 per bag, and loses 73 on the way home. How many candles make it home?","answers":["92"],"image":null}
+{"challenge":"c001","task":"t7","prompt":"A meeting starts at 16:55 and runs for 8 h 37 min. When does it end? Answer as HH:MM, 24-hour clock.","answers":["01:32"],"image":null}
+{"challenge":"c001","task":"t8","prompt":"Lena is lighter than Tobias. Zara is lighter than Lena. Who is the heaviest?","answers":["Tobias"],"image":null}
+{"challenge":"c001","task":"t9","prompt":"What is two hundred and twenty-four plus nine hundred and thirteen? Answer in digits.","answers":["1137"],"image":null}
+{"challenge":"c001","task":"t10","prompt":"In the phrase \"orbit rusty crystal seven winter garden silent\", what is the fourth word?","answers":["seven"],"image":null}
+{"challenge":"c001","task":"t11","prompt":"Which word is the odd one out: wrench, spanner, camel, trowel?","answers":["camel"],"image":null}
+{"challenge":"c001","task":"t12","prompt":"Rufus buys 10 bags of seashells, 11 per bag, and loses 65 on the way home. How many seashells make it home?","answers":["45"],"image":null}
+{"challenge":"c001","task":"t13","prompt":"Lena is younger than Felix. Sol is younger than Lena. Ivo is older than Felix. Who is the youngest?","answers":["Sol"],"image":null}
+{"challenge":"c001","task":"t14","prompt":"Give the usual opposite of the word \"early\". One word.","answers":["late"],"image":null}
+{"challenge":"c001","task":"t15","prompt":"Which is larger, 6/9 or 0.30? Reply with the larger value exactly as written.","answers":["6/9"],"image":null}
+{"challenge":"c001","task":"t16","prompt":"A train departs at 16:39 and the journey lasts 5 hours and 3 minutes. What time does it arrive? Answer as HH:MM, 24-hour clock.","answers":["21:42"],"image":null}
+{"challenge":"c001","task":"t17","prompt":"Which is larger, 1/5 or 0.42? Reply with the larger value exactly as written.","answers":["0.42"],"image":null}
+{"challenge":"c001","task":"t18","prompt":"Which word is the odd one out: clarinet, camel, walrus, badger?","answers":["clarinet"],"image":null}
+{"challenge":"c001","task":"t19","prompt":"Give the usual opposite of the word \"early\". One word.","answers":["late"],"image":null}
+{"challenge":"c001","task":"t20","prompt":"Sol is slower than Cleo. Mira is faster than Cleo. Who is the slowest?","answers":["Sol"],"image":null}
+{"challenge":"c002","task":"t1","prompt":"Yara is faster than Tobias. Rufus is slower than Ivo. Yara is slower than Rufus. Who is the slowest?","answers":["Tobias"],"image":null}
+{"challenge":"c002","task":"t2","prompt":"Give the usual opposite of the word \"victory\". One word.","answers":["defeat"],"image":null}
+{"challenge":"c002","task":"t3","prompt":"A train departs at 08:29 and the journey lasts 1 hours and 45 minutes. What time does it arrive? Answer as HH:MM, 24-hour clock.","answers":["10:14"],"image":null}
+{"challenge":"c002","task":"t4","prompt":"Which word is the odd one out: zebra, camel, badger, chisel?","answers":["chisel"],"image":null}
+{"challenge":"c002","task":"t5","prompt":"In the phrase \"thunder marble silent copper amber moon garden\", what is the first word?","answers":["thunder"],"image":null}
+{"challenge":"c002","task":"t6","prompt":"Which is larger, 2/8 or 0.32? Reply with the larger value exactly as written.","answers":["0.32"],"image":null}
+{"challenge":"c002","task":"t7","prompt":"What is nine hundred and seven minus three hundred and twenty? Answer in digits.","answers":["587"],"image":null}
+{"challenge":"c002","task":"t8","prompt":"There are 4 jars holding 11 marbles apiece. Cleo removes 21 marbles. How many marbles remain in the jars?","answers":["23"],"image":null}
+{"challenge":"c002","task":"t9","prompt":"Ivo is taller than Felix. Bram is taller than Ivo. Who is the shortest?","answers":["Felix"],"image":null}
+{"challenge":"c002","task":"t10","prompt":"What is four hundred and thirty-two minus one hundred and seventy-eight? Answer in digits.","answers":["254"],"image":null}
+{"challenge":"c002","task":"t11","prompt":"Which word is the odd one out: minibus, tram, yacht, mango?","answers":["mango"],"image":null}
+{"challenge":"c002","task":"t12","prompt":"In the phrase \"amber violin rusty orbit moon thunder winter\", what is the first word?","answers":["amber"],"image":null}
+{"challenge":"c002","task":"t13","prompt":"A train departs at 12:54 and the journey lasts 9 hours and 23 minutes. What time does it arrive? Answer as HH:MM, 24-hour clock.","answers":["22:17"],"image":null}
+{"challenge":"c002","task":"t14","prompt":"Give the usual opposite of the word \"open\". One word.","answers":["closed","close","shut"],"image":null}
+{"challenge":"c002","task":"t15","prompt":"Which is larger, 5/12 or 0.76? Reply with the larger value exactly as written.","answers":["0.76"],"image":null}
+{"challenge":"c002","task":"t16","prompt":"Yara buys 6 bags of stamps, 11 per bag, and loses 64 on the way home. How many stamps make it home?","answers":["2"],"image":null}
+{"challenge":"c002","task":"t17","prompt":"Which is larger, 2/9 or 0.94? Reply with the larger value exactly as written.","answers":["0.94"],"image":null}
+{"challenge":"c002","task":"t18","prompt":"A meeting starts at 12:40 and runs for 9 h 11 min. When does it end? Answer as HH:MM, 24-hour clock.","answers":["21:51"],"image":null}
+{"challenge":"c002","task":"t19","prompt":"Which word is the odd one out: hammer, cello, tuba, flute?","answers":["hammer"],"image":null}
+{"challenge":"c002","task":"t20","prompt":"Give the usual opposite of the word \"inside\". One word.","answers":["outside"],"image":null}
+{"challenge":"c003","task":"t1","prompt":"There are 9 jars holding 15 bolts apiece. Felix removes 134 bolts. How many bolts remain in the jars?","answers":["1"],"image":null}
+{"challenge":"c003","task":"t2","prompt":"What is six hundred and fifty-seven minus four hundred and forty-six? Answer in digits.","answers":["211"],"image":null}
+{"challenge":"c003","task":"t3","prompt":"Which is larger, 2/5 or 0.85? Reply with the larger value exactly as written.","answers":["0.85"],"image":null}
+{"challenge":"c003","task":"t4","prompt":"Kenji is slower than Asha. Nadia is slower than Kenji. Rufus is faster than Asha. Who is the slowest?","answers":["Nadia"],"image":null}
+{"challenge":"c003","task":"t5","prompt":"Give the usual opposite of the word \"ancient\". One word.","answers":["modern"],"image":null}
+{"challenge":"c003","task":"t6","prompt":"Which word is the odd one out: scooter, apricot, tram, yacht?","answers":["apricot"],"image":null}
+{"challenge":"c003","task":"t7","prompt":"In the phrase \"garden thunder folds rusty velvet engine copper\", what is the seventh word?","answers":["copper"],"image":null}
+{"challenge":"c003","task":"t8","prompt":"A train departs at 21:24 and the journey lasts 2 hours and 56 minutes. What time does it arrive? Answer as HH:MM, 24-hour clock.","answers":["00:20"],"image":null}
+{"challenge":"c003","task":"t9","prompt":"Which word is the odd one out: scooter, canoe, wardrobe, minibus?","answers":["wardrobe"],"image":null}
+{"challenge":"c003","task":"t10","prompt":"Give the usual opposite of the word \"maximum\". One word.","answers":["minimum"],"image":null}
+{"challenge":"c003","task":"t11","prompt":"What is six hundred and two plus three hundred and seventy? Answer in digits.","answers":["972"],"image":null}
+{"challenge":"c003","task":"t12","prompt":"A train departs at 08:51 and the journey lasts 4 hours and 26 minutes. What time does it arrive? Answer as HH:MM, 24-hour clock.","answers":["13:17"],"image":null}
+{"challenge":"c003","task":"t13","prompt":"Yara buys 3 bags of stamps, 12 per bag, and loses 17 on the way home. How many stamps make it home?","answers":["19"],"image":null}
+{"challenge":"c003","task":"t14","prompt":"In the phrase \"crystal quietly amber river winter marble paper\", what is the first word?","answers":["crystal"],"image":null}
+{"challenge":"c003","task":"t15","prompt":"Nadia is younger than Kenji. Kenji is younger than Felix. Omar is younger than Nadia. Who is the oldest?","answers":["Felix"],"image":null}
+{"challenge":"c003","task":"t16","prompt":"Which is larger, 4/7 or 0.34? Reply with the larger value exactly as written.","answers":["4/7"],"image":null}
+{"challenge":"c003","task":"t17","prompt":"Give the usual opposite of the word \"inside\". One word.","answers":["outside"],"image":null}
+{"challenge":"c003","task":"t18","prompt":"A meeting starts at 17:23 and runs for 1 h 59 min. When does it end? Answer as HH:MM, 24-hour clock.","answers":["19:22"],"image":null}
+{"challenge":"c003","task":"t19","prompt":"Which is larger, 6/10 or 0.13? Reply with the larger value exactly as written.","answers":["6/10"],"image":null}
+{"challenge":"c003","task":"t20","prompt":"In the phrase \"rusty velvet quietly violin orbit seven silent\", what is the third word?","answers":["quietly"],"image":null}
+{"challenge":"c004","task":"t1","prompt":"A train departs at 01:48 and the journey lasts 5 hours and 58 minutes. What time does it arrive? Answer as HH:MM, 24-hour clock.","answers":["07:46"],"image":null}
+{"challenge":"c004","task":"t2","prompt":"Give the usual opposite of the word \"ascend\". One word.","answers":["descend"],"image":null}
+{"challenge":"c004","task":"t3","prompt":"What is nine hundred and fifty-one minus two hundred and sixty-one? Answer in digits.","answers":["690"],"image":null}
+{"challenge":"c004","task":"t4","prompt":"In the phrase \"moon crystal engine harbor rusty winter velvet\", what is the first word?","answers":["moon"],"image":null}
+{"challenge":"c004","task":"t5","prompt":"Which word is the odd one out: Saturn, armchair, Jupiter, Neptune?","answers":["armchair"],"image":null}
+{"challenge":"c004","task":"t6","prompt":"Which is larger, 3/5 or 0.67? Reply with the larger value exactly as written.","answers":["0.67"],"image":null}
+{"challenge":"c004","task":"t7","prompt":"Zara packs 12 boxes with 11 pencils each, then gives away 55. How many pencils does Zara have left?","answers":["77"],"image":null}
+{"challenge":"c004","task":"t8","prompt":"Tobias is heavier than Omar. Tobias is lighter than Nadia. Omar is heavier than Cleo. Who is the heaviest?","answers":["Nadia"],"image":null}
+{"challenge":"c004","task":"t9","prompt":"Lena buys 10 bags of seashells, 14 per bag, and loses 113 on the way home. How many seashells make it home?","answers":["27"],"image":null}
+{"challenge":"c004","task":"t10","prompt":"Which is larger, 7/11 or 0.37? Reply with the larger value exactly as written.","answers":["7/11"],"image":null}
+{"challenge":"c004","task":"t11","prompt":"A meeting starts at 14:13 and runs for 9 h 28 min. When does it end? Answer as HH:MM, 24-hour clock.","answers":["23:41"],"image":null}
+{"challenge":"c004","task":"t12","prompt":"Nadia is shorter than Yara. Yara is shorter than Zara. Who is the shortest?","answers":["Nadia"],"image":null}
+{"challenge":"c004","task":"t13","prompt":"In the phrase \"amber lanterns pocket velvet violin engine folds\", what is the seventh word?","answers":["folds"],"image":null}
+{"challenge":"c004","task":"t14","prompt":"Which word is the odd one out: bookshelf, wardrobe, grape, stool?","answers":["grape"],"image":null}
+{"challenge":"c004","task":"t15","prompt":"Give the usual opposite of the word \"full\". One word.","answers":["empty"],"image":null}
+{"challenge":"c004","task":"t16","prompt":"What is seven hundred and ten minus four hundred? Answer in digits.","answers":["310"],"image":null}
+{"challenge":"c004","task":"t17","prompt":"A meeting starts at 19:08 and runs for 2 h 36 min. When does it end? Answer as HH:MM, 24-hour clock.","answers":["21:44"],"image":null}
+{"challenge":"c004","task":"t18","prompt":"In the phrase \"winter amber crystal rusty meadow violin silent\", what is the third word?","answers":["crystal"],"image":null}
+{"challenge":"c004","task":"t19","prompt":"Which word is the odd one out: cupboard, armchair, sofa, otter?","answers":["otter"],"image":null}
+{"challenge":"c004","task":"t20","prompt":"Which is larger, 4/5 or 0.45? Reply with the larger value exactly as written.","answers":["4/5"],"image":null}
+{"challenge":"c005","task":"t1","prompt":"What is eight hundred and eight plus two hundred and seventy-one? Answer in digits.","answers":["1079"],"image":null}
+{"challenge":"c005","task":"t2","prompt":"There are 7 jars holding 9 marbles apiece. Lena removes 6 marbles. How many marbles remain in the jars?","answers":["57"],"image":null}
+{"challenge":"c005","task":"t3","prompt":"In the phrase \"orbit folds marble violin garden river rusty\", what is the first word?","answers":["orbit"],"image":null}
+{"challenge":"c005","task":"t4","prompt":"Which is larger, 4/7 or 0.93? Reply with the larger value exactly as written.","answers":["0.93"],"image":null}
+{"challenge":"c005","task":"t5","prompt":"Mira is lighter than Rufus. Sol is lighter than Tobias. Sol is heavier than Rufus. Who is the lightest?","answers":["Mira"],"image":null}
+{"challenge":"c005","task":"t6","prompt":"Which word is the odd one out: Saturn, cupboard, sofa, wardrobe?","answers":["Saturn"],"image":null}
+{"challenge":"c005","task":"t7","prompt":"Give the usual opposite of the word \"win\". One word.","answers":["lose"],"image":null}
+{"challenge":"c005","task":"t8","prompt":"A meeting starts at 19:01 and runs for 9 h 41 min. When does it end? Answer as HH:MM, 24-hour clock.","answers":["04:42"],"image":null}
+{"challenge":"c005","task":"t9","prompt":"Which word is the odd one out: canoe, hedgehog, lynx, giraffe?","answers":["canoe"],"image":null}
+{"challenge":"c005","task":"t10","prompt":"In the phrase \"seven river winter moon thunder lanterns rusty\", what is the sixth word?","answers":["lanterns"],"image":null}
+{"challenge":"c005","task":"t11","prompt":"Kenji is slower than Mira. Omar is faster than Rufus. Omar is slower than Kenji. Who is the slowest?","answers":["Rufus"],"image":null}
+{"challenge":"c005","task":"t12","prompt":"A train departs at 21:02 and the journey lasts 9 hours and 20 minutes. What time does it arrive? Answer as HH:MM, 24-hour clock.","answers":["06:22"],"image":null}
+{"challenge":"c005","task":"t13","prompt":"Kenji buys 6 bags of lemons, 6 per bag, and loses 34 on the way home. How many lemons make it home?","answers":["2"],"image":null}
+{"challenge":"c005","task":"t14","prompt":"Which is larger, 2/3 or 0.61? Reply with the larger value exactly as written.","answers":["2/3"],"image":null}
+{"challenge":"c005","task":"t15","prompt":"What is six hundred and six minus seventy-nine? Answer in digits.","answers":["527"],"image":null}
+{"challenge":"c005","task":"t16","prompt":"Give the usual opposite of the word \"push\". One word.","answers":["pull"],"image":null}
+{"challenge":"c005","task":"t17","prompt":"Kenji is older than Cleo. Ivo is older than Kenji. Who is the youngest?","answers":["Cleo"],"image":null}
+{"challenge":"c005","task":"t18","prompt":"In the phrase \"folds velvet winter moon seven pocket rusty\", what is the second word?","answers":["velvet"],"image":null}
+{"challenge":"c005","task":"t19","prompt":"Which is larger, 3/6 or 0.74? Reply with the larger value exactly as written.","answers":["0.74"],"image":null}
+{"challenge":"c005","task":"t20","prompt":"What is four hundred and ninety-four minus three hundred and eighty-eight? Answer in digits.","answers":["106"],"image":null}
+{"challenge":"c006","task":"t1","prompt":"There are 8 jars holding 8 candles apiece. Felix removes 12 candles. How many candles remain in the jars?","answers":["52"],"image":null}
+{"challenge":"c006","task":"t2","prompt":"Which is larger, 4/10 or 0.71? Reply with the larger value exactly as written.","answers":["0.71"],"image":null}
+{"challenge":"c006","task":"t3","prompt":"What is four hundred and seventy-seven minus one hundred and nineteen? Answer in digits.","answers":["358"],"image":null}
+{"challenge":"c006","task":"t4","prompt":"Give the usual opposite of the word \"generous\". One word.","answers":["stingy","selfish","mean"],"image":null}
+{"challenge":"c006","task":"t5","prompt":"A meeting starts at 19:50 and runs for 4 h 40 min. When does it end? Answer as HH:MM, 24-hour clock.","answers":["00:30"],"image":null}
+{"challenge":"c006","task":"t6","prompt":"In the phrase \"engine crystal quietly lanterns folds violin silent\", what is the sixth word?","answers":["violin"],"image":null}
+{"challenge":"c006","task":"t7","prompt":"Kenji is slower than Bram. Felix is faster than Rufus. Kenji is faster than Felix. Who is the slowest?","answers":["Rufus"],"image":null}
+{"challenge":"c006","task":"t8","prompt":"Which word is the odd one out: grape, giraffe, lynx, zebra?","answers":["grape"],"image":null}
+{"challenge":"c006","task":"t9","prompt":"What is five hundred and seventy-three plus thirty-one? Answer in digits.","answers":["604"],"image":null}
+{"challenge":"c006","task":"t10","prompt":"Which word is the odd one out: hedgehog, Venus, Neptune, Uranus?","answers":["hedgehog"],"image":null}
+{"challenge":"c006","task":"t11","prompt":"In the phrase \"meadow velvet violin river folds thunder paper\", what is the seventh word?","answers":["paper"],"image":null}
+{"challenge":"c006","task":"t12","prompt":"Which is larger, 5/11 or 0.35? Reply with the larger value exactly as written.","answers":["5/11"],"image":null}
+{"challenge":"c006","task":"t13","prompt":"Give the usual opposite of the word \"victory\". One word.","answers":["defeat"],"image":null}
+{"challenge":"c006","task":"t14","prompt":"A train departs at 18:55 and the journey lasts 4 hours and 7 minutes. What time does it arrive? Answer as HH:MM, 24-hour clock.","answers":["23:02"],"image":null}
+{"challenge":"c006","task":"t15","prompt":"Rufus buys 6 bags of lemons, 5 per bag, and loses 15 on the way home. How many lemons make it home?","answers":["15"],"image":null}
+{"challenge":"c006","task":"t16","prompt":"Priya is slower than Omar. Omar is slower than Kenji. Who is the fastest?","answers":["Kenji"],"image":null}
+{"challenge":"c006","task":"t17","prompt":"Which word is the odd one out: apricot, badger, papaya, cherry?","answers":["badger"],"image":null}
+{"challenge":"c006","task":"t18","prompt":"In the phrase \"crystal harbor paper meadow amber folds pocket\", what is the second word?","answers":["harbor"],"image":null}
+{"challenge":"c006","task":"t19","prompt":"Felix packs 5 boxes with 5 buttons each, then gives away 12. How many buttons does Felix have left?","answers":["13"],"image":null}
+{"challenge":"c006","task":"t20","prompt":"Give the usual opposite of the word \"win\". One word.","answers":["lose"],"image":null}
+{"challenge":"c007","task":"t1","prompt":"There are 9 jars holding 4 lemons apiece. Zara removes 13 lemons. How many lemons remain in the jars?","answers":["23"],"image":null}
+{"challenge":"c007","task":"t2","prompt":"A meeting starts at 05:58 and runs for 9 h 11 min. When does it end? Answer as HH:MM, 24-hour clock.","answers":["15:09"],"image":null}
+{"challenge":"c007","task":"t3","prompt":"Omar is slower than Cleo. Cleo is slower than Nadia. Nadia is slower than Lena. Who is the slowest?","answers":["Omar"],"image":null}
+{"challenge":"c007","task":"t4","prompt":"In the phrase \"under orbit river garden folds rusty paper\", what is the first word?","answers":["under"],"image":null}
+{"challenge":"c007","task":"t5","prompt":"What is six hundred and eight minus two hundred and five? Answer in digits.","answers":["403"],"image":null}
+{"challenge":"c007","task":"t6","prompt":"Give the usual opposite of the word \"victory\". One word.","answers":["defeat"],"image":null}
+{"challenge":"c007","task":"t7","prompt":"Which is larger, 2/6 or 0.91? Reply with the larger value exactly as written.","answers":["0.91"],"image":null}
+{"challenge":"c007","task":"t8","prompt":"Which word is the odd one out: banana, cherry, apricot, zebra?","answers":["zebra"],"image":null}
+{"challenge":"c007","task":"t9","prompt":"Omar buys 6 bags of marbles, 14 per bag, and loses 28 on the way home. How many marbles make it home?","answers":["56"],"image":null}
+{"challenge":"c007","task":"t10","prompt":"Which word is the odd one out: plum, cherry, grape, bicycle?","answers":["bicycle"],"image":null}
+{"challenge":"c007","task":"t11","prompt":"Give the usual opposite of the word \"visible\". One word.","answers":["invisible"],"image":null}
+{"challenge":"c007","task":"t12","prompt":"What is two hundred and sixty-two plus seven hundred and eighty-two? Answer in digits.","answers":["1044"],"image":null}
+{"challenge":"c007","task":"t13","prompt":"Lena is younger than Bram. Tobias is younger than Lena. Who is the oldest?","answers":["Bram"],"image":null}
+{"challenge":"c007","task":"t14","prompt":"A meeting starts at 10:17 and runs for 1 h 29 min. When does it end? Answer as HH:MM, 24-hour clock.","answers":["11:46"],"image":null}
+{"challenge":"c007","task":"t15","prompt":"Which is larger, 5/8 or 0.21? Reply with the larger value exactly as written.","answers":["5/8"],"image":null}
+{"challenge":"c007","task":"t16","prompt":"In the phrase \"thunder marble engine pocket river winter violin\", what is the second word?","answers":["marble"],"image":null}
+{"challenge":"c007","task":"t17","prompt":"Yara is lighter than Cleo. Mira is lighter than Lena. Yara is heavier than Lena. Who is the lightest?","answers":["Mira"],"image":null}
+{"challenge":"c007","task":"t18","prompt":"Which word is the odd one out: Venus, wrench, Neptune, Jupiter?","answers":["wrench"],"image":null}
+{"challenge":"c007","task":"t19","prompt":"A train departs at 14:52 and the journey lasts 5 hours and 21 minutes. What time does it arrive? Answer as HH:MM, 24-hour clock.","answers":["20:13"],"image":null}
+{"challenge":"c007","task":"t20","prompt":"What is nine hundred and sixty-three minus eight hundred and twenty? Answer in digits.","answers":["143"],"image":null}
+{"challenge":"c008","task":"t1","prompt":"Sol is faster than Yara. Tobias is faster than Sol. Who is the fastest?","answers":["Tobias"],"image":null}
+{"challenge":"c008","task":"t2","prompt":"Which word is the odd one out: spanner, giraffe, lynx, zebra?","answers":["spanner"],"image":null}
+{"challenge":"c008","task":"t3","prompt":"Mira buys 3 bags of lemons, 10 per bag, and loses 15 on the way home. How many lemons make it home?","answers":["15"],"image":null}
+{"challenge":"c008","task":"t4","prompt":"Which is larger, 7/10 or 0.65? Reply with the larger value exactly as written.","answers":["7/10"],"image":null}
+{"challenge":"c008","task":"t5","prompt":"Give the usual opposite of the word \"ancient\". One word.","answers":["modern"],"image":null}
+{"challenge":"c008","task":"t6","prompt":"A meeting starts at 19:08 and runs for 9 h 34 min. When does it end? Answer as HH:MM, 24-hour clock.","answers":["04:42"],"image":null}
+{"challenge":"c008","task":"t7","prompt":"In the phrase \"thunder rusty velvet paper engine amber violin\", what is the first word?","answers":["thunder"],"image":null}
+{"challenge":"c008","task":"t8","prompt":"What is three hundred and eighty-seven plus seven hundred and ninety-five? Answer in digits.","answers":["1182"],"image":null}
+{"challenge":"c008","task":"t9","prompt":"Cleo is taller than Ivo. Yara is taller than Cleo. Who is the shortest?","answers":["Ivo"],"image":null}
+{"challenge":"c008","task":"t10","prompt":"What is four hundred and sixty minus one hundred and eighty-seven? Answer in digits.","answers":["273"],"image":null}
+{"challenge":"c008","task":"t11","prompt":"Felix buys 9 bags of candles, 15 per bag, and loses 52 on the way home. How many candles make it home?","answers":["83"],"image":null}
+{"challenge":"c008","task":"t12","prompt":"Which is larger, 7/12 or 0.33? Reply with the larger value exactly as written.","answers":["7/12"],"image":null}
+{"challenge":"c008","task":"t13","prompt":"Give the usual opposite of the word \"rich\". One word.","answers":["poor"],"image":null}
+{"challenge":"c008","task":"t14","prompt":"Which word is the odd one out: flute, cello, mango, harp?","answers":["mango"],"image":null}
+{"challenge":"c008","task":"t15","prompt":"A train departs at 20:52 and the journey lasts 8 hours and 30 minutes. What time does it arrive? Answer as HH:MM, 24-hour clock.","answers":["05:22"],"image":null}
+{"challenge":"c008","task":"t16","prompt":"In the phrase \"seven orbit lanterns velvet amber moon thunder\", what is the first word?","answers":["seven"],"image":null}
+{"challenge":"c008","task":"t17","prompt":"What is six hundred and seventy-six plus thirty-eight? Answer in digits.","answers":["714"],"image":null}
+{"challenge":"c008","task":"t18","prompt":"Tobias is shorter than Zara. Lena is shorter than Tobias. Who is the tallest?","answers":["Zara"],"image":null}
+{"challenge":"c008","task":"t19","prompt":"Rufus packs 12 boxes with 11 candles each, then gives away 29. How many candles does Rufus have left?","answers":["103"],"image":null}
+{"challenge":"c008","task":"t20","prompt":"Give the usual opposite of the word \"expand\". One word.","answers":["contract","shrink"],"image":null}
+{"challenge":"c009","task":"t1","prompt":"Which is larger, 1/11 or 0.36? Reply with the larger value exactly as written.","answers":["0.36"],"image":null}
+{"challenge":"c009","task":"t2","prompt":"Cleo buys 4 bags of pencils, 11 per bag, and loses 15 on the way home. How many pencils make it home?","answers":["29"],"image":null}
+{"challenge":"c009","task":"t3","prompt":"In the phrase \"amber paper meadow folds moon lanterns silent\", what is the sixth word?","answers":["lanterns"],"image":null}
+{"challenge":"c009","task":"t4","prompt":"What is five hundred and six minus eighty? Answer in digits.","answers":["426"],"image":null}
+{"challenge":"c009","task":"t5","prompt":"Give the usual opposite of the word \"full\". One word.","answers":["empty"],"image":null}
+{"challenge":"c009","task":"t6","prompt":"Which word is the odd one out: pliers, yacht, hammer, spanner?","answers":["yacht"],"image":null}
+{"challenge":"c009","task":"t7","prompt":"A meeting starts at 05:54 and runs for 1 h 7 min. When does it end? Answer as HH:MM, 24-hour clock.","answers":["07:01"],"image":null}
+{"challenge":"c009","task":"t8","prompt":"Mira is faster than Zara. Nadia is faster than Rufus. Zara is faster than Nadia. Who is the slowest?","answers":["Rufus"],"image":null}
+{"challenge":"c009","task":"t9","prompt":"What is four hundred and four plus seven hundred and eighty-four? Answer in digits.","answers":["1188"],"image":null}
+{"challenge":"c009","task":"t10","prompt":"Ivo buys 4 bags of stamps, 9 per bag, and loses 3 on the way home. How many stamps make it home?","answers":["33"],"image":null}
+{"challenge":"c009","task":"t11","prompt":"Give the usual opposite of the word \"expand\". One word.","answers":["contract","shrink"],"image":null}
+{"challenge":"c009","task":"t12","prompt":"Cleo is lighter than Sol. Cleo is heavier than Asha. Asha is heavier than Nadia. Who is the heaviest?","answers":["Sol"],"image":null}
+{"challenge":"c009","task":"t13","prompt":"Which word is the odd one out: camel, giraffe, tuba, walrus?","answers":["tuba"],"image":null}
+{"challenge":"c009","task":"t14","prompt":"In the phrase \"under meadow winter velvet paper quietly thunder\", what is the third word?","answers":["winter"],"image":null}
+{"challenge":"c009","task":"t15","prompt":"Which is larger, 8/12 or 0.50? Reply with the larger value exactly as written.","answers":["8/12"],"image":null}
+{"challenge":"c009","task":"t16","prompt":"A meeting starts at 16:10 and runs for 2 h 9 min. When does it end? Answer as HH:MM, 24-hour clock.","answers":["18:19"],"image":null}
+{"challenge":"c009","task":"t17","prompt":"In the phrase \"under violin silent river pocket seven quietly\", what is the first word?","answers":["under"],"image":null}
+{"challenge":"c009","task":"t18","prompt":"Give the usual opposite of the word \"buy\". One word.","answers":["sell"],"image":null}
+{"challenge":"c009","task":"t19","prompt":"A meeting starts at 11:52 and runs for 6 h 3 min. When does it end? Answer as HH:MM, 24-hour clock.","answers":["17:55"],"image":null}
+{"challenge":"c009","task":"t20","prompt":"What is two hundred and eighty-four plus six hundred and forty-nine? Answer in digits.","answers":["933"],"image":null}
+{"challenge":"c010","task":"t1","prompt":"Give the usual opposite of the word \"entrance\". One word.","answers":["exit"],"image":null}
+{"challenge":"c010","task":"t2","prompt":"What is one hundred and ninety plus thirty-three? Answer in digits.","answers":["223"],"image":null}
+{"challenge":"c010","task":"t3","prompt":"In the phrase \"paper orbit amber moon crystal marble seven\", what is the fourth word?","answers":["moon"],"image":null}
+{"challenge":"c010","task":"t4","prompt":"Priya is taller than Omar. Omar is taller than Sol. Who is the tallest?","answers":["Priya"],"image":null}
+{"challenge":"c010","task":"t5","prompt":"Nadia packs 5 boxes with 8 candles each, then gives away 10. How many candles does Nadia have left?","answers":["30"],"image":null}
+{"challenge":"c010","task":"t6","prompt":"Which word is the odd one out: Venus, violin, Jupiter, Uranus?","answers":["violin"],"image":null}
+{"challenge":"c010","task":"t7","prompt":"A meeting starts at 07:13 and runs for 2 h 24 min. When does it end? Answer as HH:MM, 24-hour clock.","answers":["09:37"],"image":null}
+{"challenge":"c010","task":"t8","prompt":"Which is larger, 3/8 or 0.74? Reply with the larger value exactly as written.","answers":["0.74"],"image":null}
+{"challenge":"c010","task":"t9","prompt":"In the phrase \"folds rusty harbor meadow amber marble copper\", what is the sixth word?","answers":["marble"],"image":null}
+{"challenge":"c010","task":"t10","prompt":"Which is larger, 5/12 or 0.53? Reply with the larger value exactly as written.","answers":["0.53"],"image":null}
+{"challenge":"c010","task":"t11","prompt":"What is one hundred and six plus one hundred and thirty? Answer in digits.","answers":["236"],"image":null}
+{"challenge":"c010","task":"t12","prompt":"Omar packs 11 boxes with 13 pencils each, then gives away 31. How many pencils does Omar have left?","answers":["112"],"image":null}
+{"challenge":"c010","task":"t13","prompt":"A train departs at 10:50 and the journey lasts 3 hours and 14 minutes. What time does it arrive? Answer as HH:MM, 24-hour clock.","answers":["14:04"],"image":null}
+{"challenge":"c010","task":"t14","prompt":"Give the usual opposite of the word \"arrive\". One word.","answers":["depart","leave"],"image":null}
+{"challenge":"c010","task":"t15","prompt":"Yara is shorter than Cleo. Zara is shorter than Yara. Who is the tallest?","answers":["Cleo"],"image":null}
+{"challenge":"c010","task":"t16","prompt":"Which word is the odd one out: tractor, Neptune, minibus, scooter?","answers":["Neptune"],"image":null}
+{"challenge":"c010","task":"t17","prompt":"What is nine hundred and seventy-three minus seven hundred and seventy-three? Answer in digits.","answers":["200"],"image":null}
+{"challenge":"c010","task":"t18","prompt":"In the phrase \"under river silent winter marble copper paper\", what is the seventh word?","answers":["paper"],"image":null}
+{"challenge":"c010","task":"t19","prompt":"Tobias packs 5 boxes with 7 bolts each, then gives away 34. How many bolts does Tobias have left?","answers":["1"],"image":null}
+{"challenge":"c010","task":"t20","prompt":"Which is larger, 1/4 or 0.06? Reply with the larger value exactly as written.","answers":["1/4"],"image":null}
+{"challenge":"c011","task":"t1","prompt":"Which word is the odd one out: apple, papaya, banana, screwdriver?","answers":["screwdriver"],"image":null}
+{"challenge":"c011","task":"t2","prompt":"Zara is heavier than Asha. Zara is lighter than Priya. Who is the lightest?","answers":["Asha"],"image":null}
+{"challenge":"c011","task":"t3","prompt":"Sol packs 8 boxes with 8 candles each, then gives away 32. How many candles does Sol have left?","answers":["32"],"image":null}
+{"challenge":"c011","task":"t4","prompt":"Which is larger, 2/6 or 0.62? Reply with the larger value exactly as written.","answers":["0.62"],"image":null}
+{"challenge":"c011","task":"t5","prompt":"Give the usual opposite of the word \"open\". One word.","answers":["closed","close","shut"],"image":null}
+{"challenge":"c011","task":"t6","prompt":"In the phrase \"silent meadow moon marble paper seven pocket\", what is the fifth word?","answers":["paper"],"image":null}
+{"challenge":"c011","task":"t7","prompt":"What is forty-five plus nine hundred and forty-five? Answer in digits.","answers":["990"],"image":null}
+{"challenge":"c011","task":"t8","prompt":"A train departs at 15:20 and the journey lasts 4 hours and 7 minutes. What time does it arrive? Answer as HH:MM, 24-hour clock.","answers":["19:27"],"image":null}
+{"challenge":"c011","task":"t9","prompt":"Which word is the odd one out: apricot, grape, cherry, tram?","answers":["tram"],"image":null}
+{"challenge":"c011","task":"t10","prompt":"In the phrase \"silent quietly violin paper moon under marble\", what is the seventh word?","answers":["marble"],"image":null}
+{"challenge":"c011","task":"t11","prompt":"Give the usual opposite of the word \"arrive\". One word.","answers":["depart","leave"],"image":null}
+{"challenge":"c011","task":"t12","prompt":"What is seven hundred and twenty-five plus five hundred and eleven? Answer in digits.","answers":["1236"],"image":null}
+{"challenge":"c011","task":"t13","prompt":"A meeting starts at 09:27 and runs for 7 h 28 min. When does it end? Answer as HH:MM, 24-hour clock.","answers":["16:55"],"image":null}
+{"challenge":"c011","task":"t14","prompt":"Nadia is taller than Asha. Priya is shorter than Asha. Nadia is shorter than Yara. Who is the tallest?","answers":["Yara"],"image":null}
+{"challenge":"c011","task":"t15","prompt":"There are 7 jars holding 6 lemons apiece. Nadia removes 27 lemons. How many lemons remain in the jars?","answers":["15"],"image":null}
+{"challenge":"c011","task":"t16","prompt":"Which is larger, 8/12 or 0.57? Reply with the larger value exactly as written.","answers":["8/12"],"image":null}
+{"challenge":"c011","task":"t17","prompt":"A meeting starts at 20:30 and runs for 4 h 13 min. When does it end? Answer as HH:MM, 24-hour clock.","answers":["00:43"],"image":null}
+{"challenge":"c011","task":"t18","prompt":"Give the usual opposite of the word \"generous\". One word.","answers":["stingy","selfish","mean"],"image":null}
+{"challenge":"c011","task":"t19","prompt":"What is six hundred and eighteen minus two hundred and fifteen? Answer in digits.","answers":["403"],"image":null}
+{"challenge":"c011","task":"t20","prompt":"Which is larger, 6/7 or 0.57? Reply with the larger value exactly as written.","answers":["6/7"],"image":null}
+{"challenge":"c012","task":"t1","prompt":"In the phrase \"amber quietly orbit harbor under rusty moon\", what is the seventh word?","answers":["moon"],"image":null}
+{"challenge":"c012","task":"t2","prompt":"A meeting starts at 17:43 and runs for 4 h 58 min. When does it end? Answer as HH:MM, 24-hour clock.","answers":["22:41"],"image":null}
+{"challenge":"c012","task":"t3","prompt":"There are 12 jars holding 4 marbles apiece. Felix removes 34 marbles. How many marbles remain in the jars?","answers":["14"],"image":null}
+{"challenge":"c012","task":"t4","prompt":"Which word is the odd one out: canoe, Venus, Neptune, Uranus?","answers":["canoe"],"image":null}
+{"challenge":"c012","task":"t5","prompt":"Which is larger, 6/10 or 0.13? Reply with the larger value exactly as written.","answers":["6/10"],"image":null}
+{"challenge":"c012","task":"t6","prompt":"Give the usual opposite of the word \"expand\". One word.","answers":["contract","shrink"],"image":null}
+{"challenge":"c012","task":"t7","prompt":"Mira is taller than Yara. Kenji is shorter than Yara. Who is the shortest?","answers":["Kenji"],"image":null}
+{"challenge":"c012","task":"t8","prompt":"What is six hundred and seventy-eight minus one hundred and fifty-two? Answer in digits.","answers":["526"],"image":null}
+{"challenge":"c012","task":"t9","prompt":"Which is larger, 2/7 or 0.33? Reply with the larger value exactly as written.","answers":["0.33"],"image":null}
+{"challenge":"c012","task":"t10","prompt":"Ivo is shorter than Nadia. Nadia is shorter than Mira. Who is the tallest?","answers":["Mira"],"image":null}
+{"challenge":"c012","task":"t11","prompt":"Which word is the odd one out: spanner, bicycle, yacht, tram?","answers":["spanner"],"image":null}
+{"challenge":"c012","task":"t12","prompt":"What is nine hundred and twenty-eight plus four hundred and seventy-five? Answer in digits.","answers":["1403"],"image":null}
+{"challenge":"c012","task":"t13","prompt":"There are 5 jars holding 12 buttons apiece. Mira removes 11 buttons. How many buttons remain in the jars?","answers":["49"],"image":null}
+{"challenge":"c012","task":"t14","prompt":"A train departs at 20:13 and the journey lasts 7 hours and 58 minutes. What time does it arrive? Answer as HH:MM, 24-hour clock.","answers":["04:11"],"image":null}
+{"challenge":"c012","task":"t15","prompt":"In the phrase \"copper river amber under velvet seven marble\", what is the sixth word?","answers":["seven"],"image":null}
+{"challenge":"c012","task":"t16","prompt":"Give the usual opposite of the word \"ancient\". One word.","answers":["modern"],"image":null}
+{"challenge":"c012","task":"t17","prompt":"A meeting starts at 10:59 and runs for 5 h 53 min. When does it end? Answer as HH:MM, 24-hour clock.","answers":["16:52"],"image":null}
+{"challenge":"c012","task":"t18","prompt":"Which is larger, 1/3 or 0.89? Reply with the larger value exactly as written.","answers":["0.89"],"image":null}
+{"challenge":"c012","task":"t19","prompt":"Priya is faster than Omar. Priya is slower than Rufus. Yara is slower than Omar. Who is the slowest?","answers":["Yara"],"image":null}
+{"challenge":"c012","task":"t20","prompt":"Sol buys 12 bags of buttons, 6 per bag, and loses 32 on the way home. How many buttons make it home?","answers":["40"],"image":null}
+{"challenge":"c013","task":"t1","prompt":"Give the usual opposite of the word \"ancient\". One word.","answers":["modern"],"image":null}
+{"challenge":"c013","task":"t2","prompt":"In the phrase \"thunder harbor paper silent marble crystal pocket\", what is the seventh word?","answers":["pocket"],"image":null}
+{"challenge":"c013","task":"t3","prompt":"Which is larger, 5/6 or 0.79? Reply with the larger value exactly as written.","answers":["5/6"],"image":null}
+{"challenge":"c013","task":"t4","prompt":"What is six hundred and ninety-seven plus seven hundred and fifty-nine? Answer in digits.","answers":["1456"],"image":null}
+{"challenge":"c013","task":"t5","prompt":"Mira is older than Lena. Mira is younger than Kenji. Who is the youngest?","answers":["Lena"],"image":null}
+{"challenge":"c013","task":"t6","prompt":"Which word is the odd one out: violin, scooter, tram, tractor?","answers":["violin"],"image":null}
+{"challenge":"c013","task":"t7","prompt":"A train departs at 07:05 and the journey lasts 4 hours and 8 minutes. What time does it arrive? Answer as HH:MM, 24-hour clock.","answers":["11:13"],"image":null}
+{"challenge":"c013","task":"t8","prompt":"Bram buys 4 bags of marbles, 4 per bag, and loses 5 on the way home. How many marbles make it home?","answers":["11"],"image":null}
+{"challenge":"c013","task":"t9","prompt":"There are 10 jars holding 9 candles apiece. Omar removes 61 candles. How many candles remain in the jars?","answers":["29"],"image":null}
+{"challenge":"c013","task":"t10","prompt":"Ivo is younger than Kenji. Rufus is older than Kenji. Who is the oldest?","answers":["Rufus"],"image":null}
+{"challenge":"c013","task":"t11","prompt":"A meeting starts at 23:41 and runs for 7 h 8 min. When does it end? Answer as HH:MM, 24-hour clock.","answers":["06:49"],"image":null}
+{"challenge":"c013","task":"t12","prompt":"Which word is the odd one out: Jupiter, Uranus, harp, Neptune?","answers":["harp"],"image":null}
+{"challenge":"c013","task":"t13","prompt":"Give the usual opposite of the word \"ascend\". One word.","answers":["descend"],"image":null}
+{"challenge":"c013","task":"t14","prompt":"In the phrase \"river harbor marble folds rusty under paper\", what is the third word?","answers":["marble"],"image":null}
+{"challenge":"c013","task":"t15","prompt":"Which is larger, 1/3 or 0.79? Reply with the larger value exactly as written.","answers":["0.79"],"image":null}
+{"challenge":"c013","task":"t16","prompt":"What is seven hundred and nine plus eight hundred and ninety-eight? Answer in digits.","answers":["1607"],"image":null}
+{"challenge":"c013","task":"t17","prompt":"Which word is the odd one out: grape, wardrobe, dresser, armchair?","answers":["grape"],"image":null}
+{"challenge":"c013","task":"t18","prompt":"A train departs at 21:41 and the journey lasts 4 hours and 50 minutes. What time does it arrive? Answer as HH:MM, 24-hour clock.","answers":["02:31"],"image":null}
+{"challenge":"c013","task":"t19","prompt":"Bram is lighter than Asha. Nadia is lighter than Bram. Nadia is heavier than Lena. Who is the lightest?","answers":["Lena"],"image":null}
+{"challenge":"c013","task":"t20","prompt":"In the phrase \"winter lanterns folds quietly moon violin pocket\", what is the fourth word?","answers":["quietly"],"image":null}
+{"challenge":"c014","task":"t1","prompt":"What is four hundred and nine minus two hundred and forty-three? Answer in digits.","answers":["166"],"image":null}
+{"challenge":"c014","task":"t2","prompt":"Nadia packs 12 boxes with 7 buttons each, then gives away 82. How many buttons does Nadia have left?","answers":["2"],"image":null}
+{"challenge":"c014","task":"t3","prompt":"In the phrase \"violin paper quietly amber engine under crystal\", what is the sixth word?","answers":["under"],"image":null}
+{"challenge":"c014","task":"t4","prompt":"A meeting starts at 00:56 and runs for 8 h 44 min. When does it end? Answer as HH:MM, 24-hour clock.","answers":["09:40"],"image":null}
+{"challenge":"c014","task":"t5","prompt":"Tobias is faster than Ivo. Mira is slower than Ivo. Bram is slower than Mira. Who is the fastest?","answers":["Tobias"],"image":null}
+{"challenge":"c014","task":"t6","prompt":"Which word is the odd one out: tractor, yacht, minibus, apple?","answers":["apple"],"image":null}
+{"challenge":"c014","task":"t7","prompt":"Which is larger, 2/3 or 0.95? Reply with the larger value exactly as written.","answers":["0.95"],"image":null}
+{"challenge":"c014","task":"t8","prompt":"Give the usual opposite of the word \"early\". One word.","answers":["late"],"image":null}
+{"challenge":"c014","task":"t9","prompt":"Give the usual opposite of the word \"generous\". One word.","answers":["stingy","selfish","mean"],"image":null}
+{"challenge":"c014","task":"t10","prompt":"Which is larger, 1/6 or 0.95? Reply with the larger value exactly as written.","answers":["0.95"],"image":null}
+{"challenge":"c014","task":"t11","prompt":"In the phrase \"river marble crystal thunder folds seven amber\", what is the first word?","answers":["river"],"image":null}
+{"challenge":"c014","task":"t12","prompt":"What is twenty-four plus three hundred and thirty-eight? Answer in digits.","answers":["362"],"image":null}
+{"challenge":"c014","task":"t13","prompt":"Which word is the odd one out: mango, banana, violin, cherry?","answers":["violin"],"image":null}
+{"challenge":"c014","task":"t14","prompt":"There are 9 jars holding 11 buttons apiece. Yara removes 19 buttons. How many buttons remain in the jars?","answers":["80"],"image":null}
+{"challenge":"c014","task":"t15","prompt":"A meeting starts at 17:56 and runs for 8 h 47 min. When does it end? Answer as HH:MM, 24-hour clock.","answers":["02:43"],"image":null}
+{"challenge":"c014","task":"t16","prompt":"Lena is taller than Kenji. Lena is shorter than Felix. Who is the tallest?","answers":["Felix"],"image":null}
+{"challenge":"c014","task":"t17","prompt":"In the phrase \"pocket quietly folds winter river engine copper\", what is the sixth word?","answers":["engine"],"image":null}
+{"challenge":"c014","task":"t18","prompt":"Which word is the odd one out: cherry, banana, hedgehog, pear?","answers":["hedgehog"],"image":null}
+{"challenge":"c014","task":"t19","prompt":"A meeting starts at 11:58 and runs for 1 h 29 min. When does it end? Answer as HH:MM, 24-hour clock.","answers":["13:27"],"image":null}
+{"challenge":"c014","task":"t20","prompt":"Sol packs 6 boxes with 5 candles each, then gives away 24. How many candles does Sol have left?","answers":["6"],"image":null}
+{"challenge":"c015","task":"t1","prompt":"Priya is taller than Tobias. Cleo is shorter than Tobias. Who is the shortest?","answers":["Cleo"],"image":null}
+{"challenge":"c015","task":"t2","prompt":"Give the usual opposite of the word \"full\". One word.","answers":["empty"],"image":null}
+{"challenge":"c015","task":"t3","prompt":"Which word is the odd one out: banana, pliers, mango, plum?","answers":["pliers"],"image":null}
+{"challenge":"c015","task":"t4","prompt":"Which is larger, 6/8 or 0.40? Reply with the larger value exactly as written.","answers":["6/8"],"image":null}
+{"challenge":"c015","task":"t5","prompt":"What is three hundred and fifty-eight plus five hundred and seventeen? Answer in digits.","answers":["875"],"image":null}
+{"challenge":"c015","task":"t6","prompt":"In the phrase \"velvet violin harbor rusty meadow marble pocket\", what is the second word?","answers":["violin"],"image":null}
+{"challenge":"c015","task":"t7","prompt":"A train departs at 22:17 and the journey lasts 7 hours and 16 minutes. What time does it arrive? Answer as HH:MM, 24-hour clock.","answers":["05:33"],"image":null}
+{"challenge":"c015","task":"t8","prompt":"Lena packs 8 boxes with 9 pencils each, then gives away 62. How many pencils does Lena have left?","answers":["10"],"image":null}
+{"challenge":"c015","task":"t9","prompt":"In the phrase \"marble folds seven rusty velvet under garden\", what is the second word?","answers":["folds"],"image":null}
+{"challenge":"c015","task":"t10","prompt":"Omar is younger than Ivo. Lena is younger than Omar. Nadia is younger than Lena. Who is the oldest?","answers":["Ivo"],"image":null}
+{"challenge":"c015","task":"t11","prompt":"A meeting starts at 02:23 and runs for 8 h 16 min. When does it end? Answer as HH:MM, 24-hour clock.","answers":["10:39"],"image":null}
+{"challenge":"c015","task":"t12","prompt":"Give the usual opposite of the word \"generous\". One word.","answers":["stingy","selfish","mean"],"image":null}
+{"challenge":"c015","task":"t13","prompt":"There are 8 jars holding 15 stamps apiece. Lena removes 61 stamps. How many stamps remain in the jars?","answers":["59"],"image":null}
+{"challenge":"c015","task":"t14","prompt":"Which is larger, 2/5 or 0.69? Reply with the larger value exactly as written.","answers":["0.69"],"image":null}
+{"challenge":"c015","task":"t15","prompt":"What is four hundred and twenty-one plus sixty-nine? Answer in digits.","answers":["490"],"image":null}
+{"challenge":"c015","task":"t16","prompt":"Which word is the odd one out: zebra, cello, lynx, otter?","answers":["cello"],"image":null}
+{"challenge":"c015","task":"t17","prompt":"What is eight hundred and four plus five hundred and forty-seven? Answer in digits.","answers":["1351"],"image":null}
+{"challenge":"c015","task":"t18","prompt":"A train departs at 09:31 and the journey lasts 1 hours and 32 minutes. What time does it arrive? Answer as HH:MM, 24-hour clock.","answers":["11:03"],"image":null}
+{"challenge":"c015","task":"t19","prompt":"In the phrase \"violin river harbor winter seven velvet lanterns\", what is the second word?","answers":["river"],"image":null}
+{"challenge":"c015","task":"t20","prompt":"Which word is the odd one out: pliers, stool, bookshelf, armchair?","answers":["pliers"],"image":null}
+{"challenge":"c016","task":"t1","prompt":"In the phrase \"garden meadow silent harbor rusty folds quietly\", what is the fifth word?","answers":["rusty"],"image":null}
+{"challenge":"c016","task":"t2","prompt":"A train departs at 19:17 and the journey lasts 5 hours and 2 minutes. What time does it arrive? Answer as HH:MM, 24-hour clock.","answers":["00:19"],"image":null}
+{"challenge":"c016","task":"t3","prompt":"Give the usual opposite of the word \"always\". One word.","answers":["never"],"image":null}
+{"challenge":"c016","task":"t4","prompt":"What is nine hundred and seventy-six plus ninety-two? Answer in digits.","answers":["1068"],"image":null}
+{"challenge":"c016","task":"t5","prompt":"Which is larger, 4/5 or 0.57? Reply with the larger value exactly as written.","answers":["4/5"],"image":null}
+{"challenge":"c016","task":"t6","prompt":"Kenji is slower than Yara. Kenji is faster than Cleo. Yara is slower than Asha. Who is the slowest?","answers":["Cleo"],"image":null}
+{"challenge":"c016","task":"t7","prompt":"Which word is the odd one out: trowel, pliers, screwdriver, giraffe?","answers":["giraffe"],"image":null}
+{"challenge":"c016","task":"t8","prompt":"There are 9 jars holding 8 bolts apiece. Mira removes 53 bolts. How many bolts remain in the jars?","answers":["19"],"image":null}
+{"challenge":"c016","task":"t9","prompt":"Which word is the odd one out: cupboard, wardrobe, clarinet, dresser?","answers":["clarinet"],"image":null}
+{"challenge":"c016","task":"t10","prompt":"Which is larger, 5/8 or 0.45? Reply with the larger value exactly as written.","answers":["5/8"],"image":null}
+{"challenge":"c016","task":"t11","prompt":"A train departs at 11:39 and the journey lasts 7 hours and 12 minutes. What time does it arrive? Answer as HH:MM, 24-hour clock.","answers":["18:51"],"image":null}
+{"challenge":"c016","task":"t12","prompt":"Felix is shorter than Bram. Cleo is taller than Bram. Who is the tallest?","answers":["Cleo"],"image":null}
+{"challenge":"c016","task":"t13","prompt":"What is nine hundred plus six hundred and eighty-seven? Answer in digits.","answers":["1587"],"image":null}
+{"challenge":"c016","task":"t14","prompt":"Give the usual opposite of the word \"expand\". One word.","answers":["contract","shrink"],"image":null}
+{"challenge":"c016","task":"t15","prompt":"In the phrase \"winter under orbit river thunder paper engine\", what is the third word?","answers":["orbit"],"image":null}
+{"challenge":"c016","task":"t16","prompt":"Tobias packs 11 boxes with 15 stamps each, then gives away 10. How many stamps does Tobias have left?","answers":["155"],"image":null}
+{"challenge":"c016","task":"t17","prompt":"Which is larger, 7/10 or 0.65? Reply with the larger value exactly as written.","answers":["7/10"],"image":null}
+{"challenge":"c016","task":"t18","prompt":"Tobias is lighter than Nadia. Ivo is lighter than Tobias. Who is the lightest?","answers":["Ivo"],"image":null}
+{"challenge":"c016","task":"t19","prompt":"Lena buys 5 bags of bolts, 11 per bag, and loses 9 on the way home. How many bolts make it home?","answers":["46"],"image":null}
+{"challenge":"c016","task":"t20","prompt":"Give the usual opposite of the word \"rich\". One word.","answers":["poor"],"image":null}
+{"challenge":"c017","task":"t1","prompt":"A train departs at 21:48 and the journey lasts 9 hours and 55 minutes. What time does it arrive? Answer as HH:MM, 24-hour clock.","answers":["07:43"],"image":null}
+{"challenge":"c017","task":"t2","prompt":"What is six hundred and three minus thirty-six? Answer in digits.","answers":["567"],"image":null}
+{"challenge":"c017","task":"t3","prompt":"Bram buys 11 bags of stamps, 5 per bag, and loses 34 on the way home. How many stamps make it home?","answers":["21"],"image":null}
+{"challenge":"c017","task":"t4","prompt":"Give the usual opposite of the word \"push\". One word.","answers":["pull"],"image":null}
+{"challenge":"c017","task":"t5","prompt":"Which is larger, 4/9 or 0.59? Reply with the larger value exactly as written.","answers":["0.59"],"image":null}
+{"challenge":"c017","task":"t6","prompt":"Lena is shorter than Nadia. Lena is taller than Felix. Who is the tallest?","answers":["Nadia"],"image":null}
+{"challenge":"c017","task":"t7","prompt":"Which word is the odd one out: wardrobe, sofa, cupboard, mango?","answers":["mango"],"image":null}
+{"challenge":"c017","task":"t8","prompt":"In the phrase \"under garden moon seven river violin folds\", what is the second word?","answers":["garden"],"image":null}
+{"challenge":"c017","task":"t9","prompt":"What is six hundred and thirty-three plus nine hundred and twenty-four? Answer in digits.","answers":["1557"],"image":null}
+{"challenge":"c017","task":"t10","prompt":"Give the usual opposite of the word \"visible\". One word.","answers":["invisible"],"image":null}
+{"challenge":"c017","task":"t11","prompt":"A meeting starts at 14:01 and runs for 1 h 16 min. When does it end? Answer as HH:MM, 24-hour clock.","answers":["15:17"],"image":null}
+{"challenge":"c017","task":"t12","prompt":"In the phrase \"moon harbor velvet orbit garden pocket rusty\", what is the seventh word?","answers":["rusty"],"image":null}
+{"challenge":"c017","task":"t13","prompt":"Kenji packs 9 boxes with 5 marbles each, then gives away 34. How many marbles does Kenji have left?","answers":["11"],"image":null}
+{"challenge":"c017","task":"t14","prompt":"Kenji is taller than Ivo. Mira is shorter than Ivo. Who is the shortest?","answers":["Mira"],"image":null}
+{"challenge":"c017","task":"t15","prompt":"Which is larger, 3/4 or 0.40? Reply with the larger value exactly as written.","answers":["3/4"],"image":null}
+{"challenge":"c017","task":"t16","prompt":"Which word is the odd one out: oboe, flute, plum, clarinet?","answers":["plum"],"image":null}
+{"challenge":"c017","task":"t17","prompt":"Which word is the odd one out: bookshelf, sofa, tractor, cupboard?","answers":["tractor"],"image":null}
+{"challenge":"c017","task":"t18","prompt":"A train departs at 05:22 and the journey lasts 2 hours and 59 minutes. What time does it arrive? Answer as HH:MM, 24-hour clock.","answers":["08:21"],"image":null}
+{"challenge":"c017","task":"t19","prompt":"What is one hundred and thirty-three plus four hundred and sixty-nine? Answer in digits.","answers":["602"],"image":null}
+{"challenge":"c017","task":"t20","prompt":"Give the usual opposite of the word \"visible\". One word.","answers":["invisible"],"image":null}
+{"challenge":"c018","task":"t1","prompt":"Give the usual opposite of the word \"win\". One word.","answers":["lose"],"image":null}
+{"challenge":"c018","task":"t2","prompt":"Which is larger, 1/10 or 0.30? Reply with the larger value exactly as written.","answers":["0.30"],"image":null}
+{"challenge":"c018","task":"t3","prompt":"Priya packs 5 boxes with 4 marbles each, then gives away 2. How many marbles does Priya have left?","answers":["18"],"image":null}
+{"challenge":"c018","task":"t4","prompt":"In the phrase \"silent lanterns winter garden pocket crystal harbor\", what is the seventh word?","answers":["harbor"],"image":null}
+{"challenge":"c018","task":"t5","prompt":"Which word is the odd one out: apricot, pear, mango, flute?","answers":["flute"],"image":null}
+{"challenge":"c018","task":"t6","prompt":"What is three hundred and eighty-four minus two hundred and seventy-nine? Answer in digits.","answers":["105"],"image":null}
+{"challenge":"c018","task":"t7","prompt":"A train departs at 06:43 and the journey lasts 4 hours and 26 minutes. What time does it arrive? Answer as HH:MM, 24-hour clock.","answers":["11:09"],"image":null}
+{"challenge":"c018","task":"t8","prompt":"Omar is shorter than Felix. Felix is shorter than Cleo. Who is the tallest?","answers":["Cleo"],"image":null}
+{"challenge":"c018","task":"t9","prompt":"Which is larger, 9/12 or 0.16? Reply with the larger value exactly as written.","answers":["9/12"],"image":null}
+{"challenge":"c018","task":"t10","prompt":"Give the usual opposite of the word \"maximum\". One word.","answers":["minimum"],"image":null}
+{"challenge":"c018","task":"t11","prompt":"Bram is younger than Tobias. Tobias is younger than Priya. Sol is older than Priya. Who is the youngest?","answers":["Bram"],"image":null}
+{"challenge":"c018","task":"t12","prompt":"Which word is the odd one out: oboe, flute, cello, Uranus?","answers":["Uranus"],"image":null}
+{"challenge":"c018","task":"t13","prompt":"A meeting starts at 11:31 and runs for 2 h 51 min. When does it end? Answer as HH:MM, 24-hour clock.","answers":["14:22"],"image":null}
+{"challenge":"c018","task":"t14","prompt":"In the phrase \"garden crystal thunder winter harbor folds copper\", what is the first word?","answers":["garden"],"image":null}
+{"challenge":"c018","task":"t15","prompt":"Nadia packs 7 boxes with 4 stamps each, then gives away 26. How many stamps does Nadia have left?","answers":["2"],"image":null}
+{"challenge":"c018","task":"t16","prompt":"What is five hundred and eighty plus four hundred and seventy-five? Answer in digits.","answers":["1055"],"image":null}
+{"challenge":"c018","task":"t17","prompt":"A train departs at 13:38 and the journey lasts 8 hours and 43 minutes. What time does it arrive? Answer as HH:MM, 24-hour clock.","answers":["22:21"],"image":null}
+{"challenge":"c018","task":"t18","prompt":"In the phrase \"violin lanterns thunder rusty pocket meadow folds\", what is the third word?","answers":["thunder"],"image":null}
+{"challenge":"c018","task":"t19","prompt":"Tobias is taller than Kenji. Yara is taller than Tobias. Zara is taller than Yara. Who is the tallest?","answers":["Zara"],"image":null}
+{"challenge":"c018","task":"t20","prompt":"There are 10 jars holding 7 seashells apiece. Lena removes 29 seashells. How many seashells remain in the jars?","answers":["41"],"image":null}
+{"challenge":"c019","task":"t1","prompt":"What is six hundred and fifteen plus two hundred and thirty-three? Answer in digits.","answers":["848"],"image":null}
+{"challenge":"c019","task":"t2","prompt":"Kenji is younger than Felix. Sol is younger than Kenji. Who is the youngest?","answers":["Sol"],"image":null}
+{"challenge":"c019","task":"t3","prompt":"There are 7 jars holding 14 marbles apiece. Yara removes 61 marbles. How many marbles remain in the jars?","answers":["37"],"image":null}
+{"challenge":"c019","task":"t4","prompt":"In the phrase \"amber winter moon thunder paper meadow lanterns\", what is the second word?","answers":["winter"],"image":null}
+{"challenge":"c019","task":"t5","prompt":"Give the usual opposite of the word \"maximum\". One word.","answers":["minimum"],"image":null}
+{"challenge":"c019","task":"t6","prompt":"A train departs at 18:27 and the journey lasts 3 hours and 33 minutes. What time does it arrive? Answer as HH:MM, 24-hour clock.","answers":["22:00"],"image":null}
+{"challenge":"c019","task":"t7","prompt":"Which word is the odd one out: stool, plum, grape, pear?","answers":["stool"],"image":null}
+{"challenge":"c019","task":"t8","prompt":"Which is larger, 2/3 or 0.56? Reply with the larger value exactly as written.","answers":["2/3"],"image":null}
+{"challenge":"c019","task":"t9","prompt":"Which is larger, 6/7 or 0.18? Reply with the larger value exactly as written.","answers":["6/7"],"image":null}
+{"challenge":"c019","task":"t10","prompt":"Give the usual opposite of the word \"push\". One word.","answers":["pull"],"image":null}
+{"challenge":"c019","task":"t11","prompt":"Which word is the odd one out: screwdriver, trumpet, wrench, hammer?","answers":["trumpet"],"image":null}
+{"challenge":"c019","task":"t12","prompt":"A meeting starts at 11:27 and runs for 6 h 52 min. When does it end? Answer as HH:MM, 24-hour clock.","answers":["18:19"],"image":null}
+{"challenge":"c019","task":"t13","prompt":"Cleo is lighter than Omar. Omar is lighter than Nadia. Who is the lightest?","answers":["Cleo"],"image":null}
+{"challenge":"c019","task":"t14","prompt":"There are 12 jars holding 10 marbles apiece. Nadia removes 108 marbles. How many marbles remain in the jars?","answers":["12"],"image":null}
+{"challenge":"c019","task":"t15","prompt":"What is eight hundred and eight minus seven hundred and forty-four? Answer in digits.","answers":["64"],"image":null}
+{"challenge":"c019","task":"t16","prompt":"In the phrase \"moon garden silent engine harbor copper marble\", what is the fifth word?","answers":["harbor"],"image":null}
+{"challenge":"c019","task":"t17","prompt":"In the phrase \"velvet under moon silent pocket amber harbor\", what is the fifth word?","answers":["pocket"],"image":null}
+{"challenge":"c019","task":"t18","prompt":"Which is larger, 5/12 or 0.73? Reply with the larger value exactly as written.","answers":["0.73"],"image":null}
+{"challenge":"c019","task":"t19","prompt":"Priya is faster than Rufus. Priya is slower than Tobias. Who is the fastest?","answers":["Tobias"],"image":null}
+{"challenge":"c019","task":"t20","prompt":"What is eight hundred minus four hundred and ninety-six? Answer in digits.","answers":["304"],"image":null}
+{"challenge":"c020","task":"t1","prompt":"What is three hundred and sixty-six plus six hundred and fifty-six? Answer in digits.","answers":["1022"],"image":null}
+{"challenge":"c020","task":"t2","prompt":"Give the usual opposite of the word \"inside\". One word.","answers":["outside"],"image":null}
+{"challenge":"c020","task":"t3","prompt":"In the phrase \"lanterns pocket crystal meadow moon seven silent\", what is the third word?","answers":["crystal"],"image":null}
+{"challenge":"c020","task":"t4","prompt":"A meeting starts at 04:53 and runs for 6 h 26 min. When does it end? Answer as HH:MM, 24-hour clock.","answers":["11:19"],"image":null}
+{"challenge":"c020","task":"t5","prompt":"Felix is lighter than Zara. Asha is lighter than Felix. Kenji is lighter than Asha. Who is the heaviest?","answers":["Zara"],"image":null}
+{"challenge":"c020","task":"t6","prompt":"Which is larger, 7/9 or 0.17? Reply with the larger value exactly as written.","answers":["7/9"],"image":null}
+{"challenge":"c020","task":"t7","prompt":"Which word is the odd one out: Saturn, Neptune, lynx, Venus?","answers":["lynx"],"image":null}
+{"challenge":"c020","task":"t8","prompt":"Cleo buys 11 bags of marbles, 12 per bag, and loses 83 on the way home. How many marbles make it home?","answers":["49"],"image":null}
+{"challenge":"c020","task":"t9","prompt":"In the phrase \"pocket amber folds violin lanterns under marble\", what is the fifth word?","answers":["lanterns"],"image":null}
+{"challenge":"c020","task":"t10","prompt":"What is seven hundred and seventy-five minus seven hundred and fifteen? Answer in digits.","answers":["60"],"image":null}
+{"challenge":"c020","task":"t11","prompt":"Which word is the odd one out: pliers, screwdriver, hedgehog, chisel?","answers":["hedgehog"],"image":null}
+{"challenge":"c020","task":"t12","prompt":"Zara is younger than Ivo. Zara is older than Felix. Who is the oldest?","answers":["Ivo"],"image":null}
+{"challenge":"c020","task":"t13","prompt":"A train departs at 09:18 and the journey lasts 1 hours and 38 minutes. What time does it arrive? Answer as HH:MM, 24-hour clock.","answers":["10:56"],"image":null}
+{"challenge":"c020","task":"t14","prompt":"Give the usual opposite of the word \"maximum\". One word.","answers":["minimum"],"image":null}
+{"challenge":"c020","task":"t15","prompt":"Cleo buys 12 bags of stamps, 6 per bag, and loses 34 on the way home. How many stamps make it home?","answers":["38"],"image":null}
+{"challenge":"c020","task":"t16","prompt":"Which is larger, 2/4 or 0.95? Reply with the larger value exactly as written.","answers":["0.95"],"image":null}
+{"challenge":"c020","task":"t17","prompt":"Which is larger, 1/10 or 0.63? Reply with the larger value exactly as written.","answers":["0.63"],"image":null}
+{"challenge":"c020","task":"t18","prompt":"Give the usual opposite of the word \"push\". One word.","answers":["pull"],"image":null}
+{"challenge":"c020","task":"t19","prompt":"Zara packs 10 boxes with 5 stamps each, then gives away 32. How many stamps does Zara have left?","answers":["18"],"image":null}
+{"challenge":"c020","task":"t20","prompt":"In the phrase \"garden winter marble orbit rusty silent harbor\", what is the first word?","answers":["garden"],"image":null}
+{"challenge":"c021","task":"t1","prompt":"A meeting starts at 21:03 and runs for 9 h 15 min. When does it end? Answer as HH:MM, 24-hour clock.","answers":["06:18"],"image":null}
+{"challenge":"c021","task":"t2","prompt":"There are 5 jars holding 4 candles apiece. Bram removes 15 candles. How many candles remain in the jars?","answers":["5"],"image":null}
+{"challenge":"c021","task":"t3","prompt":"Which word is the odd one out: Neptune, otter, Venus, Saturn?","answers":["otter"],"image":null}
+{"challenge":"c021","task":"t4","prompt":"Which is larger, 3/11 or 0.46? Reply with the larger value exactly as written.","answers":["0.46"],"image":null}
+{"challenge":"c021","task":"t5","prompt":"What is eight hundred and three minus five hundred and fourteen? Answer in digits.","answers":["289"],"image":null}
+{"challenge":"c021","task":"t6","prompt":"Give the usual opposite of the word \"wet\". One word.","answers":["dry"],"image":null}
+{"challenge":"c021","task":"t7","prompt":"In the phrase \"amber folds quietly garden moon pocket silent\", what is the third word?","answers":["quietly"],"image":null}
+{"challenge":"c021","task":"t8","prompt":"Priya is older than Bram. Bram is older than Mira. Rufus is younger than Mira. Who is the oldest?","answers":["Priya"],"image":null}
+{"challenge":"c021","task":"t9","prompt":"Lena packs 3 boxes with 7 pencils each, then gives away 7. How many pencils does Lena have left?","answers":["14"],"image":null}
+{"challenge":"c021","task":"t10","prompt":"Give the usual opposite of the word \"ancient\". One word.","answers":["modern"],"image":null}
+{"challenge":"c021","task":"t11","prompt":"Yara is younger than Ivo. Kenji is younger than Yara. Nadia is older than Ivo. Who is the youngest?","answers":["Kenji"],"image":null}
+{"challenge":"c021","task":"t12","prompt":"In the phrase \"thunder marble crystal amber meadow violin pocket\", what is the second word?","answers":["marble"],"image":null}
+{"challenge":"c021","task":"t13","prompt":"Which is larger, 4/8 or 0.78? Reply with the larger value exactly as written.","answers":["0.78"],"image":null}
+{"challenge":"c021","task":"t14","prompt":"What is seven hundred and ninety-six minus four hundred and thirty? Answer in digits.","answers":["366"],"image":null}
+{"challenge":"c021","task":"t15","prompt":"A train departs at 07:14 and the journey lasts 6 hours and 6 minutes. What time does it arrive? Answer as HH:MM, 24-hour clock.","answers":["13:20"],"image":null}
+{"challenge":"c021","task":"t16","prompt":"Which word is the odd one out: trumpet, yacht, cello, tuba?","answers":["yacht"],"image":null}
+{"challenge":"c021","task":"t17","prompt":"Omar packs 10 boxes with 14 pencils each, then gives away 113. How many pencils does Omar have left?","answers":["27"],"image":null}
+{"challenge":"c021","task":"t18","prompt":"Asha is older than Yara. Nadia is older than Asha. Mira is younger than Yara. Who is the youngest?","answers":["Mira"],"image":null}
+{"challenge":"c021","task":"t19","prompt":"In the phrase \"paper engine pocket orbit rusty amber winter\", what is the second word?","answers":["engine"],"image":null}
+{"challenge":"c021","task":"t20","prompt":"A train departs at 14:03 and the journey lasts 5 hours and 5 minutes. What time does it arrive? Answer as HH:MM, 24-hour clock.","answers":["19:08"],"image":null}
+{"challenge":"c022","task":"t1","prompt":"A train departs at 00:03 and the journey lasts 9 hours and 41 minutes. What time does it arrive? Answer as HH:MM, 24-hour clock.","answers":["09:44"],"image":null}
+{"challenge":"c022","task":"t2","prompt":"Give the usual opposite of the word \"early\". One word.","answers":["late"],"image":null}
+{"challenge":"c022","task":"t3","prompt":"Felix is taller than Bram. Kenji is shorter than Lena. Felix is shorter than Kenji. Who is the tallest?","answers":["Lena"],"image":null}
+{"challenge":"c022","task":"t4","prompt":"There are 3 jars holding 14 buttons apiece. Lena removes 15 buttons. How many buttons remain in the jars?","answers":["27"],"image":null}
+{"challenge":"c022","task":"t5","prompt":"Which is larger, 8/12 or 0.74? Reply with the larger value exactly as written.","answers":["0.74"],"image":null}
+{"challenge":"c022","task":"t6","prompt":"In the phrase \"seven garden pocket orbit violin moon meadow\", what is the second word?","answers":["garden"],"image":null}
+{"challenge":"c022","task":"t7","prompt":"What is four hundred and thirteen plus six hundred and thirty-one? Answer in digits.","answers":["1044"],"image":null}
+{"challenge":"c022","task":"t8","prompt":"Which word is the odd one out: pliers, Venus, Saturn, Uranus?","answers":["pliers"],"image":null}
+{"challenge":"c022","task":"t9","prompt":"In the phrase \"meadow harbor marble lanterns river orbit rusty\", what is the third word?","answers":["marble"],"image":null}
+{"challenge":"c022","task":"t10","prompt":"Ivo packs 7 boxes with 7 lemons each, then gives away 18. How many lemons does Ivo have left?","answers":["31"],"image":null}
+{"challenge":"c022","task":"t11","prompt":"Give the usual opposite of the word \"win\". One word.","answers":["lose"],"image":null}
+{"challenge":"c022","task":"t12","prompt":"Nadia is heavier than Bram. Felix is heavier than Nadia. Who is the lightest?","answers":["Bram"],"image":null}
+{"challenge":"c022","task":"t13","prompt":"What is nine hundred and thirty-four minus four hundred and eighty-two? Answer in digits.","answers":["452"],"image":null}
+{"challenge":"c022","task":"t14","prompt":"Which word is the odd one out: pliers, spanner, screwdriver, otter?","answers":["otter"],"image":null}
+{"challenge":"c022","task":"t15","prompt":"Which is larger, 8/11 or 0.81? Reply with the larger value exactly as written.","answers":["0.81"],"image":null}
+{"challenge":"c022","task":"t16","prompt":"A meeting starts at 03:39 and runs for 2 h 47 min. When does it end? Answer as HH:MM, 24-hour clock.","answers":["06:26"],"image":null}
+{"challenge":"c022","task":"t17","prompt":"Yara buys 6 bags of buttons, 4 per bag, and loses 23 on the way home. How many buttons make it home?","answers":["1"],"image":null}
+{"challenge":"c022","task":"t18","prompt":"Kenji is faster than Yara. Tobias is faster than Ivo. Kenji is slower than Ivo. Who is the slowest?","answers":["Yara"],"image":null}
+{"challenge":"c022","task":"t19","prompt":"A meeting starts at 20:54 and runs for 4 h 50 min. When does it end? Answer as HH:MM, 24-hour clock.","answers":["01:44"],"image":null}
+{"challenge":"c022","task":"t20","prompt":"What is sixty-three plus one hundred and eight? Answer in digits.","answers":["171"],"image":null}
+{"challenge":"c023","task":"t1","prompt":"Give the usual opposite of the word \"ancient\". One word.","answers":["modern"],"image":null}
+{"challenge":"c023","task":"t2","prompt":"In the phrase \"marble thunder velvet orbit lanterns meadow rusty\", what is the fourth word?","answers":["orbit"],"image":null}
+{"challenge":"c023","task":"t3","prompt":"Omar buys 6 bags of buttons, 8 per bag, and loses 5 on the way home. How many buttons make it home?","answers":["43"],"image":null}
+{"challenge":"c023","task":"t4","prompt":"What is eight hundred and fifty-four minus seven hundred and sixty-two? Answer in digits.","answers":["92"],"image":null}
+{"challenge":"c023","task":"t5","prompt":"A train departs at 14:20 and the journey lasts 3 hours and 20 minutes. What time does it arrive? Answer as HH:MM, 24-hour clock.","answers":["17:40"],"image":null}
+{"challenge":"c023","task":"t6","prompt":"Which word is the odd one out: walrus, pliers, lynx, giraffe?","answers":["pliers"],"image":null}
+{"challenge":"c023","task":"t7","prompt":"Sol is older than Rufus. Mira is older than Sol. Who is the oldest?","answers":["Mira"],"image":null}
+{"challenge":"c023","task":"t8","prompt":"Which is larger, 1/8 or 0.67? Reply with the larger value exactly as written.","answers":["0.67"],"image":null}
+{"challenge":"c023","task":"t9","prompt":"Bram packs 6 boxes with 15 lemons each, then gives away 6. How many lemons does Bram have left?","answers":["84"],"image":null}
+{"challenge":"c023","task":"t10","prompt":"What is four hundred and fifty-six plus three hundred and sixty-three? Answer in digits.","answers":["819"],"image":null}
+{"challenge":"c023","task":"t11","prompt":"Tobias is older than Sol. Tobias is younger than Ivo. Bram is younger than Sol. Who is the youngest?","answers":["Bram"],"image":null}
+{"challenge":"c023","task":"t12","prompt":"Which word is the odd one out: lynx, badger, otter, tram?","answers":["tram"],"image":null}
+{"challenge":"c023","task":"t13","prompt":"Give the usual opposite of the word \"open\". One word.","answers":["closed","close","shut"],"image":null}
+{"challenge":"c023","task":"t14","prompt":"A train departs at 16:10 and the journey lasts 4 hours and 3 minutes. What time does it arrive? Answer as HH:MM, 24-hour clock.","answers":["20:13"],"image":null}
+{"challenge":"c023","task":"t15","prompt":"Which is larger, 5/8 or 0.54? Reply with the larger value exactly as written.","answers":["5/8"],"image":null}
+{"challenge":"c023","task":"t16","prompt":"In the phrase \"velvet winter copper pocket rusty moon under\", what is the second word?","answers":["winter"],"image":null}
+{"challenge":"c023","task":"t17","prompt":"Lena is heavier than Asha. Cleo is lighter than Asha. Who is the heaviest?","answers":["Lena"],"image":null}
+{"challenge":"c023","task":"t18","prompt":"A train departs at 10:25 and the journey lasts 5 hours and 40 minutes. What time does it arrive? Answer as HH:MM, 24-hour clock.","answers":["16:05"],"image":null}
+{"challenge":"c023","task":"t19","prompt":"Sol buys 3 bags of candles, 9 per bag, and loses 6 on the way home. How many candles make it home?","answers":["21"],"image":null}
+{"challenge":"c023","task":"t20","prompt":"Which word is the odd one out: hedgehog, oboe, tuba, cello?","answers":["hedgehog"],"image":null}
+{"challenge":"c024","task":"t1","prompt":"What is seven hundred and ninety-seven minus five hundred and sixty-four? Answer in digits.","answers":["233"],"image":null}
+{"challenge":"c024","task":"t2","prompt":"A meeting starts at 20:40 and runs for 3 h 59 min. When does it end? Answer as HH:MM, 24-hour clock.","answers":["00:39"],"image":null}
+{"challenge":"c024","task":"t3","prompt":"Ivo packs 7 boxes with 11 buttons each, then gives away 23. How many buttons does Ivo have left?","answers":["54"],"image":null}
+{"challenge":"c024","task":"t4","prompt":"Which is larger, 6/7 or 0.44? Reply with the larger value exactly as written.","answers":["6/7"],"image":null}
+{"challenge":"c024","task":"t5","prompt":"Give the usual opposite of the word \"open\". One word.","answers":["closed","close","shut"],"image":null}
+{"challenge":"c024","task":"t6","prompt":"Mira is lighter than Rufus. Tobias is lighter than Mira. Who is the lightest?","answers":["Tobias"],"image":null}
+{"challenge":"c024","task":"t7","prompt":"Which word is the odd one out: pear, banana, papaya, harp?","answers":["harp"],"image":null}
+{"challenge":"c024","task":"t8","prompt":"In the phrase \"seven garden folds velvet winter orbit harbor\", what is the third word?","answers":["folds"],"image":null}
+{"challenge":"c024","task":"t9","prompt":"Which word is the odd one out: armchair, dresser, apple, wardrobe?","answers":["apple"],"image":null}
+{"challenge":"c024","task":"t10","prompt":"Cleo is taller than Asha. Cleo is shorter than Zara. Zara is shorter than Priya. Who is the shortest?","answers":["Asha"],"image":null}
+{"challenge":"c024","task":"t11","prompt":"Give the usual opposite of the word \"arrive\". One word.","answers":["depart","leave"],"image":null}
+{"challenge":"c024","task":"t12","prompt":"What is seven hundred and sixty-three minus seven hundred and twenty-four? Answer in digits.","answers":["39"],"image":null}
+{"challenge":"c024","task":"t13","prompt":"A meeting starts at 08:29 and runs for 6 h 19 min. When does it end? Answer as HH:MM, 24-hour clock.","answers":["14:48"],"image":null}
+{"challenge":"c024","task":"t14","prompt":"In the phrase \"velvet river paper meadow quietly folds harbor\", what is the third word?","answers":["paper"],"image":null}
+{"challenge":"c024","task":"t15","prompt":"There are 12 jars holding 6 seashells apiece. Ivo removes 29 seashells. How many seashells remain in the jars?","answers":["43"],"image":null}
+{"challenge":"c024","task":"t16","prompt":"Which is larger, 3/5 or 0.95? Reply with the larger value exactly as written.","answers":["0.95"],"image":null}
+{"challenge":"c024","task":"t17","prompt":"A train departs at 16:09 and the journey lasts 9 hours and 26 minutes. What time does it arrive? Answer as HH:MM, 24-hour clock.","answers":["01:35"],"image":null}
+{"challenge":"c024","task":"t18","prompt":"Which word is the odd one out: dresser, sofa, pear, bookshelf?","answers":["pear"],"image":null}
+{"challenge":"c024","task":"t19","prompt":"There are 8 jars holding 14 bolts apiece. Omar removes 6 bolts. How many bolts remain in the jars?","answers":["106"],"image":null}
+{"challenge":"c024","task":"t20","prompt":"Which is larger, 6/10 or 0.72? Reply with the larger value exactly as written.","answers":["0.72"],"image":null}
+{"challenge":"c025","task":"t1","prompt":"In the phrase \"moon copper silent velvet thunder paper folds\", what is the seventh word?","answers":["folds"],"image":null}
+{"challenge":"c025","task":"t2","prompt":"Give the usual opposite of the word \"visible\". One word.","answers":["invisible"],"image":null}
+{"challenge":"c025","task":"t3","prompt":"Ivo is taller than Kenji. Nadia is shorter than Priya. Ivo is shorter than Nadia. Who is the tallest?","answers":["Priya"],"image":null}
+{"challenge":"c025","task":"t4","prompt":"What is four hundred and forty-four plus eight hundred and twenty-seven? Answer in digits.","answers":["1271"],"image":null}
+{"challenge":"c025","task":"t5","prompt":"Which word is the odd one out: Neptune, Saturn, Jupiter, tuba?","answers":["tuba"],"image":null}
+{"challenge":"c025","task":"t6","prompt":"A train departs at 07:15 and the journey lasts 9 hours and 8 minutes. What time does it arrive? Answer as HH:MM, 24-hour clock.","answers":["16:23"],"image":null}
+{"challenge":"c025","task":"t7","prompt":"Kenji packs 5 boxes with 12 seashells each, then gives away 44. How many seashells does Kenji have left?","answers":["16"],"image":null}
+{"challenge":"c025","task":"t8","prompt":"Which is larger, 3/6 or 0.69? Reply with the larger value exactly as written.","answers":["0.69"],"image":null}
+{"challenge":"c025","task":"t9","prompt":"Lena buys 12 bags of bolts, 13 per bag, and loses 85 on the way home. How many bolts make it home?","answers":["71"],"image":null}
+{"challenge":"c025","task":"t10","prompt":"What is seven hundred and sixty-three plus three hundred and sixty-nine? Answer in digits.","answers":["1132"],"image":null}
+{"challenge":"c025","task":"t11","prompt":"Which is larger, 9/10 or 0.30? Reply with the larger value exactly as written.","answers":["9/10"],"image":null}
+{"challenge":"c025","task":"t12","prompt":"Give the usual opposite of the word \"arrive\". One word.","answers":["depart","leave"],"image":null}
+{"challenge":"c025","task":"t13","prompt":"A train departs at 18:22 and the journey lasts 5 hours and 47 minutes. What time does it arrive? Answer as HH:MM, 24-hour clock.","answers":["00:09"],"image":null}
+{"challenge":"c025","task":"t14","prompt":"Kenji is faster than Lena. Nadia is faster than Kenji. Who is the fastest?","answers":["Nadia"],"image":null}
+{"challenge":"c025","task":"t15","prompt":"Which word is the odd one out: armchair, bicycle, yacht, scooter?","answers":["armchair"],"image":null}
+{"challenge":"c025","task":"t16","prompt":"In the phrase \"under amber copper river velvet folds lanterns\", what is the fourth word?","answers":["river"],"image":null}
+{"challenge":"c025","task":"t17","prompt":"In the phrase \"rusty seven moon meadow thunder copper crystal\", what is the fifth word?","answers":["thunder"],"image":null}
+{"challenge":"c025","task":"t18","prompt":"Asha buys 7 bags of lemons, 10 per bag, and loses 64 on the way home. How many lemons make it home?","answers":["6"],"image":null}
+{"challenge":"c025","task":"t19","prompt":"Yara is shorter than Ivo. Omar is shorter than Yara. Who is the shortest?","answers":["Omar"],"image":null}
+{"challenge":"c025","task":"t20","prompt":"Which is larger, 6/10 or 0.48? Reply with the larger value exactly as written.","answers":["6/10"],"image":null}
+{"challenge":"c026","task":"t1","prompt":"What is six hundred and forty-two plus three hundred and eight? Answer in digits.","answers":["950"],"image":null}
+{"challenge":"c026","task":"t2","prompt":"In the phrase \"amber seven pocket meadow harbor silent violin\", what is the third word?","answers":["pocket"],"image":null}
+{"challenge":"c026","task":"t3","prompt":"Ivo is older than Omar. Kenji is younger than Omar. Who is the oldest?","answers":["Ivo"],"image":null}
+{"challenge":"c026","task":"t4","prompt":"A train departs at 15:06 and the journey lasts 6 hours and 36 minutes. What time does it arrive? Answer as HH:MM, 24-hour clock.","answers":["21:42"],"image":null}
+{"challenge":"c026","task":"t5","prompt":"Lena buys 10 bags of seashells, 10 per bag, and loses 3 on the way home. How many seashells make it home?","answers":["97"],"image":null}
+{"challenge":"c026","task":"t6","prompt":"Which word is the odd one out: flute, lynx, otter, badger?","answers":["flute"],"image":null}
+{"challenge":"c026","task":"t7","prompt":"Give the usual opposite of the word \"full\". One word.","answers":["empty"],"image":null}
+{"challenge":"c026","task":"t8","prompt":"Which is larger, 2/3 or 0.15? Reply with the larger value exactly as written.","answers":["2/3"],"image":null}
+{"challenge":"c026","task":"t9","prompt":"What is two hundred and forty-five minus two hundred and twenty? Answer in digits.","answers":["25"],"image":null}
+{"challenge":"c026","task":"t10","prompt":"Which is larger, 6/12 or 0.63? Reply with the larger value exactly as written.","answers":["0.63"],"image":null}
+{"challenge":"c026","task":"t11","prompt":"Lena is younger than Bram. Cleo is younger than Yara. Bram is younger than Cleo. Who is the youngest?","answers":["Lena"],"image":null}
+{"challenge":"c026","task":"t12","prompt":"A train departs at 05:21 and the journey lasts 8 hours and 41 minutes. What time does it arrive? Answer as HH:MM, 24-hour clock.","answers":["14:02"],"image":null}
+{"challenge":"c026","task":"t13","prompt":"Which word is the odd one out: wardrobe, Venus, armchair, sofa?","answers":["Venus"],"image":null}
+{"challenge":"c026","task":"t14","prompt":"In the phrase \"lanterns violin engine harbor under orbit thunder\", what is the seventh word?","answers":["thunder"],"image":null}
+{"challenge":"c026","task":"t15","prompt":"Give the usual opposite of the word \"win\". One word.","answers":["lose"],"image":null}
+{"challenge":"c026","task":"t16","prompt":"There are 11 jars holding 10 stamps apiece. Rufus removes 66 stamps. How many stamps remain in the jars?","answers":["44"],"image":null}
+{"challenge":"c026","task":"t17","prompt":"A meeting starts at 19:21 and runs for 2 h 57 min. When does it end? Answer as HH:MM, 24-hour clock.","answers":["22:18"],"image":null}
+{"challenge":"c026","task":"t18","prompt":"Give the usual opposite of the word \"always\". One word.","answers":["never"],"image":null}
+{"challenge":"c026","task":"t19","prompt":"What is six hundred and forty-two minus eighty-three? Answer in digits.","answers":["559"],"image":null}
+{"challenge":"c026","task":"t20","prompt":"Which word is the odd one out: bookshelf, otter, armchair, cupboard?","answers":["otter"],"image":null}
+{"challenge":"c027","task":"t1","prompt":"Give the usual opposite of the word \"open\". One word.","answers":["closed","close","shut"],"image":null}
+{"challenge":"c027","task":"t2","prompt":"Sol buys 3 bags of bolts, 4 per bag, and loses 11 on the way home. How many bolts make it home?","answers":["1"],"image":null}
+{"challenge":"c027","task":"t3","prompt":"A train departs at 11:07 and the journey lasts 2 hours and 16 minutes. What time does it arrive? Answer as HH:MM, 24-hour clock.","answers":["13:23"],"image":null}
+{"challenge":"c027","task":"t4","prompt":"In the phrase \"engine meadow paper moon quietly folds seven\", what is the sixth word?","answers":["folds"],"image":null}
+{"challenge":"c027","task":"t5","prompt":"Which is larger, 6/9 or 0.27? Reply with the larger value exactly as written.","answers":["6/9"],"image":null}
+{"challenge":"c027","task":"t6","prompt":"Which word is the odd one out: grape, papaya, Neptune, banana?","answers":["Neptune"],"image":null}
+{"challenge":"c027","task":"t7","prompt":"What is four hundred and sixteen plus six hundred and six? Answer in digits.","answers":["1022"],"image":null}
+{"challenge":"c027","task":"t8","prompt":"Bram is heavier than Lena. Omar is lighter than Lena. Who is the lightest?","answers":["Omar"],"image":null}
+{"challenge":"c027","task":"t9","prompt":"Which is larger, 3/5 or 0.82? Reply with the larger value exactly as written.","answers":["0.82"],"image":null}
+{"challenge":"c027","task":"t10","prompt":"Zara is younger than Nadia. Zara is older than Sol. Who is the youngest?","answers":["Sol"],"image":null}
+{"challenge":"c027","task":"t11","prompt":"What is three hundred and thirty plus seven hundred and seventy-one? Answer in digits.","answers":["1101"],"image":null}
+{"challenge":"c027","task":"t12","prompt":"A train departs at 18:52 and the journey lasts 3 hours and 43 minutes. What time does it arrive? Answer as HH:MM, 24-hour clock.","answers":["22:35"],"image":null}
+{"challenge":"c027","task":"t13","prompt":"In the phrase \"silent seven folds river rusty orbit violin\", what is the fourth word?","answers":["river"],"image":null}
+{"challenge":"c027","task":"t14","prompt":"Give the usual opposite of the word \"win\". One word.","answers":["lose"],"image":null}
+{"challenge":"c027","task":"t15","prompt":"Which word is the odd one out: Uranus, Neptune, chisel, Jupiter?","answers":["chisel"],"image":null}
+{"challenge":"c027","task":"t16","prompt":"Bram buys 12 bags of lemons, 12 per bag, and loses 19 on the way home. How many lemons make it home?","answers":["125"],"image":null}
+{"challenge":"c027","task":"t17","prompt":"What is two hundred and ninety-five plus seven hundred and sixty-one? Answer in digits.","answers":["1056"],"image":null}
+{"challenge":"c027","task":"t18","prompt":"Which word is the odd one out: pliers, grape, mango, pear?","answers":["pliers"],"image":null}
+{"challenge":"c027","task":"t19","prompt":"Ivo buys 10 bags of marbles, 11 per bag, and loses 68 on the way home. How many marbles make it home?","answers":["42"],"image":null}
+{"challenge":"c027","task":"t20","prompt":"A meeting starts at 01:06 and runs for 5 h 59 min. When does it end? Answer as HH:MM, 24-hour clock.","answers":["07:05"],"image":null}
+{"challenge":"c028","task":"t1","prompt":"What is seven hundred and twenty-one minus one hundred and fifty-three? Answer in digits.","answers":["568"],"image":null}
+{"challenge":"c028","task":"t2","prompt":"Which is larger, 5/12 or 0.50? Reply with the larger value exactly as written.","answers":["0.50"],"image":null}
+{"challenge":"c028","task":"t3","prompt":"In the phrase \"silent folds under quietly pocket violin velvet\", what is the fifth word?","answers":["pocket"],"image":null}
+{"challenge":"c028","task":"t4","prompt":"A meeting starts at 22:04 and runs for 7 h 3 min. When does it end? Answer as HH:MM, 24-hour clock.","answers":["05:07"],"image":null}
+{"challenge":"c028","task":"t5","prompt":"Give the usual opposite of the word \"victory\". One word.","answers":["defeat"],"image":null}
+{"challenge":"c028","task":"t6","prompt":"Priya is taller than Yara. Tobias is shorter than Cleo. Priya is shorter than Tobias. Who is the tallest?","answers":["Cleo"],"image":null}
+{"challenge":"c028","task":"t7","prompt":"There are 6 jars holding 7 bolts apiece. Rufus removes 22 bolts. How many bolts remain in the jars?","answers":["20"],"image":null}
+{"challenge":"c028","task":"t8","prompt":"Which word is the odd one out: bicycle, minibus, Neptune, tram?","answers":["Neptune"],"image":null}
+{"challenge":"c028","task":"t9","prompt":"Zara buys 3 bags of lemons, 8 per bag, and loses 11 on the way home. How many lemons make it home?","answers":["13"],"image":null}
+{"challenge":"c028","task":"t10","prompt":"A meeting starts at 10:48 and runs for 5 h 24 min. When does it end? Answer as HH:MM, 24-hour clock.","answers":["16:12"],"image":null}
+{"challenge":"c028","task":"t11","prompt":"Which is larger, 2/7 or 0.61? Reply with the larger value exactly as written.","answers":["0.61"],"image":null}
+{"challenge":"c028","task":"t12","prompt":"Which word is the odd one out: pear, cherry, apple, hammer?","answers":["hammer"],"image":null}
+{"challenge":"c028","task":"t13","prompt":"Bram is heavier than Cleo. Cleo is heavier than Lena. Who is the lightest?","answers":["Lena"],"image":null}
+{"challenge":"c028","task":"t14","prompt":"What is three hundred and ninety-one plus one hundred and ninety-eight? Answer in digits.","answers":["589"],"image":null}
+{"challenge":"c028","task":"t15","prompt":"In the phrase \"violin thunder under garden harbor rusty paper\", what is the first word?","answers":["violin"],"image":null}
+{"challenge":"c028","task":"t16","prompt":"Give the usual opposite of the word \"open\". One word.","answers":["closed","close","shut"],"image":null}
+{"challenge":"c028","task":"t17","prompt":"A train departs at 02:23 and the journey lasts 3 hours and 6 minutes. What time does it arrive? Answer as HH:MM, 24-hour clock.","answers":["05:29"],"image":null}
+{"challenge":"c028","task":"t18","prompt":"What is four hundred and fifty-two plus nine hundred and eighty-seven? Answer in digits.","answers":["1439"],"image":null}
+{"challenge":"c028","task":"t19","prompt":"There are 6 jars holding 8 bolts apiece. Omar removes 14 bolts. How many bolts remain in the jars?","answers":["34"],"image":null}
+{"challenge":"c028","task":"t20","prompt":"Give the usual opposite of the word \"rich\". One word.","answers":["poor"],"image":null}
+{"challenge":"c029","task":"t1","prompt":"What is two hundred and forty-seven minus one hundred and twenty-six? Answer in digits.","answers":["121"],"image":null}
+{"challenge":"c029","task":"t2","prompt":"Which is larger, 5/6 or 0.71? Reply with the larger value exactly as written.","answers":["5/6"],"image":null}
+{"challenge":"c029","task":"t3","prompt":"In the phrase \"crystal seven pocket velvet moon copper marble\", what is the first word?","answers":["crystal"],"image":null}
+{"challenge":"c029","task":"t4","prompt":"Give the usual opposite of the word \"arrive\". One word.","answers":["depart","leave"],"image":null}
+{"challenge":"c029","task":"t5","prompt":"A meeting starts at 17:33 and runs for 1 h 16 min. When does it end? Answer as HH:MM, 24-hour clock.","answers":["18:49"],"image":null}
+{"challenge":"c029","task":"t6","prompt":"Mira is heavier than Ivo. Lena is heavier than Asha. Asha is heavier than Mira. Who is the lightest?","answers":["Ivo"],"image":null}
+{"challenge":"c029","task":"t7","prompt":"Sol buys 10 bags of candles, 4 per bag, and loses 26 on the way home. How many candles make it home?","answers":["14"],"image":null}
+{"challenge":"c029","task":"t8","prompt":"Which word is the odd one out: apricot, mango, papaya, otter?","answers":["otter"],"image":null}
+{"challenge":"c029","task":"t9","prompt":"Kenji packs 5 boxes with 10 pencils each, then gives away 16. How many pencils does Kenji have left?","answers":["34"],"image":null}
+{"challenge":"c029","task":"t10","prompt":"A meeting starts at 04:22 and runs for 4 h 29 min. When does it end? Answer as HH:MM, 24-hour clock.","answers":["08:51"],"image":null}
+{"challenge":"c029","task":"t11","prompt":"What is nine hundred and twenty-six minus four hundred and forty-one? Answer in digits.","answers":["485"],"image":null}
+{"challenge":"c029","task":"t12","prompt":"Give the usual opposite of the word \"win\". One word.","answers":["lose"],"image":null}
+{"challenge":"c029","task":"t13","prompt":"Which is larger, 2/9 or 0.72? Reply with the larger value exactly as written.","answers":["0.72"],"image":null}
+{"challenge":"c029","task":"t14","prompt":"In the phrase \"quietly crystal pocket engine garden amber moon\", what is the fifth word?","answers":["garden"],"image":null}
+{"challenge":"c029","task":"t15","prompt":"Which word is the odd one out: banana, trowel, hammer, screwdriver?","answers":["banana"],"image":null}
+{"challenge":"c029","task":"t16","prompt":"Ivo is younger than Nadia. Ivo is older than Cleo. Who is the youngest?","answers":["Cleo"],"image":null}
+{"challenge":"c029","task":"t17","prompt":"A meeting starts at 08:47 and runs for 3 h 4 min. When does it end? Answer as HH:MM, 24-hour clock.","answers":["11:51"],"image":null}
+{"challenge":"c029","task":"t18","prompt":"Kenji buys 7 bags of bolts, 7 per bag, and loses 14 on the way home. How many bolts make it home?","answers":["35"],"image":null}
+{"challenge":"c029","task":"t19","prompt":"In the phrase \"thunder lanterns winter folds paper copper pocket\", what is the fourth word?","answers":["folds"],"image":null}
+{"challenge":"c029","task":"t20","prompt":"Which is larger, 11/12 or 0.52? Reply with the larger value exactly as written.","answers":["11/12"],"image":null}
+{"challenge":"c030","task":"t1","prompt":"Zara is taller than Sol. Felix is taller than Zara. Who is the tallest?","answers":["Felix"],"image":null}
+{"challenge":"c030","task":"t2","prompt":"In the phrase \"quietly marble seven velvet crystal river violin\", what is the fourth word?","answers":["velvet"],"image":null}
+{"challenge":"c030","task":"t3","prompt":"A train departs at 04:05 and the journey lasts 9 hours and 27 minutes. What time does it arrive? Answer as HH:MM, 24-hour clock.","answers":["13:32"],"image":null}
+{"challenge":"c030","task":"t4","prompt":"Which is larger, 2/8 or 0.70? Reply with the larger value exactly as written.","answers":["0.70"],"image":null}
+{"challenge":"c030","task":"t5","prompt":"Nadia buys 11 bags of marbles, 9 per bag, and loses 87 on the way home. How many marbles make it home?","answers":["12"],"image":null}
+{"challenge":"c030","task":"t6","prompt":"What is seven hundred and ninety-four minus two hundred and thirty-nine? Answer in digits.","answers":["555"],"image":null}
+{"challenge":"c030","task":"t7","prompt":"Which word is the odd one out: minibus, canoe, bicycle, stool?","answers":["stool"],"image":null}
+{"challenge":"c030","task":"t8","prompt":"Give the usual opposite of the word \"entrance\". One word.","answers":["exit"],"image":null}
+{"challenge":"c030","task":"t9","prompt":"Kenji buys 3 bags of buttons, 12 per bag, and loses 24 on the way home. How many buttons make it home?","answers":["12"],"image":null}
+{"challenge":"c030","task":"t10","prompt":"Which word is the odd one out: plum, otter, walrus, giraffe?","answers":["plum"],"image":null}
+{"challenge":"c030","task":"t11","prompt":"Which is larger, 2/7 or 0.39? Reply with the larger value exactly as written.","answers":["0.39"],"image":null}
+{"challenge":"c030","task":"t12","prompt":"What is eight hundred and ninety-five minus three hundred and ninety-five? Answer in digits.","answers":["500"],"image":null}
+{"challenge":"c030","task":"t13","prompt":"A meeting starts at 03:56 and runs for 6 h 59 min. When does it end? Answer as HH:MM, 24-hour clock.","answers":["10:55"],"image":null}
+{"challenge":"c030","task":"t14","prompt":"In the phrase \"amber velvet winter paper crystal marble seven\", what is the fourth word?","answers":["paper"],"image":null}
+{"challenge":"c030","task":"t15","prompt":"Give the usual opposite of the word \"full\". One word.","answers":["empty"],"image":null}
+{"challenge":"c030","task":"t16","prompt":"Nadia is taller than Rufus. Bram is shorter than Rufus. Bram is taller than Cleo. Who is the tallest?","answers":["Nadia"],"image":null}
+{"challenge":"c030","task":"t17","prompt":"Which is larger, 1/3 or 0.62? Reply with the larger value exactly as written.","answers":["0.62"],"image":null}
+{"challenge":"c030","task":"t18","prompt":"There are 10 jars holding 11 bolts apiece. Priya removes 49 bolts. How many bolts remain in the jars?","answers":["61"],"image":null}
+{"challenge":"c030","task":"t19","prompt":"Which word is the odd one out: otter, lynx, cello, badger?","answers":["cello"],"image":null}
+{"challenge":"c030","task":"t20","prompt":"Tobias is older than Rufus. Felix is younger than Rufus. Yara is younger than Felix. Who is the youngest?","answers":["Yara"],"image":null}
+{"challenge":"c031","task":"t1","prompt":"A meeting starts at 13:08 and runs for 1 h 19 min. When does it end? Answer as HH:MM, 24-hour clock.","answers":["14:27"],"image":null}
+{"challenge":"c031","task":"t2","prompt":"Which word is the odd one out: badger, spanner, zebra, giraffe?","answers":["spanner"],"image":null}
+{"challenge":"c031","task":"t3","prompt":"Give the usual opposite of the word \"maximum\". One word.","answers":["minimum"],"image":null}
+{"challenge":"c031","task":"t4","prompt":"In the phrase \"paper folds violin amber lanterns velvet orbit\", what is the fourth word?","answers":["amber"],"image":null}
+{"challenge":"c031","task":"t5","prompt":"Priya is taller than Zara. Lena is shorter than Kenji. Kenji is shorter than Zara. Who is the shortest?","answers":["Lena"],"image":null}
+{"challenge":"c031","task":"t6","prompt":"What is nine hundred and thirty minus seven hundred and seventeen? Answer in digits.","answers":["213"],"image":null}
+{"challenge":"c031","task":"t7","prompt":"Lena buys 7 bags of stamps, 6 per bag, and loses 14 on the way home. How many stamps make it home?","answers":["28"],"image":null}
+{"challenge":"c031","task":"t8","prompt":"Which is larger, 8/12 or 0.89? Reply with the larger value exactly as written.","answers":["0.89"],"image":null}
+{"challenge":"c031","task":"t9","prompt":"In the phrase \"winter silent marble lanterns harbor copper paper\", what is the second word?","answers":["silent"],"image":null}
+{"challenge":"c031","task":"t10","prompt":"A meeting starts at 05:18 and runs for 3 h 47 min. When does it end? Answer as HH:MM, 24-hour clock.","answers":["09:05"],"image":null}
+{"challenge":"c031","task":"t11","prompt":"Give the usual opposite of the word \"arrive\". One word.","answers":["depart","leave"],"image":null}
+{"challenge":"c031","task":"t12","prompt":"There are 12 jars holding 15 lemons apiece. Bram removes 64 lemons. How many lemons remain in the jars?","answers":["116"],"image":null}
+{"challenge":"c031","task":"t13","prompt":"Which word is the odd one out: scooter, banana, yacht, tractor?","answers":["banana"],"image":null}
+{"challenge":"c031","task":"t14","prompt":"What is nine hundred and fifteen minus six hundred and seventy-seven? Answer in digits.","answers":["238"],"image":null}
+{"challenge":"c031","task":"t15","prompt":"Which is larger, 10/11 or 0.48? Reply with the larger value exactly as written.","answers":["10/11"],"image":null}
+{"challenge":"c031","task":"t16","prompt":"Mira is lighter than Tobias. Mira is heavier than Cleo. Who is the heaviest?","answers":["Tobias"],"image":null}
+{"challenge":"c031","task":"t17","prompt":"Which is larger, 1/10 or 0.90? Reply with the larger value exactly as written.","answers":["0.90"],"image":null}
+{"challenge":"c031","task":"t18","prompt":"A train departs at 06:30 and the journey lasts 1 hours and 28 minutes. What time does it arrive? Answer as HH:MM, 24-hour clock.","answers":["07:58"],"image":null}
+{"challenge":"c031","task":"t19","prompt":"What is eight hundred and forty-six plus eight hundred and thirty-three? Answer in digits.","answers":["1679"],"image":null}
+{"challenge":"c031","task":"t20","prompt":"Which word is the odd one out: Saturn, stool, Venus, Uranus?","answers":["stool"],"image":null}
+{"challenge":"c032","task":"t1","prompt":"Which is larger, 2/5 or 0.79? Reply with the larger value exactly as written.","answers":["0.79"],"image":null}
+{"challenge":"c032","task":"t2","prompt":"A meeting starts at 12:57 and runs for 6 h 23 min. When does it end? Answer as HH:MM, 24-hour clock.","answers":["19:20"],"image":null}
+{"challenge":"c032","task":"t3","prompt":"In the phrase \"seven thunder violin crystal pocket rusty paper\", what is the second word?","answers":["thunder"],"image":null}
+{"challenge":"c032","task":"t4","prompt":"Give the usual opposite of the word \"entrance\". One word.","answers":["exit"],"image":null}
+{"challenge":"c032","task":"t5","prompt":"What is four hundred and forty-one plus five hundred and sixty-five? Answer in digits.","answers":["1006"],"image":null}
+{"challenge":"c032","task":"t6","prompt":"Priya is faster than Omar. Omar is faster than Asha. Asha is faster than Nadia. Who is the slowest?","answers":["Nadia"],"image":null}
+{"challenge":"c032","task":"t7","prompt":"Cleo buys 9 bags of marbles, 6 per bag, and loses 45 on the way home. How many marbles make it home?","answers":["9"],"image":null}
+{"challenge":"c032","task":"t8","prompt":"Which word is the odd one out: armchair, walrus, wardrobe, dresser?","answers":["walrus"],"image":null}
+{"challenge":"c032","task":"t9","prompt":"Which word is the odd one out: Jupiter, Venus, walrus, Uranus?","answers":["walrus"],"image":null}
+{"challenge":"c032","task":"t10","prompt":"A meeting starts at 06:42 and runs for 2 h 52 min. When does it end? Answer as HH:MM, 24-hour clock.","answers":["09:34"],"image":null}
+{"challenge":"c032","task":"t11","prompt":"Give the usual opposite of the word \"generous\". One word.","answers":["stingy","selfish","mean"],"image":null}
+{"challenge":"c032","task":"t12","prompt":"Which is larger, 3/4 or 0.16? Reply with the larger value exactly as written.","answers":["3/4"],"image":null}
+{"challenge":"c032","task":"t13","prompt":"Ivo buys 12 bags of bolts, 7 per bag, and loses 16 on the way home. How many bolts make it home?","answers":["68"],"image":null}
+{"challenge":"c032","task":"t14","prompt":"In the phrase \"marble silent pocket paper harbor seven winter\", what is the fourth word?","answers":["paper"],"image":null}
+{"challenge":"c032","task":"t15","prompt":"What is seven hundred and thirty-nine plus five hundred and forty-seven? Answer in digits.","answers":["1286"],"image":null}
+{"challenge":"c032","task":"t16","prompt":"Rufus is lighter than Sol. Nadia is heavier than Sol. Who is the heaviest?","answers":["Nadia"],"image":null}
+{"challenge":"c032","task":"t17","prompt":"In the phrase \"quietly folds thunder crystal marble garden meadow\", what is the seventh word?","answers":["meadow"],"image":null}
+{"challenge":"c032","task":"t18","prompt":"Which word is the odd one out: spanner, giraffe, walrus, zebra?","answers":["spanner"],"image":null}
+{"challenge":"c032","task":"t19","prompt":"Which is larger, 6/10 or 0.83? Reply with the larger value exactly as written.","answers":["0.83"],"image":null}
+{"challenge":"c032","task":"t20","prompt":"Kenji is shorter than Felix. Cleo is taller than Rufus. Rufus is taller than Felix. Who is the tallest?","answers":["Cleo"],"image":null}
+{"challenge":"c033","task":"t1","prompt":"Rufus is lighter than Kenji. Tobias is heavier than Kenji. Who is the heaviest?","answers":["Tobias"],"image":null}
+{"challenge":"c033","task":"t2","prompt":"A meeting starts at 12:46 and runs for 8 h 37 min. When does it end? Answer as HH:MM, 24-hour clock.","answers":["21:23"],"image":null}
+{"challenge":"c033","task":"t3","prompt":"Give the usual opposite of the word \"win\". One word.","answers":["lose"],"image":null}
+{"challenge":"c033","task":"t4","prompt":"What is three hundred and ninety-seven minus fifty-six? Answer in digits.","answers":["341"],"image":null}
+{"challenge":"c033","task":"t5","prompt":"In the phrase \"orbit lanterns thunder garden marble meadow river\", what is the seventh word?","answers":["river"],"image":null}
+{"challenge":"c033","task":"t6","prompt":"Which word is the odd one out: armchair, hammer, wrench, chisel?","answers":["armchair"],"image":null}
+{"challenge":"c033","task":"t7","prompt":"Priya packs 10 boxes with 7 candles each, then gives away 10. How many candles does Priya have left?","answers":["60"],"image":null}
+{"challenge":"c033","task":"t8","prompt":"Which is larger, 4/9 or 0.73? Reply with the larger value exactly as written.","answers":["0.73"],"image":null}
+{"challenge":"c033","task":"t9","prompt":"In the phrase \"moon orbit garden crystal rusty under paper\", what is the fifth word?","answers":["rusty"],"image":null}
+{"challenge":"c033","task":"t10","prompt":"Which word is the odd one out: banana, hedgehog, plum, pear?","answers":["hedgehog"],"image":null}
+{"challenge":"c033","task":"t11","prompt":"What is one hundred and forty minus one hundred and sixteen? Answer in digits.","answers":["24"],"image":null}
+{"challenge":"c033","task":"t12","prompt":"Omar is slower than Tobias. Bram is faster than Yara. Tobias is slower than Yara. Who is the slowest?","answers":["Omar"],"image":null}
+{"challenge":"c033","task":"t13","prompt":"A train departs at 02:41 and the journey lasts 6 hours and 11 minutes. What time does it arrive? Answer as HH:MM, 24-hour clock.","answers":["08:52"],"image":null}
+{"challenge":"c033","task":"t14","prompt":"Give the usual opposite of the word \"victory\". One word.","answers":["defeat"],"image":null}
+{"challenge":"c033","task":"t15","prompt":"There are 11 jars holding 4 stamps apiece. Omar removes 35 stamps. How many stamps remain in the jars?","answers":["9"],"image":null}
+{"challenge":"c033","task":"t16","prompt":"Which is larger, 2/7 or 0.10? Reply with the larger value exactly as written.","answers":["2/7"],"image":null}
+{"challenge":"c033","task":"t17","prompt":"Asha is heavier than Mira. Asha is lighter than Omar. Cleo is lighter than Mira. Who is the heaviest?","answers":["Omar"],"image":null}
+{"challenge":"c033","task":"t18","prompt":"In the phrase \"copper amber lanterns orbit rusty velvet winter\", what is the seventh word?","answers":["winter"],"image":null}
+{"challenge":"c033","task":"t19","prompt":"Give the usual opposite of the word \"full\". One word.","answers":["empty"],"image":null}
+{"challenge":"c033","task":"t20","prompt":"Which is larger, 1/3 or 0.17? Reply with the larger value exactly as written.","answers":["1/3"],"image":null}
+{"challenge":"c034","task":"t1","prompt":"Which is larger, 3/10 or 0.85? Reply with the larger value exactly as written.","answers":["0.85"],"image":null}
+{"challenge":"c034","task":"t2","prompt":"Give the usual opposite of the word \"visible\". One word.","answers":["invisible"],"image":null}
+{"challenge":"c034","task":"t3","prompt":"In the phrase \"thunder pocket quietly paper winter crystal meadow\", what is the third word?","answers":["quietly"],"image":null}
+{"challenge":"c034","task":"t4","prompt":"Bram is faster than Sol. Omar is slower than Ivo. Ivo is slower than Sol. Who is the slowest?","answers":["Omar"],"image":null}
+{"challenge":"c034","task":"t5","prompt":"A train departs at 20:48 and the journey lasts 5 hours and 1 minutes. What time does it arrive? Answer as HH:MM, 24-hour clock.","answers":["01:49"],"image":null}
+{"challenge":"c034","task":"t6","prompt":"There are 12 jars holding 10 marbles apiece. Sol removes 26 marbles. How many marbles remain in the jars?","answers":["94"],"image":null}
+{"challenge":"c034","task":"t7","prompt":"What is nine hundred and fifty-nine plus eight hundred and sixty-eight? Answer in digits.","answers":["1827"],"image":null}
+{"challenge":"c034","task":"t8","prompt":"Which word is the odd one out: apple, stool, grape, papaya?","answers":["stool"],"image":null}
+{"challenge":"c034","task":"t9","prompt":"Give the usual opposite of the word \"generous\". One word.","answers":["stingy","selfish","mean"],"image":null}
+{"challenge":"c034","task":"t10","prompt":"In the phrase \"thunder under marble crystal quietly garden harbor\", what is the third word?","answers":["marble"],"image":null}
+{"challenge":"c034","task":"t11","prompt":"Cleo is shorter than Priya. Priya is shorter than Bram. Who is the shortest?","answers":["Cleo"],"image":null}
+{"challenge":"c034","task":"t12","prompt":"Which word is the odd one out: trumpet, harp, oboe, papaya?","answers":["papaya"],"image":null}
+{"challenge":"c034","task":"t13","prompt":"There are 12 jars holding 9 buttons apiece. Omar removes 64 buttons. How many buttons remain in the jars?","answers":["44"],"image":null}
+{"challenge":"c034","task":"t14","prompt":"A train departs at 16:16 and the journey lasts 7 hours and 2 minutes. What time does it arrive? Answer as HH:MM, 24-hour clock.","answers":["23:18"],"image":null}
+{"challenge":"c034","task":"t15","prompt":"Which is larger, 8/11 or 0.89? Reply with the larger value exactly as written.","answers":["0.89"],"image":null}
+{"challenge":"c034","task":"t16","prompt":"What is six hundred and thirty-nine minus one hundred and ninety-nine? Answer in digits.","answers":["440"],"image":null}
+{"challenge":"c034","task":"t17","prompt":"Which word is the odd one out: sofa, wardrobe, bookshelf, tram?","answers":["tram"],"image":null}
+{"challenge":"c034","task":"t18","prompt":"A meeting starts at 22:50 and runs for 3 h 13 min. When does it end? Answer as HH:MM, 24-hour clock.","answers":["02:03"],"image":null}
+{"challenge":"c034","task":"t19","prompt":"Which is larger, 10/12 or 0.08? Reply with the larger value exactly as written.","answers":["10/12"],"image":null}
+{"challenge":"c034","task":"t20","prompt":"There are 3 jars holding 8 stamps apiece. Tobias removes 4 stamps. How many stamps remain in the jars?","answers":["20"],"image":null}
+{"challenge":"c035","task":"t1","prompt":"Which is larger, 6/9 or 0.90? Reply with the larger value exactly as written.","answers":["0.90"],"image":null}
+{"challenge":"c035","task":"t2","prompt":"Give the usual opposite of the word \"ancient\". One word.","answers":["modern"],"image":null}
+{"challenge":"c035","task":"t3","prompt":"Kenji buys 10 bags of buttons, 9 per bag, and loses 3 on the way home. How many buttons make it home?","answers":["87"],"image":null}
+{"challenge":"c035","task":"t4","prompt":"What is three hundred and five minus two hundred and forty-five? Answer in digits.","answers":["60"],"image":null}
+{"challenge":"c035","task":"t5","prompt":"Lena is older than Asha. Yara is younger than Omar. Asha is older than Omar. Who is the youngest?","answers":["Yara"],"image":null}
+{"challenge":"c035","task":"t6","prompt":"Which word is the odd one out: scooter, dresser, minibus, tractor?","answers":["dresser"],"image":null}
+{"challenge":"c035","task":"t7","prompt":"A train departs at 13:38 and the journey lasts 6 hours and 2 minutes. What time does it arrive? Answer as HH:MM, 24-hour clock.","answers":["19:40"],"image":null}
+{"challenge":"c035","task":"t8","prompt":"In the phrase \"seven lanterns paper silent engine velvet harbor\", what is the fourth word?","answers":["silent"],"image":null}
+{"challenge":"c035","task":"t9","prompt":"In the phrase \"river marble silent meadow thunder under quietly\", what is the second word?","answers":["marble"],"image":null}
+{"challenge":"c035","task":"t10","prompt":"Which is larger, 3/4 or 0.38? Reply with the larger value exactly as written.","answers":["3/4"],"image":null}
+{"challenge":"c035","task":"t11","prompt":"A train departs at 05:21 and the journey lasts 2 hours and 6 minutes. What time does it arrive? Answer as HH:MM, 24-hour clock.","answers":["07:27"],"image":null}
+{"challenge":"c035","task":"t12","prompt":"Which word is the odd one out: Saturn, Uranus, Jupiter, banana?","answers":["banana"],"image":null}
+{"challenge":"c035","task":"t13","prompt":"What is eight hundred and eighty minus seven hundred and eighty? Answer in digits.","answers":["100"],"image":null}
+{"challenge":"c035","task":"t14","prompt":"Ivo is heavier than Rufus. Rufus is heavier than Cleo. Who is the heaviest?","answers":["Ivo"],"image":null}
+{"challenge":"c035","task":"t15","prompt":"There are 12 jars holding 4 stamps apiece. Ivo removes 34 stamps. How many stamps remain in the jars?","answers":["14"],"image":null}
+{"challenge":"c035","task":"t16","prompt":"Give the usual opposite of the word \"full\". One word.","answers":["empty"],"image":null}
+{"challenge":"c035","task":"t17","prompt":"Which is larger, 1/7 or 0.43? Reply with the larger value exactly as written.","answers":["0.43"],"image":null}
+{"challenge":"c035","task":"t18","prompt":"Which word is the odd one out: Uranus, minibus, yacht, scooter?","answers":["Uranus"],"image":null}
+{"challenge":"c035","task":"t19","prompt":"Nadia is heavier than Kenji. Omar is heavier than Nadia. Sol is lighter than Kenji. Who is the heaviest?","answers":["Omar"],"image":null}
+{"challenge":"c035","task":"t20","prompt":"Give the usual opposite of the word \"win\". One word.","answers":["lose"],"image":null}
+{"challenge":"c036","task":"t1","prompt":"In the phrase \"harbor under marble crystal pocket quietly seven\", what is the fourth word?","answers":["crystal"],"image":null}
+{"challenge":"c036","task":"t2","prompt":"Omar buys 10 bags of candles, 13 per bag, and loses 100 on the way home. How many candles make it home?","answers":["30"],"image":null}
+{"challenge":"c036","task":"t3","prompt":"Lena is lighter than Tobias. Cleo is lighter than Bram. Bram is lighter than Lena. Who is the heaviest?","answers":["Tobias"],"image":null}
+{"challenge":"c036","task":"t4","prompt":"Which word is the odd one out: clarinet, oboe, plum, harp?","answers":["plum"],"image":null}
+{"challenge":"c036","task":"t5","prompt":"Which is larger, 5/6 or 0.26? Reply with the larger value exactly as written.","answers":["5/6"],"image":null}
+{"challenge":"c036","task":"t6","prompt":"A meeting starts at 05:01 and runs for 6 h 29 min. When does it end? Answer as HH:MM, 24-hour clock.","answers":["11:30"],"image":null}
+{"challenge":"c036","task":"t7","prompt":"Give the usual opposite of the word \"full\". One word.","answers":["empty"],"image":null}
+{"challenge":"c036","task":"t8","prompt":"What is six hundred and sixty-two minus four hundred and fifty-two? Answer in digits.","answers":["210"],"image":null}
+{"challenge":"c036","task":"t9","prompt":"Which word is the odd one out: banana, yacht, grape, cherry?","answers":["yacht"],"image":null}
+{"challenge":"c036","task":"t10","prompt":"Kenji buys 10 bags of stamps, 11 per bag, and loses 38 on the way home. How many stamps make it home?","answers":["72"],"image":null}
+{"challenge":"c036","task":"t11","prompt":"Which is larger, 5/11 or 0.26? Reply with the larger value exactly as written.","answers":["5/11"],"image":null}
+{"challenge":"c036","task":"t12","prompt":"In the phrase \"winter amber velvet harbor garden paper rusty\", what is the first word?","answers":["winter"],"image":null}
+{"challenge":"c036","task":"t13","prompt":"Give the usual opposite of the word \"generous\". One word.","answers":["stingy","selfish","mean"],"image":null}
+{"challenge":"c036","task":"t14","prompt":"A train departs at 17:35 and the journey lasts 5 hours and 30 minutes. What time does it arrive? Answer as HH:MM, 24-hour clock.","answers":["23:05"],"image":null}
+{"challenge":"c036","task":"t15","prompt":"Yara is lighter than Nadia. Zara is heavier than Asha. Asha is heavier than Nadia. Who is the lightest?","answers":["Yara"],"image":null}
+{"challenge":"c036","task":"t16","prompt":"What is nine hundred and forty-five plus one hundred and three? Answer in digits.","answers":["1048"],"image":null}
+{"challenge":"c036","task":"t17","prompt":"Give the usual opposite of the word \"ascend\". One word.","answers":["descend"],"image":null}
+{"challenge":"c036","task":"t18","prompt":"Which is larger, 4/5 or 0.57? Reply with the larger value exactly as written.","answers":["4/5"],"image":null}
+{"challenge":"c036","task":"t19","prompt":"Priya is faster than Rufus. Rufus is faster than Felix. Felix is faster than Asha. Who is the fastest?","answers":["Priya"],"image":null}
+{"challenge":"c036","task":"t20","prompt":"A train departs at 12:39 and the journey lasts 9 hours and 2 minutes. What time does it arrive? Answer as HH:MM, 24-hour clock.","answers":["21:41"],"image":null}
+{"challenge":"c037","task":"t1","prompt":"Omar is heavier than Priya. Omar is lighter than Yara. Who is the lightest?","answers":["Priya"],"image":null}
+{"challenge":"c037","task":"t2","prompt":"Which is larger, 2/7 or 0.80? Reply with the larger value exactly as written.","answers":["0.80"],"image":null}
+{"challenge":"c037","task":"t3","prompt":"What is five hundred and sixty-three minus two hundred and thirty-six? Answer in digits.","answers":["327"],"image":null}
+{"challenge":"c037","task":"t4","prompt":"Bram packs 8 boxes with 5 buttons each, then gives away 26. How many buttons does Bram have left?","answers":["14"],"image":null}
+{"challenge":"c037","task":"t5","prompt":"Give the usual opposite of the word \"ascend\". One word.","answers":["descend"],"image":null}
+{"challenge":"c037","task":"t6","prompt":"Which word is the odd one out: otter, walrus, lynx, plum?","answers":["plum"],"image":null}
+{"challenge":"c037","task":"t7","prompt":"A train departs at 19:56 and the journey lasts 6 hours and 8 minutes. What time does it arrive? Answer as HH:MM, 24-hour clock.","answers":["02:04"],"image":null}
+{"challenge":"c037","task":"t8","prompt":"In the phrase \"winter thunder quietly seven harbor river paper\", what is the fourth word?","answers":["seven"],"image":null}
+{"challenge":"c037","task":"t9","prompt":"A train departs at 06:16 and the journey lasts 6 hours and 35 minutes. What time does it arrive? Answer as HH:MM, 24-hour clock.","answers":["12:51"],"image":null}
+{"challenge":"c037","task":"t10","prompt":"Which word is the odd one out: grape, apple, yacht, papaya?","answers":["yacht"],"image":null}
+{"challenge":"c037","task":"t11","prompt":"In the phrase \"amber garden velvet silent paper winter engine\", what is the second word?","answers":["garden"],"image":null}
+{"challenge":"c037","task":"t12","prompt":"Lena is faster than Rufus. Mira is faster than Ivo. Ivo is faster than Lena. Who is the fastest?","answers":["Mira"],"image":null}
+{"challenge":"c037","task":"t13","prompt":"Which is larger, 7/9 or 0.58? Reply with the larger value exactly as written.","answers":["7/9"],"image":null}
+{"challenge":"c037","task":"t14","prompt":"Tobias packs 4 boxes with 10 pencils each, then gives away 11. How many pencils does Tobias have left?","answers":["29"],"image":null}
+{"challenge":"c037","task":"t15","prompt":"Give the usual opposite of the word \"generous\". One word.","answers":["stingy","selfish","mean"],"image":null}
+{"challenge":"c037","task":"t16","prompt":"What is seven hundred and fifty-six plus ninety-four? Answer in digits.","answers":["850"],"image":null}
+{"challenge":"c037","task":"t17","prompt":"What is four hundred and eighty-nine plus four hundred and thirty-seven? Answer in digits.","answers":["926"],"image":null}
+{"challenge":"c037","task":"t18","prompt":"Give the usual opposite of the word \"always\". One word.","answers":["never"],"image":null}
+{"challenge":"c037","task":"t19","prompt":"A train departs at 17:22 and the journey lasts 9 hours and 3 minutes. What time does it arrive? Answer as HH:MM, 24-hour clock.","answers":["02:25"],"image":null}
+{"challenge":"c037","task":"t20","prompt":"In the phrase \"engine crystal thunder marble quietly copper meadow\", what is the fourth word?","answers":["marble"],"image":null}
+{"challenge":"c038","task":"t1","prompt":"Felix buys 7 bags of buttons, 6 per bag, and loses 13 on the way home. How many buttons make it home?","answers":["29"],"image":null}
+{"challenge":"c038","task":"t2","prompt":"In the phrase \"orbit silent meadow pocket under thunder amber\", what is the second word?","answers":["silent"],"image":null}
+{"challenge":"c038","task":"t3","prompt":"Which word is the odd one out: stool, cello, tuba, oboe?","answers":["stool"],"image":null}
+{"challenge":"c038","task":"t4","prompt":"Give the usual opposite of the word \"win\". One word.","answers":["lose"],"image":null}
+{"challenge":"c038","task":"t5","prompt":"Which is larger, 1/5 or 0.94? Reply with the larger value exactly as written.","answers":["0.94"],"image":null}
+{"challenge":"c038","task":"t6","prompt":"A meeting starts at 10:50 and runs for 2 h 6 min. When does it end? Answer as HH:MM, 24-hour clock.","answers":["12:56"],"image":null}
+{"challenge":"c038","task":"t7","prompt":"Bram is younger than Asha. Asha is younger than Kenji. Who is the youngest?","answers":["Bram"],"image":null}
+{"challenge":"c038","task":"t8","prompt":"What is nine hundred and fifty-seven minus three hundred and fourteen? Answer in digits.","answers":["643"],"image":null}
+{"challenge":"c038","task":"t9","prompt":"In the phrase \"river marble crystal seven rusty orbit pocket\", what is the fourth word?","answers":["seven"],"image":null}
+{"challenge":"c038","task":"t10","prompt":"Lena buys 7 bags of pencils, 10 per bag, and loses 25 on the way home. How many pencils make it home?","answers":["45"],"image":null}
+{"challenge":"c038","task":"t11","prompt":"Which word is the odd one out: oboe, clarinet, tuba, plum?","answers":["plum"],"image":null}
+{"challenge":"c038","task":"t12","prompt":"Bram is taller than Cleo. Bram is shorter than Rufus. Kenji is shorter than Cleo. Who is the shortest?","answers":["Kenji"],"image":null}
+{"challenge":"c038","task":"t13","prompt":"Give the usual opposite of the word \"push\". One word.","answers":["pull"],"image":null}
+{"challenge":"c038","task":"t14","prompt":"A train departs at 02:20 and the journey lasts 8 hours and 44 minutes. What time does it arrive? Answer as HH:MM, 24-hour clock.","answers":["11:04"],"image":null}
+{"challenge":"c038","task":"t15","prompt":"What is six hundred and seventeen plus six hundred and thirty-eight? Answer in digits.","answers":["1255"],"image":null}
+{"challenge":"c038","task":"t16","prompt":"Which is larger, 3/12 or 0.14? Reply with the larger value exactly as written.","answers":["3/12"],"image":null}
+{"challenge":"c038","task":"t17","prompt":"Asha is taller than Yara. Yara is taller than Ivo. Who is the tallest?","answers":["Asha"],"image":null}
+{"challenge":"c038","task":"t18","prompt":"What is four hundred and seven plus fifty-six? Answer in digits.","answers":["463"],"image":null}
+{"challenge":"c038","task":"t19","prompt":"Which is larger, 9/12 or 0.39? Reply with the larger value exactly as written.","answers":["9/12"],"image":null}
+{"challenge":"c038","task":"t20","prompt":"Felix packs 7 boxes with 11 candles each, then gives away 58. How many candles does Felix have left?","answers":["19"],"image":null}
+{"challenge":"c039","task":"t1","prompt":"Give the usual opposite of the word \"buy\". One word.","answers":["sell"],"image":null}
+{"challenge":"c039","task":"t2","prompt":"Which word is the odd one out: trumpet, dresser, violin, harp?","answers":["dresser"],"image":null}
+{"challenge":"c039","task":"t3","prompt":"Yara is heavier than Felix. Felix is heavier than Nadia. Who is the lightest?","answers":["Nadia"],"image":null}
+{"challenge":"c039","task":"t4","prompt":"A meeting starts at 23:08 and runs for 6 h 18 min. When does it end? Answer as HH:MM, 24-hour clock.","answers":["05:26"],"image":null}
+{"challenge":"c039","task":"t5","prompt":"Which is larger, 1/5 or 0.32? Reply with the larger value exactly as written.","answers":["0.32"],"image":null}
+{"challenge":"c039","task":"t6","prompt":"Omar packs 3 boxes with 15 bolts each, then gives away 29. How many bolts does Omar have left?","answers":["16"],"image":null}
+{"challenge":"c039","task":"t7","prompt":"In the phrase \"paper violin quietly silent rusty amber marble\", what is the first word?","answers":["paper"],"image":null}
+{"challenge":"c039","task":"t8","prompt":"What is nine hundred and fifty-five minus four hundred and eighty-one? Answer in digits.","answers":["474"],"image":null}
+{"challenge":"c039","task":"t9","prompt":"What is seven hundred and fourteen minus four hundred and seventy-two? Answer in digits.","answers":["242"],"image":null}
+{"challenge":"c039","task":"t10","prompt":"Give the usual opposite of the word \"maximum\". One word.","answers":["minimum"],"image":null}
+{"challenge":"c039","task":"t11","prompt":"Which word is the odd one out: trumpet, clarinet, tuba, screwdriver?","answers":["screwdriver"],"image":null}
+{"challenge":"c039","task":"t12","prompt":"Rufus packs 10 boxes with 9 seashells each, then gives away 28. How many seashells does Rufus have left?","answers":["62"],"image":null}
+{"challenge":"c039","task":"t13","prompt":"Which is larger, 5/10 or 0.54? Reply with the larger value exactly as written.","answers":["0.54"],"image":null}
+{"challenge":"c039","task":"t14","prompt":"A train departs at 06:58 and the journey lasts 9 hours and 12 minutes. What time does it arrive? Answer as HH:MM, 24-hour clock.","answers":["16:10"],"image":null}
+{"challenge":"c039","task":"t15","prompt":"Zara is shorter than Bram. Zara is taller than Felix. Who is the tallest?","answers":["Bram"],"image":null}
+{"challenge":"c039","task":"t16","prompt":"In the phrase \"violin river thunder meadow folds crystal marble\", what is the seventh word?","answers":["marble"],"image":null}
+{"challenge":"c039","task":"t17","prompt":"A train departs at 18:07 and the journey lasts 1 hours and 50 minutes. What time does it arrive? Answer as HH:MM, 24-hour clock.","answers":["19:57"],"image":null}
+{"challenge":"c039","task":"t18","prompt":"Cleo is younger than Asha. Asha is younger than Lena. Omar is younger than Cleo. Who is the youngest?","answers":["Omar"],"image":null}
+{"challenge":"c039","task":"t19","prompt":"Which is larger, 1/7 or 0.78? Reply with the larger value exactly as written.","answers":["0.78"],"image":null}
+{"challenge":"c039","task":"t20","prompt":"Which word is the odd one out: sofa, wardrobe, stool, yacht?","answers":["yacht"],"image":null}
+{"challenge":"c040","task":"t1","prompt":"In the phrase \"under moon amber winter paper silent orbit\", what is the second word?","answers":["moon"],"image":null}
+{"challenge":"c040","task":"t2","prompt":"Felix buys 6 bags of buttons, 4 per bag, and loses 12 on the way home. How many buttons make it home?","answers":["12"],"image":null}
+{"challenge":"c040","task":"t3","prompt":"A train departs at 17:18 and the journey lasts 5 hours and 41 minutes. What time does it arrive? Answer as HH:MM, 24-hour clock.","answers":["22:59"],"image":null}
+{"challenge":"c040","task":"t4","prompt":"Which word is the odd one out: flute, scooter, tram, minibus?","answers":["flute"],"image":null}
+{"challenge":"c040","task":"t5","prompt":"Priya is slower than Ivo. Sol is slower than Priya. Ivo is slower than Rufus. Who is the fastest?","answers":["Rufus"],"image":null}
+{"challenge":"c040","task":"t6","prompt":"Give the usual opposite of the word \"early\". One word.","answers":["late"],"image":null}
+{"challenge":"c040","task":"t7","prompt":"Which is larger, 1/6 or 0.47? Reply with the larger value exactly as written.","answers":["0.47"],"image":null}
+{"challenge":"c040","task":"t8","prompt":"What is two hundred and fifteen plus five hundred and thirty-nine? Answer in digits.","answers":["754"],"image":null}
+{"challenge":"c040","task":"t9","prompt":"Which is larger, 3/5 or 0.36? Reply with the larger value exactly as written.","answers":["3/5"],"image":null}
+{"challenge":"c040","task":"t10","prompt":"Mira is lighter than Yara. Nadia is lighter than Tobias. Mira is heavier than Tobias. Who is the lightest?","answers":["Nadia"],"image":null}
+{"challenge":"c040","task":"t11","prompt":"There are 5 jars holding 15 marbles apiece. Bram removes 72 marbles. How many marbles remain in the jars?","answers":["3"],"image":null}
+{"challenge":"c040","task":"t12","prompt":"Give the usual opposite of the word \"full\". One word.","answers":["empty"],"image":null}
+{"challenge":"c040","task":"t13","prompt":"In the phrase \"pocket seven quietly crystal rusty lanterns velvet\", what is the fifth word?","answers":["rusty"],"image":null}
+{"challenge":"c040","task":"t14","prompt":"What is eight hundred and ten plus five hundred and forty-six? Answer in digits.","answers":["1356"],"image":null}
+{"challenge":"c040","task":"t15","prompt":"A meeting starts at 09:14 and runs for 7 h 47 min. When does it end? Answer as HH:MM, 24-hour clock.","answers":["17:01"],"image":null}
+{"challenge":"c040","task":"t16","prompt":"Which word is the odd one out: minibus, tractor, yacht, Uranus?","answers":["Uranus"],"image":null}
+{"challenge":"c040","task":"t17","prompt":"In the phrase \"violin seven moon paper engine river velvet\", what is the seventh word?","answers":["velvet"],"image":null}
+{"challenge":"c040","task":"t18","prompt":"Priya packs 8 boxes with 6 bolts each, then gives away 39. How many bolts does Priya have left?","answers":["9"],"image":null}
+{"challenge":"c040","task":"t19","prompt":"A train departs at 04:59 and the journey lasts 6 hours and 29 minutes. What time does it arrive? Answer as HH:MM, 24-hour clock.","answers":["11:28"],"image":null}
+{"challenge":"c040","task":"t20","prompt":"Which is larger, 4/6 or 0.71? Reply with the larger value exactly as written.","answers":["0.71"],"image":null}
+{"challenge":"c041","task":"t1","prompt":"Which is larger, 7/12 or 0.87? Reply with the larger value exactly as written.","answers":["0.87"],"image":null}
+{"challenge":"c041","task":"t2","prompt":"A train departs at 07:44 and the journey lasts 1 hours and 31 minutes. What time does it arrive? Answer as HH:MM, 24-hour clock.","answers":["09:15"],"image":null}
+{"challenge":"c041","task":"t3","prompt":"Lena packs 3 boxes with 4 candles each, then gives away 9. How many candles does Lena have left?","answers":["3"],"image":null}
+{"challenge":"c041","task":"t4","prompt":"Give the usual opposite of the word \"generous\". One word.","answers":["stingy","selfish","mean"],"image":null}
+{"challenge":"c041","task":"t5","prompt":"In the phrase \"amber river marble lanterns rusty silent under\", what is the sixth word?","answers":["silent"],"image":null}
+{"challenge":"c041","task":"t6","prompt":"Mira is lighter than Lena. Lena is lighter than Omar. Mira is heavier than Bram. Who is the lightest?","answers":["Bram"],"image":null}
+{"challenge":"c041","task":"t7","prompt":"What is four hundred and sixty-seven plus seven hundred and two? Answer in digits.","answers":["1169"],"image":null}
+{"challenge":"c041","task":"t8","prompt":"Which word is the odd one out: minibus, tractor, hammer, scooter?","answers":["hammer"],"image":null}
+{"challenge":"c041","task":"t9","prompt":"Lena packs 3 boxes with 11 bolts each, then gives away 27. How many bolts does Lena have left?","answers":["6"],"image":null}
+{"challenge":"c041","task":"t10","prompt":"What is two hundred and sixteen plus three hundred and seventeen? Answer in digits.","answers":["533"],"image":null}
+{"challenge":"c041","task":"t11","prompt":"In the phrase \"crystal moon meadow pocket winter river amber\", what is the first word?","answers":["crystal"],"image":null}
+{"challenge":"c041","task":"t12","prompt":"Which is larger, 2/3 or 0.60? Reply with the larger value exactly as written.","answers":["2/3"],"image":null}
+{"challenge":"c041","task":"t13","prompt":"Ivo is lighter than Lena. Lena is lighter than Tobias. Who is the lightest?","answers":["Ivo"],"image":null}
+{"challenge":"c041","task":"t14","prompt":"Give the usual opposite of the word \"win\". One word.","answers":["lose"],"image":null}
+{"challenge":"c041","task":"t15","prompt":"A train departs at 13:34 and the journey lasts 1 hours and 31 minutes. What time does it arrive? Answer as HH:MM, 24-hour clock.","answers":["15:05"],"image":null}
+{"challenge":"c041","task":"t16","prompt":"Which word is the odd one out: apple, papaya, plum, stool?","answers":["stool"],"image":null}
+{"challenge":"c041","task":"t17","prompt":"Tobias is lighter than Felix. Tobias is heavier than Cleo. Who is the heaviest?","answers":["Felix"],"image":null}
+{"challenge":"c041","task":"t18","prompt":"What is two hundred and seventy-two plus four hundred and ninety? Answer in digits.","answers":["762"],"image":null}
+{"challenge":"c041","task":"t19","prompt":"Which word is the odd one out: apple, plum, pear, yacht?","answers":["yacht"],"image":null}
+{"challenge":"c041","task":"t20","prompt":"In the phrase \"harbor lanterns pocket folds silent orbit paper\", what is the second word?","answers":["lanterns"],"image":null}
+{"challenge":"c042","task":"t1","prompt":"There are 10 jars holding 12 bolts apiece. Nadia removes 115 bolts. How many bolts remain in the jars?","answers":["5"],"image":null}
+{"challenge":"c042","task":"t2","prompt":"Which word is the odd one out: Neptune, Saturn, Uranus, oboe?","answers":["oboe"],"image":null}
+{"challenge":"c042","task":"t3","prompt":"Which is larger, 6/11 or 0.77? Reply with the larger value exactly as written.","answers":["0.77"],"image":null}
+{"challenge":"c042","task":"t4","prompt":"A meeting starts at 04:33 and runs for 1 h 9 min. When does it end? Answer as HH:MM, 24-hour clock.","answers":["05:42"],"image":null}
+{"challenge":"c042","task":"t5","prompt":"In the phrase \"harbor under seven orbit garden quietly silent\", what is the seventh word?","answers":["silent"],"image":null}
+{"challenge":"c042","task":"t6","prompt":"What is eight hundred and eighty-six minus eight hundred and eighty-four? Answer in digits.","answers":["2"],"image":null}
+{"challenge":"c042","task":"t7","prompt":"Zara is younger than Lena. Ivo is younger than Tobias. Tobias is younger than Zara. Who is the oldest?","answers":["Lena"],"image":null}
+{"challenge":"c042","task":"t8","prompt":"Give the usual opposite of the word \"win\". One word.","answers":["lose"],"image":null}
+{"challenge":"c042","task":"t9","prompt":"A train departs at 04:47 and the journey lasts 4 hours and 47 minutes. What time does it arrive? Answer as HH:MM, 24-hour clock.","answers":["09:34"],"image":null}
+{"challenge":"c042","task":"t10","prompt":"Give the usual opposite of the word \"hot\". One word.","answers":["cold"],"image":null}
+{"challenge":"c042","task":"t11","prompt":"In the phrase \"folds harbor orbit crystal thunder meadow under\", what is the third word?","answers":["orbit"],"image":null}
+{"challenge":"c042","task":"t12","prompt":"Which is larger, 1/12 or 0.23? Reply with the larger value exactly as written.","answers":["0.23"],"image":null}
+{"challenge":"c042","task":"t13","prompt":"Which word is the odd one out: Neptune, badger, Venus, Uranus?","answers":["badger"],"image":null}
+{"challenge":"c042","task":"t14","prompt":"Omar is slower than Priya. Asha is faster than Priya. Omar is faster than Zara. Who is the slowest?","answers":["Zara"],"image":null}
+{"challenge":"c042","task":"t15","prompt":"There are 12 jars holding 13 marbles apiece. Asha removes 83 marbles. How many marbles remain in the jars?","answers":["73"],"image":null}
+{"challenge":"c042","task":"t16","prompt":"What is seven hundred and ninety-two minus seven hundred and fifty-seven? Answer in digits.","answers":["35"],"image":null}
+{"challenge":"c042","task":"t17","prompt":"Nadia is taller than Ivo. Sol is taller than Nadia. Ivo is taller than Rufus. Who is the tallest?","answers":["Sol"],"image":null}
+{"challenge":"c042","task":"t18","prompt":"Which word is the odd one out: papaya, pear, banana, walrus?","answers":["walrus"],"image":null}
+{"challenge":"c042","task":"t19","prompt":"A meeting starts at 10:51 and runs for 7 h 16 min. When does it end? Answer as HH:MM, 24-hour clock.","answers":["18:07"],"image":null}
+{"challenge":"c042","task":"t20","prompt":"Mira packs 9 boxes with 11 pencils each, then gives away 76. How many pencils does Mira have left?","answers":["23"],"image":null}
+{"challenge":"c043","task":"t1","prompt":"What is three hundred and eighty-four plus three hundred and sixty-six? Answer in digits.","answers":["750"],"image":null}
+{"challenge":"c043","task":"t2","prompt":"Which word is the odd one out: Venus, banana, Uranus, Saturn?","answers":["banana"],"image":null}
+{"challenge":"c043","task":"t3","prompt":"Give the usual opposite of the word \"push\". One word.","answers":["pull"],"image":null}
+{"challenge":"c043","task":"t4","prompt":"In the phrase \"amber harbor marble rusty silent lanterns seven\", what is the third word?","answers":["marble"],"image":null}
+{"challenge":"c043","task":"t5","prompt":"A meeting starts at 03:12 and runs for 8 h 23 min. When does it end? Answer as HH:MM, 24-hour clock.","answers":["11:35"],"image":null}
+{"challenge":"c043","task":"t6","prompt":"There are 7 jars holding 7 seashells apiece. Lena removes 14 seashells. How many seashells remain in the jars?","answers":["35"],"image":null}
+{"challenge":"c043","task":"t7","prompt":"Priya is lighter than Kenji. Nadia is heavier than Cleo. Kenji is lighter than Cleo. Who is the heaviest?","answers":["Nadia"],"image":null}
+{"challenge":"c043","task":"t8","prompt":"Which is larger, 8/9 or 0.44? Reply with the larger value exactly as written.","answers":["8/9"],"image":null}
+{"challenge":"c043","task":"t9","prompt":"Which word is the odd one out: mango, cupboard, stool, armchair?","answers":["mango"],"image":null}
+{"challenge":"c043","task":"t10","prompt":"Omar is taller than Zara. Omar is shorter than Lena. Asha is shorter than Zara. Who is the shortest?","answers":["Asha"],"image":null}
+{"challenge":"c043","task":"t11","prompt":"What is three hundred and fourteen plus one hundred and forty-four? Answer in digits.","answers":["458"],"image":null}
+{"challenge":"c043","task":"t12","prompt":"Give the usual opposite of the word \"ancient\". One word.","answers":["modern"],"image":null}
+{"challenge":"c043","task":"t13","prompt":"Nadia packs 10 boxes with 15 pencils each, then gives away 122. How many pencils does Nadia have left?","answers":["28"],"image":null}
+{"challenge":"c043","task":"t14","prompt":"Which is larger, 4/10 or 0.86? Reply with the larger value exactly as written.","answers":["0.86"],"image":null}
+{"challenge":"c043","task":"t15","prompt":"In the phrase \"amber silent lanterns winter harbor engine paper\", what is the second word?","answers":["silent"],"image":null}
+{"challenge":"c043","task":"t16","prompt":"A meeting starts at 06:07 and runs for 1 h 30 min. When does it end? Answer as HH:MM, 24-hour clock.","answers":["07:37"],"image":null}
+{"challenge":"c043","task":"t17","prompt":"A meeting starts at 17:54 and runs for 6 h 18 min. When does it end? Answer as HH:MM, 24-hour clock.","answers":["00:12"],"image":null}
+{"challenge":"c043","task":"t18","prompt":"Give the usual opposite of the word \"win\". One word.","answers":["lose"],"image":null}
+{"challenge":"c043","task":"t19","prompt":"Bram is shorter than Cleo. Zara is taller than Cleo. Bram is taller than Rufus. Who is the tallest?","answers":["Zara"],"image":null}
+{"challenge":"c043","task":"t20","prompt":"What is eight hundred and fifty-nine minus two hundred? Answer in digits.","answers":["659"],"image":null}
+{"challenge":"c044","task":"t1","prompt":"There are 3 jars holding 4 buttons apiece. Ivo removes 6 buttons. How many buttons remain in the jars?","answers":["6"],"image":null}
+{"challenge":"c044","task":"t2","prompt":"Ivo is taller than Sol. Lena is shorter than Sol. Who is the shortest?","answers":["Lena"],"image":null}
+{"challenge":"c044","task":"t3","prompt":"Which is larger, 1/10 or 0.95? Reply with the larger value exactly as written.","answers":["0.95"],"image":null}
+{"challenge":"c044","task":"t4","prompt":"In the phrase \"quietly copper crystal rusty under moon thunder\", what is the seventh word?","answers":["thunder"],"image":null}
+{"challenge":"c044","task":"t5","prompt":"A train departs at 23:01 and the journey lasts 6 hours and 9 minutes. What time does it arrive? Answer as HH:MM, 24-hour clock.","answers":["05:10"],"image":null}
+{"challenge":"c044","task":"t6","prompt":"Give the usual opposite of the word \"full\". One word.","answers":["empty"],"image":null}
+{"challenge":"c044","task":"t7","prompt":"Which word is the odd one out: zebra, dresser, stool, sofa?","answers":["zebra"],"image":null}
+{"challenge":"c044","task":"t8","prompt":"What is eight hundred and forty-eight minus eight hundred and eighteen? Answer in digits.","answers":["30"],"image":null}
+{"challenge":"c044","task":"t9","prompt":"In the phrase \"silent river velvet copper amber thunder winter\", what is the fifth word?","answers":["amber"],"image":null}
+{"challenge":"c044","task":"t10","prompt":"There are 9 jars holding 5 bolts apiece. Omar removes 37 bolts. How many bolts remain in the jars?","answers":["8"],"image":null}
+{"challenge":"c044","task":"t11","prompt":"Give the usual opposite of the word \"open\". One word.","answers":["closed","close","shut"],"image":null}
+{"challenge":"c044","task":"t12","prompt":"Which is larger, 4/8 or 0.56? Reply with the larger value exactly as written.","answers":["0.56"],"image":null}
+{"challenge":"c044","task":"t13","prompt":"Kenji is older than Zara. Rufus is younger than Zara. Who is the oldest?","answers":["Kenji"],"image":null}
+{"challenge":"c044","task":"t14","prompt":"A train departs at 19:02 and the journey lasts 9 hours and 10 minutes. What time does it arrive? Answer as HH:MM, 24-hour clock.","answers":["04:12"],"image":null}
+{"challenge":"c044","task":"t15","prompt":"Which word is the odd one out: wrench, chisel, trowel, zebra?","answers":["zebra"],"image":null}
+{"challenge":"c044","task":"t16","prompt":"What is nine hundred and ninety-five plus seven hundred and one? Answer in digits.","answers":["1696"],"image":null}
+{"challenge":"c044","task":"t17","prompt":"What is nine hundred and seven minus four hundred and six? Answer in digits.","answers":["501"],"image":null}
+{"challenge":"c044","task":"t18","prompt":"Felix is faster than Sol. Yara is slower than Sol. Cleo is faster than Felix. Who is the slowest?","answers":["Yara"],"image":null}
+{"challenge":"c044","task":"t19","prompt":"Which is larger, 1/6 or 0.71? Reply with the larger value exactly as written.","answers":["0.71"],"image":null}
+{"challenge":"c044","task":"t20","prompt":"A train departs at 05:19 and the journey lasts 1 hours and 55 minutes. What time does it arrive? Answer as HH:MM, 24-hour clock.","answers":["07:14"],"image":null}
+{"challenge":"c045","task":"t1","prompt":"Which is larger, 7/8 or 0.72? Reply with the larger value exactly as written.","answers":["7/8"],"image":null}
+{"challenge":"c045","task":"t2","prompt":"A meeting starts at 02:23 and runs for 2 h 44 min. When does it end? Answer as HH:MM, 24-hour clock.","answers":["05:07"],"image":null}
+{"challenge":"c045","task":"t3","prompt":"There are 5 jars holding 13 bolts apiece. Lena removes 56 bolts. How many bolts remain in the jars?","answers":["9"],"image":null}
+{"challenge":"c045","task":"t4","prompt":"Bram is lighter than Asha. Lena is heavier than Asha. Who is the heaviest?","answers":["Lena"],"image":null}
+{"challenge":"c045","task":"t5","prompt":"What is nine hundred and thirty-seven plus eight hundred and twenty-four? Answer in digits.","answers":["1761"],"image":null}
+{"challenge":"c045","task":"t6","prompt":"In the phrase \"amber marble pocket orbit seven lanterns violin\", what is the sixth word?","answers":["lanterns"],"image":null}
+{"challenge":"c045","task":"t7","prompt":"Which word is the odd one out: hedgehog, camel, wrench, zebra?","answers":["wrench"],"image":null}
+{"challenge":"c045","task":"t8","prompt":"Give the usual opposite of the word \"entrance\". One word.","answers":["exit"],"image":null}
+{"challenge":"c045","task":"t9","prompt":"Priya packs 8 boxes with 9 stamps each, then gives away 17. How many stamps does Priya have left?","answers":["55"],"image":null}
+{"challenge":"c045","task":"t10","prompt":"Which is larger, 6/10 or 0.30? Reply with the larger value exactly as written.","answers":["6/10"],"image":null}
+{"challenge":"c045","task":"t11","prompt":"A meeting starts at 11:44 and runs for 6 h 55 min. When does it end? Answer as HH:MM, 24-hour clock.","answers":["18:39"],"image":null}
+{"challenge":"c045","task":"t12","prompt":"Which word is the odd one out: bicycle, hammer, yacht, tram?","answers":["hammer"],"image":null}
+{"challenge":"c045","task":"t13","prompt":"Asha is faster than Lena. Asha is slower than Bram. Who is the fastest?","answers":["Bram"],"image":null}
+{"challenge":"c045","task":"t14","prompt":"In the phrase \"orbit thunder lanterns quietly river engine amber\", what is the third word?","answers":["lanterns"],"image":null}
+{"challenge":"c045","task":"t15","prompt":"What is eight hundred and twenty plus eight hundred and fifty-three? Answer in digits.","answers":["1673"],"image":null}
+{"challenge":"c045","task":"t16","prompt":"Give the usual opposite of the word \"victory\". One word.","answers":["defeat"],"image":null}
+{"challenge":"c045","task":"t17","prompt":"Cleo buys 12 bags of buttons, 14 per bag, and loses 3 on the way home. How many buttons make it home?","answers":["165"],"image":null}
+{"challenge":"c045","task":"t18","prompt":"Priya is older than Sol. Kenji is younger than Sol. Who is the oldest?","answers":["Priya"],"image":null}
+{"challenge":"c045","task":"t19","prompt":"Which is larger, 2/6 or 0.56? Reply with the larger value exactly as written.","answers":["0.56"],"image":null}
+{"challenge":"c045","task":"t20","prompt":"In the phrase \"quietly seven crystal copper garden winter thunder\", what is the fourth word?","answers":["copper"],"image":null}
+{"challenge":"c046","task":"t1","prompt":"In the phrase \"engine harbor moon rusty river amber folds\", what is the sixth word?","answers":["amber"],"image":null}
+{"challenge":"c046","task":"t2","prompt":"Omar is lighter than Bram. Zara is heavier than Bram. Sol is lighter than Omar. Who is the lightest?","answers":["Sol"],"image":null}
+{"challenge":"c046","task":"t3","prompt":"A meeting starts at 22:05 and runs for 4 h 21 min. When does it end? Answer as HH:MM, 24-hour clock.","answers":["02:26"],"image":null}
+{"challenge":"c046","task":"t4","prompt":"Give the usual opposite of the word \"inside\". One word.","answers":["outside"],"image":null}
+{"challenge":"c046","task":"t5","prompt":"Which is larger, 2/3 or 0.27? Reply with the larger value exactly as written.","answers":["2/3"],"image":null}
+{"challenge":"c046","task":"t6","prompt":"There are 4 jars holding 5 seashells apiece. Omar removes 1 seashells. How many seashells remain in the jars?","answers":["19"],"image":null}
+{"challenge":"c046","task":"t7","prompt":"Which word is the odd one out: banana, grape, violin, cherry?","answers":["violin"],"image":null}
+{"challenge":"c046","task":"t8","prompt":"What is three hundred and eight minus one hundred and ninety-nine? Answer in digits.","answers":["109"],"image":null}
+{"challenge":"c046","task":"t9","prompt":"Which is larger, 4/6 or 0.18? Reply with the larger value exactly as written.","answers":["4/6"],"image":null}
+{"challenge":"c046","task":"t10","prompt":"In the phrase \"garden under amber meadow winter folds rusty\", what is the third word?","answers":["amber"],"image":null}
+{"challenge":"c046","task":"t11","prompt":"Which word is the odd one out: cupboard, armchair, bookshelf, pliers?","answers":["pliers"],"image":null}
+{"challenge":"c046","task":"t12","prompt":"There are 10 jars holding 14 buttons apiece. Rufus removes 108 buttons. How many buttons remain in the jars?","answers":["32"],"image":null}
+{"challenge":"c046","task":"t13","prompt":"Give the usual opposite of the word \"maximum\". One word.","answers":["minimum"],"image":null}
+{"challenge":"c046","task":"t14","prompt":"A train departs at 09:04 and the journey lasts 4 hours and 16 minutes. What time does it arrive? Answer as HH:MM, 24-hour clock.","answers":["13:20"],"image":null}
+{"challenge":"c046","task":"t15","prompt":"Felix is taller than Omar. Felix is shorter than Tobias. Mira is taller than Tobias. Who is the tallest?","answers":["Mira"],"image":null}
+{"challenge":"c046","task":"t16","prompt":"What is one hundred and twenty-seven plus six hundred and forty-seven? Answer in digits.","answers":["774"],"image":null}
+{"challenge":"c046","task":"t17","prompt":"Omar is heavier than Priya. Asha is lighter than Felix. Omar is lighter than Asha. Who is the heaviest?","answers":["Felix"],"image":null}
+{"challenge":"c046","task":"t18","prompt":"A meeting starts at 14:51 and runs for 7 h 50 min. When does it end? Answer as HH:MM, 24-hour clock.","answers":["22:41"],"image":null}
+{"challenge":"c046","task":"t19","prompt":"Lena packs 10 boxes with 7 stamps each, then gives away 49. How many stamps does Lena have left?","answers":["21"],"image":null}
+{"challenge":"c046","task":"t20","prompt":"What is six hundred and fifteen minus four hundred and sixty-eight? Answer in digits.","answers":["147"],"image":null}
+{"challenge":"c047","task":"t1","prompt":"Which is larger, 3/12 or 0.39? Reply with the larger value exactly as written.","answers":["0.39"],"image":null}
+{"challenge":"c047","task":"t2","prompt":"Nadia is shorter than Rufus. Cleo is taller than Tobias. Cleo is shorter than Nadia. Who is the shortest?","answers":["Tobias"],"image":null}
+{"challenge":"c047","task":"t3","prompt":"There are 4 jars holding 7 stamps apiece. Asha removes 16 stamps. How many stamps remain in the jars?","answers":["12"],"image":null}
+{"challenge":"c047","task":"t4","prompt":"In the phrase \"thunder amber marble folds violin moon rusty\", what is the third word?","answers":["marble"],"image":null}
+{"challenge":"c047","task":"t5","prompt":"Which word is the odd one out: walrus, pliers, otter, badger?","answers":["pliers"],"image":null}
+{"challenge":"c047","task":"t6","prompt":"A train departs at 23:45 and the journey lasts 3 hours and 50 minutes. What time does it arrive? Answer as HH:MM, 24-hour clock.","answers":["03:35"],"image":null}
+{"challenge":"c047","task":"t7","prompt":"Give the usual opposite of the word \"open\". One word.","answers":["closed","close","shut"],"image":null}
+{"challenge":"c047","task":"t8","prompt":"What is eight hundred and fifty-seven minus thirty-eight? Answer in digits.","answers":["819"],"image":null}
+{"challenge":"c047","task":"t9","prompt":"Rufus buys 5 bags of bolts, 5 per bag, and loses 22 on the way home. How many bolts make it home?","answers":["3"],"image":null}
+{"challenge":"c047","task":"t10","prompt":"In the phrase \"violin orbit seven velvet garden meadow thunder\", what is the first word?","answers":["violin"],"image":null}
+{"challenge":"c047","task":"t11","prompt":"What is four hundred and twenty-eight plus nine hundred and forty-nine? Answer in digits.","answers":["1377"],"image":null}
+{"challenge":"c047","task":"t12","prompt":"Give the usual opposite of the word \"wet\". One word.","answers":["dry"],"image":null}
+{"challenge":"c047","task":"t13","prompt":"Zara is older than Cleo. Nadia is younger than Cleo. Zara is younger than Priya. Who is the oldest?","answers":["Priya"],"image":null}
+{"challenge":"c047","task":"t14","prompt":"A train departs at 13:27 and the journey lasts 7 hours and 10 minutes. What time does it arrive? Answer as HH:MM, 24-hour clock.","answers":["20:37"],"image":null}
+{"challenge":"c047","task":"t15","prompt":"Which is larger, 4/10 or 0.62? Reply with the larger value exactly as written.","answers":["0.62"],"image":null}
+{"challenge":"c047","task":"t16","prompt":"Which word is the odd one out: plum, badger, camel, walrus?","answers":["plum"],"image":null}
+{"challenge":"c047","task":"t17","prompt":"In the phrase \"silent moon thunder pocket crystal folds engine\", what is the second word?","answers":["moon"],"image":null}
+{"challenge":"c047","task":"t18","prompt":"Which is larger, 6/10 or 0.76? Reply with the larger value exactly as written.","answers":["0.76"],"image":null}
+{"challenge":"c047","task":"t19","prompt":"Ivo is faster than Zara. Lena is slower than Zara. Ivo is slower than Rufus. Who is the fastest?","answers":["Rufus"],"image":null}
+{"challenge":"c047","task":"t20","prompt":"What is nine hundred and sixty-two minus nine hundred and six? Answer in digits.","answers":["56"],"image":null}
+{"challenge":"c048","task":"t1","prompt":"Which is larger, 3/8 or 0.95? Reply with the larger value exactly as written.","answers":["0.95"],"image":null}
+{"challenge":"c048","task":"t2","prompt":"In the phrase \"violin copper seven meadow rusty under amber\", what is the third word?","answers":["seven"],"image":null}
+{"challenge":"c048","task":"t3","prompt":"What is nine hundred and eight minus three hundred and thirty? Answer in digits.","answers":["578"],"image":null}
+{"challenge":"c048","task":"t4","prompt":"There are 6 jars holding 15 candles apiece. Nadia removes 64 candles. How many candles remain in the jars?","answers":["26"],"image":null}
+{"challenge":"c048","task":"t5","prompt":"Ivo is older than Priya. Yara is younger than Priya. Who is the oldest?","answers":["Ivo"],"image":null}
+{"challenge":"c048","task":"t6","prompt":"Which word is the odd one out: Uranus, minibus, yacht, bicycle?","answers":["Uranus"],"image":null}
+{"challenge":"c048","task":"t7","prompt":"A train departs at 09:52 and the journey lasts 7 hours and 21 minutes. What time does it arrive? Answer as HH:MM, 24-hour clock.","answers":["17:13"],"image":null}
+{"challenge":"c048","task":"t8","prompt":"Give the usual opposite of the word \"rich\". One word.","answers":["poor"],"image":null}
+{"challenge":"c048","task":"t9","prompt":"Which word is the odd one out: stool, armchair, zebra, sofa?","answers":["zebra"],"image":null}
+{"challenge":"c048","task":"t10","prompt":"A train departs at 19:44 and the journey lasts 9 hours and 14 minutes. What time does it arrive? Answer as HH:MM, 24-hour clock.","answers":["04:58"],"image":null}
+{"challenge":"c048","task":"t11","prompt":"Which is larger, 3/5 or 0.85? Reply with the larger value exactly as written.","answers":["0.85"],"image":null}
+{"challenge":"c048","task":"t12","prompt":"Nadia is heavier than Kenji. Omar is heavier than Nadia. Who is the heaviest?","answers":["Omar"],"image":null}
+{"challenge":"c048","task":"t13","prompt":"Give the usual opposite of the word \"win\". One word.","answers":["lose"],"image":null}
+{"challenge":"c048","task":"t14","prompt":"In the phrase \"under engine velvet river folds copper pocket\", what is the third word?","answers":["velvet"],"image":null}
+{"challenge":"c048","task":"t15","prompt":"What is two hundred and twenty-six plus six hundred and eighty-six? Answer in digits.","answers":["912"],"image":null}
+{"challenge":"c048","task":"t16","prompt":"There are 4 jars holding 6 buttons apiece. Yara removes 22 buttons. How many buttons remain in the jars?","answers":["2"],"image":null}
+{"challenge":"c048","task":"t17","prompt":"Which word is the odd one out: otter, dresser, bookshelf, cupboard?","answers":["otter"],"image":null}
+{"challenge":"c048","task":"t18","prompt":"Which is larger, 6/8 or 0.49? Reply with the larger value exactly as written.","answers":["6/8"],"image":null}
+{"challenge":"c048","task":"t19","prompt":"What is five hundred and eighteen plus eight hundred and thirty-five? Answer in digits.","answers":["1353"],"image":null}
+{"challenge":"c048","task":"t20","prompt":"Give the usual opposite of the word \"entrance\". One word.","answers":["exit"],"image":null}
+{"challenge":"c049","task":"t1","prompt":"A meeting starts at 21:28 and runs for 8 h 4 min. When does it end? Answer as HH:MM, 24-hour clock.","answers":["05:32"],"image":null}
+{"challenge":"c049","task":"t2","prompt":"What is two hundred and ninety-seven plus six hundred and forty-five? Answer in digits.","answers":["942"],"image":null}
+{"challenge":"c049","task":"t3","prompt":"Priya buys 12 bags of bolts, 11 per bag, and loses 30 on the way home. How many bolts make it home?","answers":["102"],"image":null}
+{"challenge":"c049","task":"t4","prompt":"Which word is the odd one out: dresser, Neptune, wardrobe, sofa?","answers":["Neptune"],"image":null}
+{"challenge":"c049","task":"t5","prompt":"Give the usual opposite of the word \"inside\". One word.","answers":["outside"],"image":null}
+{"challenge":"c049","task":"t6","prompt":"Which is larger, 3/7 or 0.08? Reply with the larger value exactly as written.","answers":["3/7"],"image":null}
+{"challenge":"c049","task":"t7","prompt":"In the phrase \"thunder under harbor amber silent garden marble\", what is the fourth word?","answers":["amber"],"image":null}
+{"challenge":"c049","task":"t8","prompt":"Bram is younger than Nadia. Yara is older than Nadia. Zara is younger than Bram. Who is the youngest?","answers":["Zara"],"image":null}
+{"challenge":"c049","task":"t9","prompt":"Give the usual opposite of the word \"win\". One word.","answers":["lose"],"image":null}
+{"challenge":"c049","task":"t10","prompt":"What is nine hundred and thirty-two plus seven hundred and forty-six? Answer in digits.","answers":["1678"],"image":null}
+{"challenge":"c049","task":"t11","prompt":"Which word is the odd one out: hammer, chisel, spanner, zebra?","answers":["zebra"],"image":null}
+{"challenge":"c049","task":"t12","prompt":"A meeting starts at 09:13 and runs for 7 h 34 min. When does it end? Answer as HH:MM, 24-hour clock.","answers":["16:47"],"image":null}
+{"challenge":"c049","task":"t13","prompt":"There are 5 jars holding 5 marbles apiece. Zara removes 16 marbles. How many marbles remain in the jars?","answers":["9"],"image":null}
+{"challenge":"c049","task":"t14","prompt":"Which is larger, 4/5 or 0.19? Reply with the larger value exactly as written.","answers":["4/5"],"image":null}
+{"challenge":"c049","task":"t15","prompt":"Yara is older than Nadia. Sol is older than Yara. Nadia is older than Felix. Who is the youngest?","answers":["Felix"],"image":null}
+{"challenge":"c049","task":"t16","prompt":"In the phrase \"river quietly velvet garden amber engine pocket\", what is the sixth word?","answers":["engine"],"image":null}
+{"challenge":"c049","task":"t17","prompt":"Give the usual opposite of the word \"full\". One word.","answers":["empty"],"image":null}
+{"challenge":"c049","task":"t18","prompt":"Priya is older than Bram. Priya is younger than Zara. Who is the oldest?","answers":["Zara"],"image":null}
+{"challenge":"c049","task":"t19","prompt":"In the phrase \"amber paper rusty velvet pocket crystal marble\", what is the second word?","answers":["paper"],"image":null}
+{"challenge":"c049","task":"t20","prompt":"Which word is the odd one out: Neptune, oboe, Jupiter, Uranus?","answers":["oboe"],"image":null}
+{"challenge":"c050","task":"t1","prompt":"What is eight hundred and ninety-one minus one hundred and eighty-nine? Answer in digits.","answers":["702"],"image":null}
+{"challenge":"c050","task":"t2","prompt":"Asha is heavier than Bram. Yara is lighter than Mira. Yara is heavier than Asha. Who is the heaviest?","answers":["Mira"],"image":null}
+{"challenge":"c050","task":"t3","prompt":"Which word is the odd one out: Venus, Uranus, Saturn, yacht?","answers":["yacht"],"image":null}
+{"challenge":"c050","task":"t4","prompt":"Give the usual opposite of the word \"ascend\". One word.","answers":["descend"],"image":null}
+{"challenge":"c050","task":"t5","prompt":"In the phrase \"pocket violin orbit engine river velvet marble\", what is the seventh word?","answers":["marble"],"image":null}
+{"challenge":"c050","task":"t6","prompt":"Felix packs 4 boxes with 4 seashells each, then gives away 6. How many seashells does Felix have left?","answers":["10"],"image":null}
+{"challenge":"c050","task":"t7","prompt":"A meeting starts at 18:41 and runs for 3 h 11 min. When does it end? Answer as HH:MM, 24-hour clock.","answers":["21:52"],"image":null}
+{"challenge":"c050","task":"t8","prompt":"Which is larger, 2/3 or 0.75? Reply with the larger value exactly as written.","answers":["0.75"],"image":null}
+{"challenge":"c050","task":"t9","prompt":"What is six hundred and seventy-eight minus two hundred and sixty? Answer in digits.","answers":["418"],"image":null}
+{"challenge":"c050","task":"t10","prompt":"Which word is the odd one out: hedgehog, otter, plum, walrus?","answers":["plum"],"image":null}
+{"challenge":"c050","task":"t11","prompt":"In the phrase \"under garden velvet moon lanterns rusty silent\", what is the sixth word?","answers":["rusty"],"image":null}
+{"challenge":"c050","task":"t12","prompt":"Which is larger, 2/4 or 0.92? Reply with the larger value exactly as written.","answers":["0.92"],"image":null}
+{"challenge":"c050","task":"t13","prompt":"Give the usual opposite of the word \"expand\". One word.","answers":["contract","shrink"],"image":null}
+{"challenge":"c050","task":"t14","prompt":"Cleo buys 10 bags of buttons, 8 per bag, and loses 73 on the way home. How many buttons make it home?","answers":["7"],"image":null}
+{"challenge":"c050","task":"t15","prompt":"A train departs at 11:05 and the journey lasts 3 hours and 43 minutes. What time does it arrive? Answer as HH:MM, 24-hour clock.","answers":["14:48"],"image":null}
+{"challenge":"c050","task":"t16","prompt":"Omar is lighter than Rufus. Asha is heavier than Sol. Asha is lighter than Omar. Who is the lightest?","answers":["Sol"],"image":null}
+{"challenge":"c050","task":"t17","prompt":"In the phrase \"garden marble engine violin silent lanterns amber\", what is the seventh word?","answers":["amber"],"image":null}
+{"challenge":"c050","task":"t18","prompt":"What is seven hundred and forty-three plus two hundred and fifty-five? Answer in digits.","answers":["998"],"image":null}
+{"challenge":"c050","task":"t19","prompt":"Kenji is faster than Ivo. Ivo is faster than Priya. Who is the slowest?","answers":["Priya"],"image":null}
+{"challenge":"c050","task":"t20","prompt":"Which word is the odd one out: minibus, canoe, sofa, tram?","answers":["sofa"],"image":null}
+{"challenge":"images","task":"i1","prompt":"The question is hidden in this image (hidden-ink format, see README). Answer it.","answers":["15"],"image":"images/ink-001.png","hidden_question":"Nadia packs 7 boxes with 5 buttons each, then gives away 20. How many buttons does Nadia have left?"}
+{"challenge":"images","task":"i2","prompt":"The question is hidden in this image (hidden-ink format, see README). Answer it.","answers":["693"],"image":"images/ink-002.png","hidden_question":"What is eight hundred and seventeen minus one hundred and twenty-four? Answer in digits."}
+{"challenge":"images","task":"i3","prompt":"The question is hidden in this image (hidden-ink format, see README). Answer it.","answers":["1688"],"image":"images/ink-003.png","hidden_question":"What is eight hundred and ninety-eight plus seven hundred and ninety? Answer in digits."}
+{"challenge":"images","task":"i4","prompt":"The question is hidden in this image (hidden-ink format, see README). Answer it.","answers":["oboe"],"image":"images/ink-004.png","hidden_question":"Which word is the odd one out: bookshelf, wardrobe, dresser, oboe?"}
+{"challenge":"images","task":"i5","prompt":"The question is hidden in this image (hidden-ink format, see README). Answer it.","answers":["08:51"],"image":"images/ink-005.png","hidden_question":"A meeting starts at 02:13 and runs for 6 h 38 min. When does it end? Answer as HH:MM, 24-hour clock."}
+{"challenge":"images","task":"i6","prompt":"The question is hidden in this image (hidden-ink format, see README). Answer it.","answers":["cold"],"image":"images/ink-006.png","hidden_question":"Give the usual opposite of the word \"hot\". One word."}
+{"challenge":"images","task":"i7","prompt":"The question is hidden in this image (hidden-ink format, see README). Answer it.","answers":["702"],"image":"images/ink-007.png","hidden_question":"What is one hundred and thirty-two plus five hundred and seventy? Answer in digits."}
+{"challenge":"images","task":"i8","prompt":"The question is hidden in this image (hidden-ink format, see README). Answer it.","answers":["Neptune"],"image":"images/ink-008.png","hidden_question":"Which word is the odd one out: bookshelf, dresser, cupboard, Neptune?"}
+{"challenge":"images","task":"i9","prompt":"The question is hidden in this image (hidden-ink format, see README). Answer it.","answers":["39"],"image":"images/ink-009.png","hidden_question":"Asha buys 7 bags of bolts, 15 per bag, and loses 66 on the way home. How many bolts make it home?"}
+{"challenge":"images","task":"i10","prompt":"The question is hidden in this image (hidden-ink format, see README). Answer it.","answers":["Priya"],"image":"images/ink-010.png","hidden_question":"Priya is older than Tobias. Omar is younger than Tobias. Omar is older than Sol. Who is the oldest?"}
+{"challenge":"images","task":"i11","prompt":"The question is hidden in this image (hidden-ink format, see README). Answer it.","answers":["10/12"],"image":"images/ink-011.png","hidden_question":"Which is larger, 10/12 or 0.46? Reply with the larger value exactly as written."}
+{"challenge":"images","task":"i12","prompt":"The question is hidden in this image (hidden-ink format, see README). Answer it.","answers":["dry"],"image":"images/ink-012.png","hidden_question":"Give the usual opposite of the word \"wet\". One word."}
+{"challenge":"images","task":"i13","prompt":"The question is hidden in this image (hidden-ink format, see README). Answer it.","answers":["Asha"],"image":"images/ink-013.png","hidden_question":"Lena is older than Cleo. Cleo is older than Asha. Who is the youngest?"}
+{"challenge":"images","task":"i14","prompt":"The question is hidden in this image (hidden-ink format, see README). Answer it.","answers":["21:25"],"image":"images/ink-014.png","hidden_question":"A train departs at 14:34 and the journey lasts 6 hours and 51 minutes. What time does it arrive? Answer as HH:MM, 24-hour clock."}
+{"challenge":"images","task":"i15","prompt":"The question is hidden in this image (hidden-ink format, see README). Answer it.","answers":["40"],"image":"images/ink-015.png","hidden_question":"Ivo packs 7 boxes with 12 candles each, then gives away 44. How many candles does Ivo have left?"}
+{"challenge":"images","task":"i16","prompt":"The question is hidden in this image (hidden-ink format, see README). Answer it.","answers":["harbor"],"image":"images/ink-016.png","hidden_question":"In the phrase \"copper lanterns violin engine garden harbor winter\", what is the sixth word?"}
+{"challenge":"images","task":"i17","prompt":"The question is hidden in this image (hidden-ink format, see README). Answer it.","answers":["23"],"image":"images/ink-017.png","hidden_question":"Yara buys 9 bags of bolts, 8 per bag, and loses 49 on the way home. How many bolts make it home?"}
+{"challenge":"images","task":"i18","prompt":"The question is hidden in this image (hidden-ink format, see README). Answer it.","answers":["Omar"],"image":"images/ink-018.png","hidden_question":"Bram is shorter than Mira. Asha is taller than Omar. Bram is taller than Asha. Who is the shortest?"}
+{"challenge":"images","task":"i19","prompt":"The question is hidden in this image (hidden-ink format, see README). Answer it.","answers":["apple"],"image":"images/ink-019.png","hidden_question":"Which word is the odd one out: tram, scooter, tractor, apple?"}
+{"challenge":"images","task":"i20","prompt":"The question is hidden in this image (hidden-ink format, see README). Answer it.","answers":["flute"],"image":"images/ink-020.png","hidden_question":"Which word is the odd one out: flute, walrus, badger, lynx?"}
+{"challenge":"images","task":"i21","prompt":"The question is hidden in this image (hidden-ink format, see README). Answer it.","answers":["thunder"],"image":"images/ink-021.png","hidden_question":"In the phrase \"amber lanterns copper harbor pocket thunder seven\", what is the sixth word?"}
+{"challenge":"images","task":"i22","prompt":"The question is hidden in this image (hidden-ink format, see README). Answer it.","answers":["57"],"image":"images/ink-022.png","hidden_question":"Mira buys 11 bags of lemons, 7 per bag, and loses 20 on the way home. How many lemons make it home?"}
+{"challenge":"images","task":"i23","prompt":"The question is hidden in this image (hidden-ink format, see README). Answer it.","answers":["river"],"image":"images/ink-023.png","hidden_question":"In the phrase \"copper river thunder velvet marble amber folds\", what is the second word?"}
+{"challenge":"images","task":"i24","prompt":"The question is hidden in this image (hidden-ink format, see README). Answer it.","answers":["Kenji"],"image":"images/ink-024.png","hidden_question":"Asha is faster than Zara. Kenji is slower than Zara. Who is the slowest?"}
+{"challenge":"images","task":"i25","prompt":"The question is hidden in this image (hidden-ink format, see README). Answer it.","answers":["0.38"],"image":"images/ink-025.png","hidden_question":"Which is larger, 1/4 or 0.38? Reply with the larger value exactly as written."}
+{"challenge":"images","task":"i26","prompt":"The question is hidden in this image (hidden-ink format, see README). Answer it.","answers":["0.82"],"image":"images/ink-026.png","hidden_question":"Which is larger, 3/8 or 0.82? Reply with the larger value exactly as written."}
+{"challenge":"images","task":"i27","prompt":"The question is hidden in this image (hidden-ink format, see README). Answer it.","answers":["20:03"],"image":"images/ink-027.png","hidden_question":"A meeting starts at 16:36 and runs for 3 h 27 min. When does it end? Answer as HH:MM, 24-hour clock."}
+{"challenge":"images","task":"i28","prompt":"The question is hidden in this image (hidden-ink format, see README). Answer it.","answers":["outside"],"image":"images/ink-028.png","hidden_question":"Give the usual opposite of the word \"inside\". One word."}
+{"challenge":"images","task":"i29","prompt":"The question is hidden in this image (hidden-ink format, see README). Answer it.","answers":["Lena"],"image":"images/ink-029.png","hidden_question":"Felix is slower than Lena. Felix is faster than Sol. Who is the fastest?"}
+{"challenge":"images","task":"i30","prompt":"The question is hidden in this image (hidden-ink format, see README). Answer it.","answers":["52"],"image":"images/ink-030.png","hidden_question":"Nadia buys 5 bags of bolts, 12 per bag, and loses 8 on the way home. How many bolts make it home?"}
+{"challenge":"images","task":"i31","prompt":"The question is hidden in this image (hidden-ink format, see README). Answer it.","answers":["Lena"],"image":"images/ink-031.png","hidden_question":"Priya is faster than Cleo. Lena is faster than Bram. Priya is slower than Bram. Who is the fastest?"}
+{"challenge":"images","task":"i32","prompt":"The question is hidden in this image (hidden-ink format, see README). Answer it.","answers":["1307"],"image":"images/ink-032.png","hidden_question":"What is three hundred and seventy-five plus nine hundred and thirty-two? Answer in digits."}
+{"challenge":"images","task":"i33","prompt":"The question is hidden in this image (hidden-ink format, see README). Answer it.","answers":["09:41"],"image":"images/ink-033.png","hidden_question":"A train departs at 03:07 and the journey lasts 6 hours and 34 minutes. What time does it arrive? Answer as HH:MM, 24-hour clock."}
+{"challenge":"images","task":"i34","prompt":"The question is hidden in this image (hidden-ink format, see README). Answer it.","answers":["wardrobe"],"image":"images/ink-034.png","hidden_question":"Which word is the odd one out: bicycle, wardrobe, scooter, tractor?"}
+{"challenge":"images","task":"i35","prompt":"The question is hidden in this image (hidden-ink format, see README). Answer it.","answers":["19"],"image":"images/ink-035.png","hidden_question":"There are 3 jars holding 9 lemons apiece. Zara removes 8 lemons. How many lemons remain in the jars?"}
+{"challenge":"images","task":"i36","prompt":"The question is hidden in this image (hidden-ink format, see README). Answer it.","answers":["cherry"],"image":"images/ink-036.png","hidden_question":"Which word is the odd one out: cherry, stool, cupboard, armchair?"}
+{"challenge":"images","task":"i37","prompt":"The question is hidden in this image (hidden-ink format, see README). Answer it.","answers":["descend"],"image":"images/ink-037.png","hidden_question":"Give the usual opposite of the word \"ascend\". One word."}
+{"challenge":"images","task":"i38","prompt":"The question is hidden in this image (hidden-ink format, see README). Answer it.","answers":["sell"],"image":"images/ink-038.png","hidden_question":"Give the usual opposite of the word \"buy\". One word."}
+{"challenge":"images","task":"i39","prompt":"The question is hidden in this image (hidden-ink format, see README). Answer it.","answers":["00:24"],"image":"images/ink-039.png","hidden_question":"A train departs at 17:25 and the journey lasts 6 hours and 59 minutes. What time does it arrive? Answer as HH:MM, 24-hour clock."}
+{"challenge":"images","task":"i40","prompt":"The question is hidden in this image (hidden-ink format, see README). Answer it.","answers":["0.92"],"image":"images/ink-040.png","hidden_question":"Which is larger, 6/9 or 0.92? Reply with the larger value exactly as written."}
+{"challenge":"images","task":"i41","prompt":"The question is hidden in this image (hidden-ink format, see README). Answer it.","answers":["Bram"],"image":"images/ink-041.png","hidden_question":"Zara is taller than Rufus. Rufus is taller than Bram. Asha is taller than Zara. Who is the shortest?"}
+{"challenge":"images","task":"i42","prompt":"The question is hidden in this image (hidden-ink format, see README). Answer it.","answers":["zebra"],"image":"images/ink-042.png","hidden_question":"Which word is the odd one out: scooter, tram, zebra, yacht?"}
+{"challenge":"images","task":"i43","prompt":"The question is hidden in this image (hidden-ink format, see README). Answer it.","answers":["384"],"image":"images/ink-043.png","hidden_question":"What is five hundred and seventy-eight minus one hundred and ninety-four? Answer in digits."}
+{"challenge":"images","task":"i44","prompt":"The question is hidden in this image (hidden-ink format, see README). Answer it.","answers":["late"],"image":"images/ink-044.png","hidden_question":"Give the usual opposite of the word \"early\". One word."}
+{"challenge":"images","task":"i45","prompt":"The question is hidden in this image (hidden-ink format, see README). Answer it.","answers":["1/4"],"image":"images/ink-045.png","hidden_question":"Which is larger, 1/4 or 0.16? Reply with the larger value exactly as written."}
+{"challenge":"images","task":"i46","prompt":"The question is hidden in this image (hidden-ink format, see README). Answer it.","answers":["06:46"],"image":"images/ink-046.png","hidden_question":"A train departs at 05:45 and the journey lasts 1 hours and 1 minutes. What time does it arrive? Answer as HH:MM, 24-hour clock."}
+{"challenge":"images","task":"i47","prompt":"The question is hidden in this image (hidden-ink format, see README). Answer it.","answers":["9/10"],"image":"images/ink-047.png","hidden_question":"Which is larger, 9/10 or 0.46? Reply with the larger value exactly as written."}
+{"challenge":"images","task":"i48","prompt":"The question is hidden in this image (hidden-ink format, see README). Answer it.","answers":["bookshelf"],"image":"images/ink-048.png","hidden_question":"Which word is the odd one out: trumpet, bookshelf, harp, oboe?"}
+{"challenge":"images","task":"i49","prompt":"The question is hidden in this image (hidden-ink format, see README). Answer it.","answers":["folds"],"image":"images/ink-049.png","hidden_question":"In the phrase \"violin quietly rusty paper folds harbor moon\", what is the fifth word?"}
+{"challenge":"images","task":"i50","prompt":"The question is hidden in this image (hidden-ink format, see README). Answer it.","answers":["poor"],"image":"images/ink-050.png","hidden_question":"Give the usual opposite of the word \"rich\". One word."}

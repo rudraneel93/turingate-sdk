@@ -1,0 +1,39 @@
+{
+  "summary": {
+    "name": "claude-sonnet-5-5",
+    "provider": "anthropic",
+    "runs": 3,
+    "accuracy": 0.933,
+    "avgMs": 3374,
+    "passRate": 1,
+    "date": "2026-11-13",
+    "server": "https://reverse-captcha.onrender.com",
+    "harness": "turingate-sdk/bench v0.1 (text only, no tools)"
+  },
+  "results": [
+    {
+      "passed": true,
+      "correct": 19,
+      "total": 20,
+      "elapsedMs": 3592,
+      "modelMs": 3643,
+      "mode": "bound"
+    },
+    {
+      "passed": true,
+      "correct": 18,
+      "total": 20,
+      "elapsedMs": 3094,
+      "modelMs": 3171,
+      "mode": "bound"
+    },
+    {
+      "passed": true,
+      "correct": 19,
+      "total": 20,
+      "elapsedMs": 3437,
+      "modelMs": 3561,
+      "mode": "bound"
+    }
+  ]
+}

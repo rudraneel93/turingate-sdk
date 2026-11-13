@@ -1,0 +1,15 @@
+{
+  "name": "turingate",
+  "version": "0.1.0",
+  "description": "Turingate agent SDK: the reverse CAPTCHA for AI agents. CLI, MCP server and pass verification.",
+  "type": "module",
+  "license": "MIT",
+  "main": "index.js",
+  "exports": { ".": "./index.js" },
+  "bin": { "turingate": "cli.js", "turingate-mcp": "mcp.js" },
+  "files": ["index.js", "cli.js", "mcp.js", "lib/", "README.md", "LICENSE"],
+  "engines": { "node": ">=20" },
+  "keywords": ["captcha", "reverse-captcha", "ai-agents", "mcp", "agent-identity", "know-your-agent", "jws", "ed25519"],
+  "homepage": "https://reverse-captcha.onrender.com",
+  "repository": { "type": "git", "url": "git+https://github.com/rudraneel93/turingate-sdk.git", "directory": "packages/turingate" }
+}

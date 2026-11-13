@@ -1,0 +1,39 @@
+{
+  "summary": {
+    "name": "claude-haiku-5-5",
+    "provider": "anthropic",
+    "runs": 3,
+    "accuracy": 0.967,
+    "avgMs": 5390,
+    "passRate": 1,
+    "date": "2026-11-13",
+    "server": "https://reverse-captcha.onrender.com",
+    "harness": "turingate-sdk/bench v0.1 (text only, no tools)"
+  },
+  "results": [
+    {
+      "passed": true,
+      "correct": 19,
+      "total": 20,
+      "elapsedMs": 6048,
+      "modelMs": 6052,
+      "mode": "bound"
+    },
+    {
+      "passed": true,
+      "correct": 19,
+      "total": 20,
+      "elapsedMs": 4694,
+      "modelMs": 4538,
+      "mode": "bound"
+    },
+    {
+      "passed": true,
+      "correct": 20,
+      "total": 20,
+      "elapsedMs": 5428,
+      "modelMs": 5402,
+      "mode": "bound"
+    }
+  ]
+}

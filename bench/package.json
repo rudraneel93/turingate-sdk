@@ -1,0 +1,8 @@
+{
+  "name": "turingate-bench",
+  "private": true,
+  "type": "module",
+  "description": "Run any LLM against the Turingate reverse CAPTCHA",
+  "scripts": { "bench": "node run.mjs" },
+  "dependencies": { "@anthropic-ai/sdk": "^1.8.0" }
+}
