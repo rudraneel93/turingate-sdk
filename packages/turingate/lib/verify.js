@@ -40,7 +40,7 @@ async function keysFor(server) {
 export async function verifyPassOffline(token, { siteId, server = DEFAULT_SERVER, now = Date.now() } = {}) {
   const reasons = [];
   let d;
-  try { d = decodeJws(token); } catch (e) { return { valid: false, reasons: [e.message] }; }
+  try { d = decodeJws(token); } catch { return { valid: false, reasons: ['malformed token'] }; }
   if (d.header.alg !== 'EdDSA' || d.header.typ !== 'rc-pass+jwt') return { valid: false, reasons: ['not a Turingate pass'] };
   let keys = await keysFor(server);
   let key = keys.find((k) => k.kid === d.header.kid);

@@ -8,6 +8,7 @@
 <a href="https://reverse-captcha.onrender.com/docs"><img alt="Docs" src="https://img.shields.io/badge/📖_docs-15_min_setup-7c5cff?style=for-the-badge&labelColor=05050c"></a>
 </p>
 <p>
+<a href="https://www.npmjs.com/package/turingate"><img alt="npm" src="https://img.shields.io/npm/v/turingate?color=e05d44&labelColor=05050c&logo=npm&logoColor=ff6b6b"></a>
 <img alt="MIT license" src="https://img.shields.io/badge/license-MIT-b6ff6b?labelColor=05050c&logo=opensourceinitiative&logoColor=b6ff6b">
 <img alt="Zero dependencies" src="https://img.shields.io/badge/dependencies-zero-2ee6f0?labelColor=05050c&logo=npm&logoColor=2ee6f0">
 <img alt="Node 20+" src="https://img.shields.io/badge/node-%E2%89%A520-6ff3b9?labelColor=05050c&logo=nodedotjs&logoColor=6ff3b9">
