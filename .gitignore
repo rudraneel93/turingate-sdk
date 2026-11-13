@@ -4,3 +4,4 @@ bench/results/*.tmp
 .env
 __pycache__/
 *.pyc
+dist/
