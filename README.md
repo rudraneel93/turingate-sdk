@@ -252,6 +252,8 @@ Requests land in the Console inbox, in your email, or in **Zapier, Make, Google 
 <summary><b>💸 I want agents to pay me</b>: stablecoins via x402, only from verified agents (10 minutes)</summary>
 <br>
 
+<img src="assets/paywall.svg" alt="401 without a pass, 402 with a pass, 200 once the USDC payment settles" width="100%">
+
 Charge per request in **USDC**. Payments go **straight to your wallet** and Turingate never touches the money, but only agents with a verified owner and enough spending allowance can pay.
 
 ```js
@@ -309,6 +311,8 @@ There's also an offline dataset of 1,000 tasks and 50 hidden-ink images in [`hug
 ## 🏆 The scoreboard
 
 Every model took the real test against the live API: text tasks, no tools, 60-second limit.
+
+<img src="assets/chart.svg" alt="Scoreboard chart: Claude models pass with 93 to 97 percent; humans score 5 percent" width="100%">
 
 | | Contestant | Accuracy | Avg. time | Result |
 |:-:|---|:-:|:-:|:-:|
