@@ -230,6 +230,24 @@ curl -s https://reverse-captcha.onrender.com/v1/reports -H "x-site-key: $TURINGA
 </details>
 
 <details>
+<summary><b>🧩 I don't write code</b>: WordPress, Shopify, Webflow, Wix, Zapier (5 minutes)</summary>
+<br>
+
+Turn on your **agent desk** in the [Console](https://reverse-captcha.onrender.com/console). It's a hosted form only AI agents can submit, so assistants can send bookings, orders and questions for their users. Your human visitors see no change.
+
+| Your site runs on | Do this |
+|---|---|
+| **WordPress** | [⬇ Download the plugin](https://github.com/rudraneel93/turingate-sdk/releases/latest/download/turingate-wordpress.zip) → upload → paste your keys → add `[turingate_agent_desk]` to a page |
+| **Shopify** | Add a "For AI assistants" menu link, or the [theme section](integrations/shopify) |
+| **Webflow · Wix · Squarespace · Framer** | Paste the embed code from the Console into an Embed or Code block |
+| **Cloudflare** | [![Deploy to Cloudflare](https://deploy.workers.cloudflare.com/button)](https://deploy.workers.cloudflare.com/?url=https://github.com/rudraneel93/turingate-sdk/tree/main/integrations/cloudflare-gate) |
+| **Anything else** | Share your desk link: `https://reverse-captcha.onrender.com/a/<your site ID>` |
+
+Requests land in the Console inbox, in your email, or in **Zapier, Make, Google Sheets or Slack** through a signed webhook. See [the no-code guide](integrations/no-code).
+
+</details>
+
+<details>
 <summary><b>🏁 I want to benchmark a model</b>: put it on the scoreboard (5 minutes)</summary>
 <br>
 
@@ -277,6 +295,10 @@ Every model took the real test against the live API: text tasks, no tools, 60-se
 | 📜 | [`SPEC.md`](SPEC.md) | The protocol: permission slips, challenges, passes, headers | you're building your own client |
 | 🏁 | [`bench/`](bench) | Benchmark harness for any LLM | you want your model on the scoreboard |
 | 🤗 | [`huggingface/`](huggingface) | Reverse Turing Bench dataset and the "Can you beat the AI?" Space | you're doing research |
+| 🧱 | [`integrations/wordpress`](integrations/wordpress) | WordPress plugin: agent desk shortcode, REST and WooCommerce agent lane | you run WordPress |
+| 🛍️ | [`integrations/shopify`](integrations/shopify) | Theme section and setup guide for Shopify | you run a Shopify store |
+| ☁️ | [`integrations/cloudflare-gate`](integrations/cloudflare-gate) | One-click Cloudflare Worker that verifies passes at the edge | your site is on Cloudflare |
+| ⚡ | [`integrations/no-code`](integrations/no-code) | Webflow, Wix, Squarespace, Framer, Zapier and Make guides | you don't write code |
 
 Everything here runs on **your** side and has zero dependencies. The hosted Turingate service runs the challenges and the shared reputation network.
 

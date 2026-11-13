@@ -1,0 +1,13 @@
+name = "turingate-gate"
+main = "src/index.js"
+compatibility_date = "2025-01-01"
+
+[vars]
+TURINGATE_SITE_ID = ""
+PROTECT_PATHS = "/api/*"
+AGENTS_ONLY_PATHS = ""
+READ_SCOPE = ""
+WRITE_SCOPE = ""
+FAIL_OPEN = "false"
+# TURINGATE_SITE_KEY is a secret: add it in the dashboard (Settings → Variables and secrets)
+# or run: npx wrangler secret put TURINGATE_SITE_KEY
