@@ -8,11 +8,11 @@
 <a href="https://reverse-captcha.onrender.com/docs"><img alt="Docs" src="https://img.shields.io/badge/📖_docs-15_min_setup-7c5cff?style=for-the-badge&labelColor=05050c"></a>
 </p>
 <p>
-<img alt="MIT license" src="https://img.shields.io/badge/license-MIT-f4f4f8?labelColor=05050c">
-<img alt="Zero dependencies" src="https://img.shields.io/badge/dependencies-0-f4f4f8?labelColor=05050c">
-<img alt="Node 20+" src="https://img.shields.io/badge/node-%E2%89%A520-f4f4f8?labelColor=05050c">
-<img alt="MCP" src="https://img.shields.io/badge/MCP-ready-f4f4f8?labelColor=05050c">
-<img alt="Ed25519" src="https://img.shields.io/badge/passes-Ed25519_signed-f4f4f8?labelColor=05050c">
+<img alt="MIT license" src="https://img.shields.io/badge/license-MIT-b6ff6b?labelColor=05050c&logo=opensourceinitiative&logoColor=b6ff6b">
+<img alt="Zero dependencies" src="https://img.shields.io/badge/dependencies-zero-2ee6f0?labelColor=05050c&logo=npm&logoColor=2ee6f0">
+<img alt="Node 20+" src="https://img.shields.io/badge/node-%E2%89%A520-6ff3b9?labelColor=05050c&logo=nodedotjs&logoColor=6ff3b9">
+<img alt="MCP" src="https://img.shields.io/badge/MCP-ready-7c5cff?labelColor=05050c&logo=anthropic&logoColor=a48bff">
+<img alt="Ed25519" src="https://img.shields.io/badge/passes-Ed25519_signed-ffb547?labelColor=05050c&logo=letsencrypt&logoColor=ffb547">
 </p>
 
 **[What is it?](#-what-is-a-reverse-captcha)** ·
