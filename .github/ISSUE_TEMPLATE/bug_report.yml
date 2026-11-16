@@ -1,0 +1,46 @@
+name: Bug report
+description: Something in the SDK, widget, verifiers, or integrations isn't working
+labels: [bug]
+body:
+  - type: markdown
+    attributes:
+      value: "Thanks for reporting. **Security vulnerabilities go to [SECURITY.md](../blob/main/SECURITY.md), not here.**"
+  - type: dropdown
+    id: component
+    attributes:
+      label: Component
+      options:
+        - turingate npm package (CLI / MCP / verify)
+        - x402 paywall
+        - Browser widget
+        - Python verifier
+        - Go verifier
+        - WordPress plugin
+        - Cloudflare gate
+        - Shopify / no-code
+        - Benchmark / dataset
+        - Docs / spec
+    validations: { required: true }
+  - type: input
+    id: version
+    attributes:
+      label: Version
+      placeholder: "e.g. turingate 0.2.1, Node 22"
+    validations: { required: true }
+  - type: textarea
+    id: what
+    attributes:
+      label: What happened, and what did you expect?
+    validations: { required: true }
+  - type: textarea
+    id: repro
+    attributes:
+      label: Steps to reproduce
+      description: Minimal code or commands. Remove any API keys, passes, or private keys.
+      render: shell
+    validations: { required: true }
+  - type: textarea
+    id: logs
+    attributes:
+      label: Logs or error output
+      render: text
