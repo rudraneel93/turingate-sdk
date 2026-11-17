@@ -9,7 +9,8 @@
     ".": "./index.js",
     "./x402": "./lib/x402.js",
     "./mcp": "./mcp.js",
-    "./webbotauth": "./lib/webbotauth.js"
+    "./webbotauth": "./lib/webbotauth.js",
+    "./upi": "./lib/upi.js"
   },
   "bin": {
     "turingate": "cli.js",
@@ -41,7 +42,10 @@
     "agent-payments",
     "web-bot-auth",
     "http-message-signatures",
-    "rfc9421"
+    "rfc9421",
+    "upi",
+    "razorpay",
+    "india"
   ],
   "homepage": "https://reverse-captcha.onrender.com",
   "repository": {

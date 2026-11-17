@@ -142,6 +142,20 @@ Report abuse (`POST /v1/reports`), and after repeated reports the agent **and it
 
 ---
 
+## 🇮🇳 India: verified agents pay by UPI
+
+Let AI agents buy for their owners in rupees, with **your own Razorpay account** (Turingate never touches money). The agent's pass is checked against its owner's **INR spending limit**, then the owner approves the payment in their UPI app.
+
+```js
+import { upiCheckout } from 'turingate';
+
+const upi = upiCheckout({ keyId: process.env.RAZORPAY_KEY_ID, keySecret: process.env.RAZORPAY_KEY_SECRET, siteKey: process.env.TURINGATE_SITE_KEY });
+const r = await upi.create({ token: passFromAgent, amount: 1499, description: 'Hotel deposit', referenceId: order.id });
+if (!r.ok) return res.status(402).json({ reasons: r.reasons });   // e.g. "amount exceeds the owner's spending limit"
+res.json({ pay: r.link });                                         // the agent sends this UPI link to its owner
+// confirm in your Razorpay webhook (payment_link.paid) with verifyRazorpayWebhook(rawBody, signature, secret)
+```
+
 ## 🔏 One check for every agent standard (Web Bot Auth)
 
 Cloudflare, OpenAI and other operators sign their agents' requests with **Web Bot Auth** (IETF HTTP Message Signatures). `identify()` checks a Turingate pass **and** a Web Bot Auth signature in one call and returns one answer:
