@@ -53,3 +53,23 @@ export async function verifyPassOffline(token, { siteId, server = DEFAULT_SERVER
   if (siteId && c.aud && c.aud !== siteId) reasons.push('pass was issued for a different site');
   return { valid: reasons.length === 0, reasons, claims: c };
 }
+
+// One check for every agent credential: a Turingate pass and/or a Web Bot Auth signature (Cloudflare, OpenAI…).
+// Pass the incoming request; returns { allowed, identity: { kind, agent, operator, owner, ownerTier, scopes, spendLimit }, checks, reasons }.
+//   const r = await identify(req, { siteKey, scope: 'shop:checkout', amount: 40 });
+export async function identify(req, { siteKey, token, scope, amount, currency, minTier, requireBound, server = DEFAULT_SERVER } = {}) {
+  const h = req?.headers ?? {};
+  const get = (k) => (typeof h.get === 'function' ? h.get(k) : h[k]) ?? undefined;
+  const auth = String(get('authorization') ?? '');
+  const pass = token ?? (/^AgentPass\s+(\S+)/i.exec(auth)?.[1] || get('x-agent-pass') || undefined);
+  const host = get('host');
+  const url = /^https?:\/\//.test(req?.url ?? '') ? req.url : `https://${host}${req?.url ?? '/'}`;
+  const request = get('signature') ? { method: req.method || 'GET', url, headers: Object.fromEntries(['signature', 'signature-input', 'signature-agent', 'user-agent'].map((k) => [k, get(k)]).filter(([, v]) => v)) } : undefined;
+  const res = await fetch(`${server}/v1/identify`, {
+    method: 'POST',
+    headers: { 'content-type': 'application/json', ...(siteKey ? { 'x-site-key': siteKey } : {}) },
+    body: JSON.stringify({ token: pass, request, scope, amount, currency, minTier, requireBound }),
+  });
+  if (!res.ok) throw new Error(`identify failed: HTTP ${res.status}`);
+  return res.json();
+}

@@ -142,6 +142,20 @@ Report abuse (`POST /v1/reports`), and after repeated reports the agent **and it
 
 ---
 
+## 🔏 One check for every agent standard (Web Bot Auth)
+
+Cloudflare, OpenAI and other operators sign their agents' requests with **Web Bot Auth** (IETF HTTP Message Signatures). `identify()` checks a Turingate pass **and** a Web Bot Auth signature in one call and returns one answer:
+
+```js
+import { identify } from 'turingate';
+
+const r = await identify(req, { siteKey: process.env.TURINGATE_SITE_KEY, scope: 'shop:checkout', amount: 40 });
+if (!r.allowed) return res.status(403).json({ reasons: r.reasons });
+// r.identity → { kind: 'both', agent: 'trip-planner', operator: 'OpenAI', owner: 'Ada Lovelace', ownerTier: 2, spendLimit: {...} }
+```
+
+Agents can sign requests too: `signWebBotAuth({ url, privateJwk, agentUrl })` returns the three headers. Verification alone is available offline: `verifyWebBotAuth(req)` (tested against the RFC 9421 Ed25519 vector).
+
 ## 💸 Sell to agents: x402 stablecoin payments
 
 <img src="https://raw.githubusercontent.com/rudraneel93/turingate-sdk/main/assets/paywall.svg" alt="401 without a pass, 402 with a pass, 200 once the USDC payment settles to your wallet" width="100%">

@@ -105,3 +105,24 @@ Turingate tells a site **who** an agent is. [x402](https://github.com/coinbase/x
 3. The agent retries with `Authorization: AgentPass …` and `PAYMENT-SIGNATURE: …`. The site checks the payment matches its terms, then calls the facilitator's `/verify` and `/settle`. Optionally it requires the payer to be the owner's `wal`. It then serves the resource with a `PAYMENT-RESPONSE` header.
 
 x402 v1 (`X-PAYMENT` / `X-PAYMENT-RESPONSE`) is also supported. Turingate never holds funds: payments go directly from the agent's wallet to the site's `payTo` address.
+
+## 9. Web Bot Auth interoperability
+
+Turingate accepts [Web Bot Auth](https://datatracker.ietf.org/doc/draft-ietf-webbotauth-httpsig-protocol/) signatures (IETF webbotauth: HTTP Message Signatures, RFC 9421, with Ed25519), the standard Cloudflare and AI operators use to sign their agents' requests.
+
+- **Headers:** `Signature-Agent` (Dictionary form `sig1="https://operator.example"`, or the earlier bare-String form), `Signature-Input` with `tag="web-bot-auth"`, `created`, `expires`, `keyid` and `alg="ed25519"`, covering `@authority` (or `@target-uri`) and `signature-agent`, and `Signature`.
+- **keyid:** the base64url JWK SHA-256 thumbprint (RFC 7638 / RFC 8037 A.3).
+- **Keys:** fetched from `<Signature-Agent origin>/.well-known/http-message-signatures-directory` (or the URL itself when `type=jwks_uri` or the URL has a path), over HTTPS only.
+- **Verification** is implemented in `turingate/webbotauth` (`verifyWebBotAuth`, `signWebBotAuth`) and checked against the RFC 9421 Appendix B.2.6 Ed25519 test vector.
+
+`POST /v1/identify` returns one decision for whatever an agent presents:
+
+```json
+{ "token": "<optional Turingate pass>",
+  "request": { "method": "GET", "url": "https://shop.example/checkout", "headers": { "signature": "…", "signature-input": "…", "signature-agent": "…" } },
+  "scope": "shop:checkout", "amount": 40 }
+```
+
+Response: `{ "allowed": true, "identity": { "kind": "turingate" | "web-bot-auth" | "both", "agent", "operator", "owner", "ownerTier", "scopes", "spendLimit" }, "checks": { "turingate", "webBotAuth" }, "reasons": [] }`.
+
+A Web Bot Auth signature proves which operator sent the agent. Scopes, spending limits and owner tiers are carried only by a Turingate pass, so requests that ask for them need one.

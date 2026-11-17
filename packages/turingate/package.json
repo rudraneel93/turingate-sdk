@@ -1,6 +1,6 @@
 {
   "name": "turingate",
-  "version": "0.2.2",
+  "version": "0.3.0",
   "description": "Turingate agent SDK: the reverse CAPTCHA for AI agents. CLI, MCP server, pass verification and x402 stablecoin payments.",
   "type": "module",
   "license": "MIT",
@@ -8,7 +8,8 @@
   "exports": {
     ".": "./index.js",
     "./x402": "./lib/x402.js",
-    "./mcp": "./mcp.js"
+    "./mcp": "./mcp.js",
+    "./webbotauth": "./lib/webbotauth.js"
   },
   "bin": {
     "turingate": "cli.js",
@@ -37,7 +38,10 @@
     "x402",
     "stablecoin",
     "usdc",
-    "agent-payments"
+    "agent-payments",
+    "web-bot-auth",
+    "http-message-signatures",
+    "rfc9421"
   ],
   "homepage": "https://reverse-captcha.onrender.com",
   "repository": {
