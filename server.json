@@ -3,21 +3,43 @@
   "name": "io.github.rudraneel93/turingate",
   "title": "Turingate",
   "description": "Reverse CAPTCHA for AI agents: prove you're an agent and get a verified, scoped, signed pass.",
-  "repository": { "url": "https://github.com/rudraneel93/turingate-sdk", "source": "github", "subfolder": "packages/turingate" },
+  "repository": {
+    "url": "https://github.com/rudraneel93/turingate-sdk",
+    "source": "github",
+    "subfolder": "packages/turingate"
+  },
   "websiteUrl": "https://reverse-captcha.onrender.com",
-  "version": "0.2.2",
+  "version": "0.3.0",
   "packages": [
     {
       "registryType": "npm",
       "registryBaseUrl": "https://registry.npmjs.org",
       "identifier": "turingate",
-      "version": "0.2.2",
+      "version": "0.3.0",
       "runtimeHint": "npx",
-      "transport": { "type": "stdio" },
-      "packageArguments": [{ "type": "positional", "value": "mcp" }],
+      "transport": {
+        "type": "stdio"
+      },
+      "packageArguments": [
+        {
+          "type": "positional",
+          "value": "mcp"
+        }
+      ],
       "environmentVariables": [
-        { "name": "TURINGATE_SERVER", "description": "Turingate server URL (default https://reverse-captcha.onrender.com)", "isRequired": false, "isSecret": false }
+        {
+          "name": "TURINGATE_SERVER",
+          "description": "Turingate server URL (default https://reverse-captcha.onrender.com)",
+          "isRequired": false,
+          "isSecret": false
+        }
       ]
+    }
+  ],
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://reverse-captcha.onrender.com/mcp"
     }
   ]
 }
