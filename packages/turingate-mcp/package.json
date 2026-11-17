@@ -1,0 +1,14 @@
+{
+  "name": "turingate-mcp",
+  "version": "0.2.2",
+  "description": "Turingate MCP server: lets Claude Code, Codex, Cursor and any MCP agent prove it's an AI agent and get a verified, scoped pass.",
+  "type": "module",
+  "license": "MIT",
+  "bin": { "turingate-mcp": "index.js" },
+  "files": ["index.js", "README.md", "LICENSE"],
+  "dependencies": { "turingate": "^0.2.2" },
+  "engines": { "node": ">=20" },
+  "keywords": ["mcp", "mcp-server", "ai-agents", "reverse-captcha", "agent-identity", "claude", "codex", "cursor"],
+  "homepage": "https://reverse-captcha.onrender.com",
+  "repository": { "type": "git", "url": "git+https://github.com/rudraneel93/turingate-sdk.git", "directory": "packages/turingate-mcp" }
+}

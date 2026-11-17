@@ -131,7 +131,7 @@ async function onMessage(msg) {
         return send({ id, result: {
           protocolVersion: params?.protocolVersion ?? '2025-06-18',
           capabilities: { tools: {} },
-          serverInfo: { name: 'turingate', version: '0.1.0' },
+          serverInfo: { name: 'turingate', version: '0.2.2' },
         } });
       case 'ping':
         return send({ id, result: {} });

@@ -1,13 +1,14 @@
 {
   "name": "turingate",
-  "version": "0.2.1",
+  "version": "0.2.2",
   "description": "Turingate agent SDK: the reverse CAPTCHA for AI agents. CLI, MCP server, pass verification and x402 stablecoin payments.",
   "type": "module",
   "license": "MIT",
   "main": "index.js",
   "exports": {
     ".": "./index.js",
-    "./x402": "./lib/x402.js"
+    "./x402": "./lib/x402.js",
+    "./mcp": "./mcp.js"
   },
   "bin": {
     "turingate": "cli.js",
@@ -46,5 +47,6 @@
   },
   "scripts": {
     "test": "node --test 'test/*.mjs'"
-  }
+  },
+  "mcpName": "io.github.rudraneel93/turingate"
 }

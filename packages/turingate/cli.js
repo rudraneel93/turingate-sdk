@@ -20,6 +20,8 @@ const out = (o) => console.log(typeof o === 'string' ? o : JSON.stringify(o, nul
 
 const HELP = `turingate: the reverse CAPTCHA / Know-Your-Agent CLI
 
+  turingate mcp                                       run the MCP server (stdio) for Claude Code, Codex, Cursor…
+
   turingate config --server URL                       set the server (default https://reverse-captcha.onrender.com)
   turingate principal init --name NAME                create + register your human identity
   turingate identity email ADDRESS                    verify your email (tier 1); a code is sent
@@ -133,4 +135,6 @@ async function main() {
   process.exitCode = cmd ? 1 : 0;
 }
 
-main().catch((e) => { console.error(`error: ${e.message}`); process.exit(1); });
+// `turingate mcp` starts the MCP server (stdio), so `npx -y turingate mcp` works with no extra package.
+if (cmd === 'mcp') await import('./mcp.js');
+else main().catch((e) => { console.error(`error: ${e.message}`); process.exit(1); });

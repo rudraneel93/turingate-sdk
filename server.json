@@ -1,0 +1,23 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "io.github.rudraneel93/turingate",
+  "title": "Turingate",
+  "description": "Reverse CAPTCHA for AI agents: prove you're an agent and get a verified, scoped, signed pass.",
+  "repository": { "url": "https://github.com/rudraneel93/turingate-sdk", "source": "github", "subfolder": "packages/turingate" },
+  "websiteUrl": "https://reverse-captcha.onrender.com",
+  "version": "0.2.2",
+  "packages": [
+    {
+      "registryType": "npm",
+      "registryBaseUrl": "https://registry.npmjs.org",
+      "identifier": "turingate",
+      "version": "0.2.2",
+      "runtimeHint": "npx",
+      "transport": { "type": "stdio" },
+      "packageArguments": [{ "type": "positional", "value": "mcp" }],
+      "environmentVariables": [
+        { "name": "TURINGATE_SERVER", "description": "Turingate server URL (default https://reverse-captcha.onrender.com)", "isRequired": false, "isSecret": false }
+      ]
+    }
+  ]
+}

@@ -3,12 +3,13 @@
  * Plugin Name:       Turingate – Agent Lane
  * Plugin URI:        https://github.com/rudraneel93/turingate-sdk/tree/main/integrations/wordpress
  * Description:       Let verified AI agents use your site (requests, bookings, your REST API and WooCommerce) while human visitors see no change. Powered by Turingate, the reverse CAPTCHA.
- * Version:           0.1.0
+ * Version:           0.2.0
  * Requires at least: 6.0
  * Requires PHP:      7.4
  * Author:            Turingate
  * Author URI:        https://reverse-captcha.onrender.com
  * License:           MIT
+ * License URI:       https://opensource.org/licenses/MIT
  * Text Domain:       turingate
  */
 
@@ -16,7 +17,7 @@ if (!defined('ABSPATH')) {
     exit;
 }
 
-define('TURINGATE_VERSION', '0.1.0');
+define('TURINGATE_VERSION', '0.2.0');
 define('TURINGATE_DEFAULT_SERVER', 'https://reverse-captcha.onrender.com');
 
 /* ------------------------------------------------------------------ settings */
@@ -72,7 +73,7 @@ function turingate_settings_page() {
         'rest_lane' => 0, 'rest_require' => 0, 'read_scope' => 'api:read', 'write_scope' => 'api:write',
         'checkout_scope' => 'shop:checkout', 'desk_page' => 0,
     ));
-    $check = isset($_GET['turingate_check']) ? turingate_check_connection() : null;
+    $check = (isset($_GET['turingate_check']) && check_admin_referer('turingate_check')) ? turingate_check_connection() : null;
     ?>
     <div class="wrap">
       <h1>Turingate – Agent Lane</h1>
@@ -112,7 +113,7 @@ function turingate_settings_page() {
         </details>
         <?php submit_button('Save settings'); ?>
       </form>
-      <p><a class="button" href="<?php echo esc_url(add_query_arg('turingate_check', 1)); ?>">Test connection</a></p>
+      <p><a class="button" href="<?php echo esc_url(wp_nonce_url(add_query_arg('turingate_check', 1), 'turingate_check')); ?>">Test connection</a></p>
     </div>
     <?php
 }
@@ -177,7 +178,7 @@ function turingate_bearer() {
     $h = '';
     foreach (array('HTTP_AUTHORIZATION', 'REDIRECT_HTTP_AUTHORIZATION') as $k) {
         if (!empty($_SERVER[$k])) {
-            $h = $_SERVER[$k];
+            $h = sanitize_text_field(wp_unslash($_SERVER[$k]));
             break;
         }
     }
@@ -189,7 +190,7 @@ function turingate_bearer() {
         }
     }
     if ($h === '' && !empty($_SERVER['HTTP_X_AGENT_PASS'])) {
-        return trim(wp_unslash($_SERVER['HTTP_X_AGENT_PASS']));
+        return trim(sanitize_text_field(wp_unslash($_SERVER['HTTP_X_AGENT_PASS'])));
     }
     return preg_match('/^AgentPass\s+(\S+)$/i', trim(wp_unslash($h)), $m) ? $m[1] : '';
 }
@@ -300,11 +301,14 @@ add_shortcode('turingate_agent_desk', function ($atts) {
         update_option('turingate_desk_last', $hash, false);
     }
     $out = '';
+    // phpcs:ignore WordPress.Security.NonceVerification.Recommended -- display-only flag set by our own redirect.
     if (isset($_GET['turingate_sent'])) {
         $out .= '<p class="turingate-ok" role="status">✓ Request sent. Thank you.</p>';
     }
+    // phpcs:ignore WordPress.Security.NonceVerification.Recommended -- display-only message set by our own redirect.
     if (!empty($_GET['turingate_error'])) {
-        $out .= '<p class="turingate-error" role="alert">' . esc_html(wp_unslash($_GET['turingate_error'])) . '</p>';
+        // phpcs:ignore WordPress.Security.NonceVerification.Recommended
+        $out .= '<p class="turingate-error" role="alert">' . esc_html(sanitize_text_field(wp_unslash($_GET['turingate_error']))) . '</p>';
     }
     $out .= '<form class="turingate-desk" method="post" action="' . esc_url(remove_query_arg(array('turingate_sent', 'turingate_error'))) . '">';
     $out .= '<input type="hidden" name="turingate_desk" value="' . esc_attr($hash) . '">';
@@ -316,22 +320,27 @@ add_shortcode('turingate_agent_desk', function ($atts) {
             : '<input type="' . esc_attr($f['type'] === 'number' ? 'number' : ($f['type'] === 'date' ? 'date' : ($f['type'] === 'email' ? 'email' : 'text'))) . '" name="' . esc_attr($name) . '" maxlength="200"' . $req . '>';
         $out .= '</label></p>';
     }
-    $out .= '<div data-reverse-captcha data-site="' . esc_attr(turingate_opt('site_id')) . '"></div>';
+    $out .= '<div data-reverse-captcha data-site="' . esc_attr(turingate_opt('site_id')) . '" data-server="' . esc_url(turingate_server()) . '"></div>';
     $out .= '<p><button type="submit">' . esc_html($atts['button']) . '</button></p>';
     $out .= '<p class="turingate-note"><small>This form is for AI assistants acting for people. It uses a reverse CAPTCHA, so humans can\'t submit it. Agents can also POST JSON to <code>' . esc_html(rest_url('turingate/v1/desk')) . '</code> with <code>Authorization: AgentPass …</code>.</small></p>';
     $out .= '</form>';
-    wp_enqueue_script('turingate-widget', turingate_server() . '/widget.js', array(), null, true);
+    // The widget is bundled with the plugin (no remote code); it talks to the Turingate API set in data-server.
+    wp_enqueue_script('turingate-widget', plugins_url('assets/widget.js', __FILE__), array(), TURINGATE_VERSION, true);
     return $out;
 });
 
 // Browser submissions from the shortcode form (post/redirect/get).
 add_action('template_redirect', function () {
-    if ($_SERVER['REQUEST_METHOD'] !== 'POST' || !isset($_POST['turingate_desk'])) {
+    // The agent desk is submitted by AI agents and is authenticated by a single-use, signed Turingate pass that is
+    // verified server-side (turingate_accept_request), not by a nonce: nonces would break on cached pages.
+    // phpcs:disable WordPress.Security.NonceVerification.Missing
+    if (!isset($_SERVER['REQUEST_METHOD']) || 'POST' !== $_SERVER['REQUEST_METHOD'] || !isset($_POST['turingate_desk'])) {
         return;
     }
     $fields = turingate_desk_fields(turingate_desk_spec(sanitize_key(wp_unslash($_POST['turingate_desk']))));
     $token = isset($_POST['rc-pass']) ? sanitize_text_field(wp_unslash($_POST['rc-pass'])) : '';
     $r = turingate_accept_request($token, $_POST, $fields);
+    // phpcs:enable WordPress.Security.NonceVerification.Missing
     $back = remove_query_arg(array('turingate_sent', 'turingate_error'), wp_get_referer() ?: home_url(add_query_arg(array())));
     wp_safe_redirect(is_wp_error($r) ? add_query_arg('turingate_error', rawurlencode($r->get_error_message()), $back) : add_query_arg('turingate_sent', '1', $back), 303);
     exit;
@@ -374,11 +383,11 @@ add_filter('rest_authentication_errors', function ($result) {
     if (!empty($result) || !turingate_opt('rest_lane') || !turingate_configured()) {
         return $result;
     }
-    $route = isset($GLOBALS['wp']->query_vars['rest_route']) ? (string) $GLOBALS['wp']->query_vars['rest_route'] : (string) ($_SERVER['REQUEST_URI'] ?? '');
+    $route = isset($GLOBALS['wp']->query_vars['rest_route']) ? (string) $GLOBALS['wp']->query_vars['rest_route'] : sanitize_text_field(wp_unslash($_SERVER['REQUEST_URI'] ?? ''));
     if (strpos($route, '/turingate/v1/') !== false) {
         return $result; // the desk endpoint checks passes itself
     }
-    $method = strtoupper($_SERVER['REQUEST_METHOD'] ?? 'GET');
+    $method = strtoupper(sanitize_text_field(wp_unslash($_SERVER['REQUEST_METHOD'] ?? 'GET')));
     $write = !in_array($method, array('GET', 'HEAD', 'OPTIONS'), true);
     $token = turingate_bearer();
     if ($token === '') {
@@ -463,7 +472,7 @@ add_filter('post_row_actions', function ($actions, $post) {
 
 add_action('admin_post_turingate_report', function () {
     $id = absint($_GET['post'] ?? 0);
-    if (!current_user_can('manage_options') || !wp_verify_nonce($_GET['_wpnonce'] ?? '', 'turingate_report_' . $id)) {
+    if (!current_user_can('manage_options') || !wp_verify_nonce(sanitize_text_field(wp_unslash($_GET['_wpnonce'] ?? '')), 'turingate_report_' . $id)) {
         wp_die('Not allowed.');
     }
     $token = (string) get_post_meta($id, '_turingate_token', true);
@@ -474,8 +483,9 @@ add_action('admin_post_turingate_report', function () {
 });
 
 add_action('admin_notices', function () {
+    // phpcs:ignore WordPress.Security.NonceVerification.Recommended -- display-only flag set by our own redirect.
     if (isset($_GET['turingate_reported'])) {
-        $ok = $_GET['turingate_reported'] === '1';
+        $ok = '1' === sanitize_text_field(wp_unslash($_GET['turingate_reported'])); // phpcs:ignore WordPress.Security.NonceVerification.Recommended
         echo '<div class="notice ' . ($ok ? 'notice-success' : 'notice-error') . ' is-dismissible"><p>' . ($ok ? 'Reported. Thank you for keeping the network safe.' : 'Could not report this agent (it may already have been reported).') . '</p></div>';
     }
     $screen = function_exists('get_current_screen') ? get_current_screen() : null;
