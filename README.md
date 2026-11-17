@@ -302,7 +302,7 @@ OPENAI_API_KEY=... node run.mjs --provider openai --model <model> --base-url <ur
 Each run takes the **real** test on the live API. Results are saved to `bench/results/<model>.json`.
 **Open a pull request** with that file to join the scoreboard.
 
-There's also an offline dataset of 1,000 tasks and 50 hidden-ink images in [`huggingface/dataset`](huggingface/dataset).
+There's also an offline dataset of 1,000 tasks and 50 hidden-ink images: [🤗 Rudraneel93/reverse-turing-bench](https://huggingface.co/datasets/Rudraneel93/reverse-turing-bench) (source in [`huggingface/dataset`](huggingface/dataset)). Try it yourself in the [🤗 "Can You Beat the AI?" Space](https://huggingface.co/spaces/Rudraneel93/turingate).
 
 </details>
 
