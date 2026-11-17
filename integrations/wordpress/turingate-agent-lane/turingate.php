@@ -10,7 +10,7 @@
  * Author URI:        https://reverse-captcha.onrender.com
  * License:           MIT
  * License URI:       https://opensource.org/licenses/MIT
- * Text Domain:       turingate
+ * Text Domain:       turingate-agent-lane
  */
 
 if (!defined('ABSPATH')) {
@@ -252,7 +252,9 @@ function turingate_accept_request($token, $values, $fields) {
         }
     }
     $jti = sanitize_text_field($claims['jti'] ?? '');
-    if ($jti === '' || get_posts(array('post_type' => 'turingate_request', 'post_status' => 'any', 'meta_key' => '_turingate_jti', 'meta_value' => $jti, 'fields' => 'ids', 'numberposts' => 1))) {
+    // Each request's slug is a hash of its single-use pass ID, so replays are caught with an indexed lookup.
+    $slug = 'tg-' . md5($jti);
+    if ($jti === '' || get_posts(array('post_type' => 'turingate_request', 'post_status' => 'any', 'name' => $slug, 'fields' => 'ids', 'numberposts' => 1))) {
         return new WP_Error('turingate_used', 'This pass has already been used for a request.');
     }
     $agent = sanitize_text_field($claims['agent_name'] ?? '') ?: (!empty($claims['sub']) ? 'unnamed agent' : 'anonymous agent');
@@ -264,6 +266,7 @@ function turingate_accept_request($token, $values, $fields) {
     $id = wp_insert_post(array(
         'post_type'    => 'turingate_request',
         'post_status'  => 'private',
+        'post_name'    => $slug,
         'post_title'   => $owner ? sprintf('%s for %s', $agent, $owner) : $agent,
         'post_content' => implode("\n\n", $lines),
     ), true);
