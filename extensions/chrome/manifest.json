@@ -1,0 +1,11 @@
+{
+  "manifest_version": 3,
+  "name": "AI Agent Readiness Check",
+  "version": "1.0.0",
+  "description": "Can ChatGPT, Claude and Perplexity agents use this site? One click for a score out of 100 and copy-paste fixes.",
+  "homepage_url": "https://reverse-captcha.onrender.com/check",
+  "action": { "default_popup": "popup.html", "default_title": "Check AI-agent readiness", "default_icon": { "16": "icons/icon16.png", "32": "icons/icon32.png", "48": "icons/icon48.png", "128": "icons/icon128.png" } },
+  "icons": { "16": "icons/icon16.png", "32": "icons/icon32.png", "48": "icons/icon48.png", "128": "icons/icon128.png" },
+  "permissions": ["activeTab"],
+  "host_permissions": ["https://reverse-captcha.onrender.com/*"]
+}
