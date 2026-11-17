@@ -1,0 +1,8 @@
+name = "turingate-agent-analytics"
+main = "worker.js"
+compatibility_date = "2026-11-01"
+
+# Run in front of your site: replace with your domain.
+routes = [{ pattern = "example.com/*", zone_name = "example.com" }]
+
+# Set your key once:  npx wrangler secret put TURINGATE_SITE_KEY
